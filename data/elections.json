@@ -1,0 +1,10 @@
+{
+  "elections": [
+    {
+      "id": "2026-06-primary",
+      "name": "California Primary — June 2, 2026",
+      "date": "2026-06-02",
+      "file": "data/2026-06-primary.json"
+    }
+  ]
+}

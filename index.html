@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ballot Builder</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <h1>Ballot Builder</h1>
+      <p class="tagline" id="jurisdiction">—</p>
+    </div>
+    <div class="election-picker">
+      <label for="election-select">Election</label>
+      <select id="election-select"></select>
+      <span class="last-updated" id="last-updated"></span>
+    </div>
+  </header>
+
+  <div class="layout">
+    <main class="races-pane">
+      <section class="filters" aria-label="Filters">
+        <input id="search" type="search" placeholder="Search office, candidate, party…" autocomplete="off" />
+        <div class="filter-row">
+          <div class="chips" id="level-chips" role="group" aria-label="Filter by level"></div>
+          <div class="chips" id="party-chips" role="group" aria-label="Filter by party"></div>
+        </div>
+        <div class="filter-row">
+          <label class="toggle"><input type="checkbox" id="contested-only" /> Contested only</label>
+          <label class="toggle"><input type="checkbox" id="undecided-only" /> Undecided only</label>
+          <label class="sort">
+            Sort
+            <select id="sort-select">
+              <option value="ballot">Ballot order</option>
+              <option value="level">By level</option>
+              <option value="contested">Most contested first</option>
+            </select>
+          </label>
+        </div>
+      </section>
+
+      <div id="races"></div>
+    </main>
+
+    <aside class="ballot-pane" aria-label="My ballot">
+      <div class="ballot-header">
+        <h2>My Ballot</h2>
+        <span class="count" id="ballot-count">0 / 0</span>
+      </div>
+      <ol id="ballot-list" class="ballot-list"></ol>
+      <div class="ballot-actions">
+        <button id="copy-ballot" type="button">Copy</button>
+        <button id="print-ballot" type="button">Print</button>
+        <button id="clear-ballot" type="button" class="danger">Clear</button>
+      </div>
+      <p class="ballot-note">Selections saved in this browser.</p>
+    </aside>
+  </div>
+
+  <template id="tpl-race">
+    <article class="race" data-race-id="">
+      <header class="race-header">
+        <div>
+          <h3 class="race-office"></h3>
+          <p class="race-meta"></p>
+        </div>
+        <span class="race-tag"></span>
+      </header>
+      <ul class="candidates"></ul>
+    </article>
+  </template>
+
+  <template id="tpl-candidate">
+    <li class="candidate">
+      <label class="candidate-row">
+        <input type="radio" name="" />
+        <div class="candidate-main">
+          <div class="candidate-line">
+            <span class="candidate-name"></span>
+            <span class="candidate-party"></span>
+            <span class="candidate-incumbent" hidden>incumbent</span>
+          </div>
+          <div class="candidate-occupation"></div>
+          <div class="candidate-scandal"></div>
+        </div>
+        <div class="candidate-chance" title=""></div>
+      </label>
+    </li>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
