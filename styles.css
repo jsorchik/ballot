@@ -267,22 +267,41 @@ a:hover { text-decoration: underline; }
   line-height: 1.15;
 }
 .chance-bar, .woke-bar {
-  width: 80px;
-  height: 6px;
-  background: var(--line);
+  position: relative;
+  width: 92px;
+  height: 8px;
   border-radius: 999px;
   overflow: hidden;
   margin-top: 3px;
+}
+.chance-bar {
+  background: var(--line);
 }
 .chance-bar > span {
   display: block;
   height: 100%;
   background: linear-gradient(90deg, var(--accent), #8aa9ee);
 }
-.woke-bar > span {
-  display: block;
-  height: 100%;
-  background: linear-gradient(90deg, #c33b3b, #d6a93a 35%, #6f8fdb 65%, #6e3fc7);
+.woke-bar {
+  background: linear-gradient(90deg,
+    #e63946 0%,
+    #f4a261 16%,
+    #f1d100 33%,
+    #2a9d8f 50%,
+    #4361ee 66%,
+    #6f3aee 83%,
+    #b13bd6 100%);
+}
+.woke-marker {
+  position: absolute;
+  top: -2px;
+  bottom: -2px;
+  width: 3px;
+  background: var(--ink);
+  border: 1px solid var(--panel);
+  border-radius: 2px;
+  transform: translateX(-50%);
+  pointer-events: none;
 }
 .chance-value, .woke-value { font-size: 0.85rem; font-weight: 600; }
 .chance-source, .woke-source { font-size: 0.7rem; color: var(--muted); }
