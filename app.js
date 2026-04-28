@@ -319,10 +319,9 @@ function renderWoke(el, w) {
   el.appendChild(v);
   const bar = document.createElement('div');
   bar.className = 'woke-bar';
-  const marker = document.createElement('div');
-  marker.className = 'woke-marker';
-  marker.style.left = `${(w.value / 10) * 100}%`;
-  bar.appendChild(marker);
+  const fill = document.createElement('span');
+  fill.style.width = `${(w.value / 10) * 100}%`;
+  bar.appendChild(fill);
   el.appendChild(bar);
   const s = document.createElement('span');
   const conf = w.confidence || 'medium';
