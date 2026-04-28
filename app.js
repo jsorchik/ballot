@@ -9,6 +9,7 @@ const STATE = {
     parties: new Set(),
     contestedOnly: false,
     undecidedOnly: false,
+    showMinor: false,
     sort: 'ballot',
     candidateSort: 'default',
   },
@@ -128,6 +129,10 @@ function bindFilters() {
     STATE.filters.undecidedOnly = e.target.checked;
     render();
   });
+  document.getElementById('show-minor').addEventListener('change', (e) => {
+    STATE.filters.showMinor = e.target.checked;
+    render();
+  });
   document.getElementById('sort-select').addEventListener('change', (e) => {
     STATE.filters.sort = e.target.value;
     render();
@@ -163,14 +168,20 @@ function bindBallotActions() {
   });
 }
 
+function visibleCandidates(race) {
+  if (STATE.filters.showMinor) return race.candidates;
+  return race.candidates.filter((c) => c.tier !== 'minor');
+}
+
 function applyFilters(races) {
   const f = STATE.filters;
   return races.filter((race) => {
+    const visible = visibleCandidates(race);
     if (f.levels.size && !f.levels.has(race.level)) return false;
-    if (f.contestedOnly && race.candidates.length < 2) return false;
+    if (f.contestedOnly && visible.length < 2) return false;
     if (f.undecidedOnly && STATE.selections[race.id]) return false;
     if (f.parties.size) {
-      const has = race.candidates.some((c) => f.parties.has(c.party));
+      const has = visible.some((c) => f.parties.has(c.party));
       if (!has) return false;
     }
     if (f.search) {
@@ -179,7 +190,7 @@ function applyFilters(races) {
         ' ' +
         (race.district || '') +
         ' ' +
-        race.candidates.map((c) => `${c.name} ${c.party} ${c.occupation || ''}`).join(' ')
+        visible.map((c) => `${c.name} ${c.party} ${c.occupation || ''}`).join(' ')
       ).toLowerCase();
       if (!haystack.includes(f.search)) return false;
     }
@@ -231,15 +242,30 @@ function renderRace(race) {
   article.querySelector('.race-meta').textContent = metaParts.join(' · ');
 
   const tag = article.querySelector('.race-tag');
-  if (race.candidates.length < 2) {
+  const total = race.candidates.length;
+  const visible = visibleCandidates(race).length;
+  if (total === 0) {
+    tag.textContent = 'no candidates';
+    tag.classList.add('uncontested');
+  } else if (total === 1) {
     tag.textContent = 'uncontested';
     tag.classList.add('uncontested');
+  } else if (visible < total) {
+    tag.textContent = `${visible} of ${total}`;
   } else {
-    tag.textContent = `${race.candidates.length} candidates`;
+    tag.textContent = `${total} candidates`;
   }
 
   const list = article.querySelector('.candidates');
-  sortCandidates(race.candidates).forEach((c) => list.appendChild(renderCandidate(race, c)));
+  const cands = visibleCandidates(race);
+  sortCandidates(cands).forEach((c) => list.appendChild(renderCandidate(race, c)));
+  const hidden = race.candidates.length - cands.length;
+  if (hidden > 0) {
+    const note = document.createElement('div');
+    note.className = 'minor-note';
+    note.textContent = `+${hidden} minor candidate${hidden === 1 ? '' : 's'} hidden — toggle "Show minor candidates" above.`;
+    article.appendChild(note);
+  }
   return article;
 }
 
@@ -252,6 +278,7 @@ function renderCandidate(race, candidate) {
   radio.value = candidateKey;
   if (STATE.selections[race.id] === candidateKey) {
     radio.checked = true;
+    radio.dataset.wasChecked = 'true';
     li.classList.add('selected');
   }
   radio.addEventListener('change', () => {
@@ -281,7 +308,7 @@ function renderCandidate(race, candidate) {
   tpl.querySelector('.candidate-name').textContent = candidate.name;
   const partyEl = tpl.querySelector('.candidate-party');
   partyEl.textContent = candidate.party || 'No Party Preference';
-  partyEl.classList.add(`party-${(candidate.party || 'None').split(' ')[0]}`);
+  partyEl.classList.add(`party-${partyClass(candidate.party)}`);
   if (candidate.incumbent) {
     tpl.querySelector('.candidate-incumbent').hidden = false;
   }
@@ -419,7 +446,7 @@ function renderBallot() {
       li.innerHTML = `<div class="office">${escapeHtml(race.office)}${
         race.district ? ' — ' + escapeHtml(race.district) : ''
       }</div><div>${escapeHtml(sel)}${
-        cand?.party ? ` <span class="candidate-party party-${escapeHtml((cand.party || '').split(' ')[0])}">${escapeHtml(cand.party)}</span>` : ''
+        cand?.party ? ` <span class="candidate-party party-${partyClass(cand.party)}">${escapeHtml(cand.party)}</span>` : ''
       }</div>`;
     } else {
       li.className = 'ballot-item empty';
@@ -468,6 +495,20 @@ function saveSelections() {
 
 function escapeHtml(s) {
   return String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+}
+
+function partyClass(party) {
+  if (!party) return 'NPP';
+  const p = party.toLowerCase();
+  if (p.startsWith('democratic')) return 'Democratic';
+  if (p.startsWith('republican')) return 'Republican';
+  if (p.startsWith('green')) return 'Green';
+  if (p.startsWith('libertarian')) return 'Libertarian';
+  if (p.startsWith('peace')) return 'Peace';
+  if (p.startsWith('american')) return 'American';
+  if (p.startsWith('no party')) return 'NPP';
+  if (p.startsWith('nonpartisan')) return 'Nonpartisan';
+  return 'NPP';
 }
 
 function showError(msg) {

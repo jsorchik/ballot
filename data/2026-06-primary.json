@@ -43,7 +43,8 @@
             "value": 8,
             "rationale": "Freethought Caucus founder, consistent progressive votes on LGBTQ+/climate/social issues.",
             "confidence": "high"
-          }
+          },
+          "tier": "major"
         },
         {
           "name": "Rose Penelope Yee",
@@ -62,7 +63,8 @@
             "value": 6,
             "rationale": "Generic Bay Area Dem priors; little public record.",
             "confidence": "low"
-          }
+          },
+          "tier": "major"
         },
         {
           "name": "Nicolette Hahn Niman",
@@ -81,7 +83,8 @@
             "value": 5,
             "rationale": "Environmental author/rancher; left on climate but cross-coded; NPP signaling.",
             "confidence": "low"
-          }
+          },
+          "tier": "major"
         },
         {
           "name": "Gregory Burgess",
@@ -99,7 +102,8 @@
             "value": null,
             "rationale": "Not enough public record to assess.",
             "confidence": null
-          }
+          },
+          "tier": "major"
         },
         {
           "name": "Robin Littau",
@@ -118,7 +122,8 @@
             "value": 2,
             "rationale": "Far-north CA R school board member; conservative priors.",
             "confidence": "low"
-          }
+          },
+          "tier": "major"
         },
         {
           "name": "Paul Saulsbury",
@@ -136,7 +141,8 @@
             "value": 2,
             "rationale": "R challenger; assumed conservative on cultural issues.",
             "confidence": "low"
-          }
+          },
+          "tier": "major"
         },
         {
           "name": "Tim Geist",
@@ -154,7 +160,8 @@
             "value": 2,
             "rationale": "R challenger; assumed conservative.",
             "confidence": "low"
-          }
+          },
+          "tier": "major"
         },
         {
           "name": "Angelita Valles",
@@ -172,7 +179,8 @@
             "value": 2,
             "rationale": "R challenger; assumed conservative.",
             "confidence": "low"
-          }
+          },
+          "tier": "major"
         }
       ]
     },
@@ -184,7 +192,7 @@
       "incumbent": "Gavin Newsom (term-limited)",
       "seat": "open",
       "ballotOrder": 2,
-      "notes": "Polymarket primary-winner odds (auto-refreshed). Top two advance to Nov.",
+      "notes": "Polymarket primary-winner odds (auto-refreshed). Top two advance to Nov. ~60 candidates filed; toggle \"show minor\" to see all.",
       "priceSources": {
         "polymarket": {
           "eventSlug": "california-governor-primary-election-first-place",
@@ -208,13 +216,14 @@
             "asOf": "2026-04-28",
             "note": "$132M self-funded; primary frontrunner.",
             "basis": "mid",
-            "liquidityUsd": 12281
+            "liquidityUsd": 15611
           },
           "wokeIndex": {
             "value": 6,
             "rationale": "Climate-progressive billionaire; econ-focused, less identity-politics-coded.",
             "confidence": "medium"
-          }
+          },
+          "tier": "major"
         },
         {
           "name": "Xavier Becerra",
@@ -231,13 +240,14 @@
             "asOf": "2026-04-28",
             "note": "Surged after Swalwell withdrew and Speaker Rivas endorsed.",
             "basis": "mid",
-            "liquidityUsd": 6341
+            "liquidityUsd": 9560
           },
           "wokeIndex": {
             "value": 7,
             "rationale": "Latino civil-rights record as CA AG (sanctuary, abortion, Trump lawsuits); HHS expanded gender-affirming care guidance.",
             "confidence": "high"
-          }
+          },
+          "tier": "major"
         },
         {
           "name": "Steve Hilton",
@@ -248,19 +258,20 @@
             "searchQuery": "Steve Hilton California governor controversy"
           },
           "winChance": {
-            "value": null,
-            "source": "Polymarket",
+            "value": 0.33,
+            "source": "Polymarket (illiquid)",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
             "asOf": "2026-04-28",
-            "note": "No liquid two-sided market (bid=—, ask=0.500, liq $192).",
-            "liquidityUsd": 192,
-            "label": "no quote"
+            "note": "Thin market (~$180 liquidity); price may not reflect real consensus.",
+            "liquidityUsd": 180,
+            "basis": "mid"
           },
           "wokeIndex": {
             "value": 1,
             "rationale": "Built brand explicitly on anti-woke commentary; populist-right cultural platform.",
             "confidence": "high"
-          }
+          },
+          "tier": "major"
         },
         {
           "name": "Chad Bianco",
@@ -272,18 +283,18 @@
           },
           "winChance": {
             "value": 0.02,
-            "source": "Polymarket (illiquid)",
+            "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
             "asOf": "2026-04-28",
             "basis": "mid",
-            "liquidityUsd": 148,
-            "note": "Thin market (~$148 liquidity); price may not reflect real consensus."
+            "liquidityUsd": 209
           },
           "wokeIndex": {
             "value": 0,
             "rationale": "Oath Keepers past, refused to enforce COVID rules, ICE cooperator, anti-DEI.",
             "confidence": "high"
-          }
+          },
+          "tier": "major"
         },
         {
           "name": "Katie Porter",
@@ -294,18 +305,20 @@
             "searchQuery": "Katie Porter staff allegations Politico"
           },
           "winChance": {
-            "value": 0.0395,
-            "source": "Polymarket",
+            "value": 0.0385,
+            "source": "Polymarket (illiquid)",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
             "asOf": "2026-04-28",
             "basis": "mid",
-            "liquidityUsd": 353
+            "liquidityUsd": 180,
+            "note": "Thin market (~$180 liquidity); price may not reflect real consensus."
           },
           "wokeIndex": {
             "value": 7,
             "rationale": "Warren-aligned econ progressive; reliable progressive cultural votes but not identity-politics-forward.",
             "confidence": "high"
-          }
+          },
+          "tier": "major"
         },
         {
           "name": "Tony Thurmond",
@@ -321,14 +334,15 @@
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
             "asOf": "2026-04-28",
-            "note": "No liquid two-sided market (bid=0.001, ask=0.514, liq $105).",
-            "liquidityUsd": 105
+            "note": "No liquid two-sided market (bid=0.007, ask=0.442, liq $145).",
+            "liquidityUsd": 145
           },
           "wokeIndex": {
             "value": 9,
             "rationale": "DEI/ethnic-studies champion as Superintendent; vocal opponent of parental-notification policies.",
             "confidence": "high"
-          }
+          },
+          "tier": "major"
         },
         {
           "name": "Antonio Villaraigosa",
@@ -343,15 +357,16 @@
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
             "asOf": "2026-04-28",
-            "liquidityUsd": 95,
-            "note": "No liquid two-sided market (bid=0.001, ask=0.401, liq $95).",
+            "liquidityUsd": 168,
+            "note": "No liquid two-sided market (bid=0.002, ask=0.275, liq $168).",
             "label": "no quote"
           },
           "wokeIndex": {
             "value": 5,
             "rationale": "Old-school LA labor Dem; pragmatist on schools and policing; less culturally progressive than the field.",
             "confidence": "medium"
-          }
+          },
+          "tier": "major"
         },
         {
           "name": "Betty Yee",
@@ -368,14 +383,15 @@
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
             "asOf": "2026-04-28",
             "basis": "mid",
-            "liquidityUsd": 168,
-            "note": "Thin market (~$168 liquidity); price may not reflect real consensus."
+            "liquidityUsd": 131,
+            "note": "Thin market (~$131 liquidity); price may not reflect real consensus."
           },
           "wokeIndex": {
             "value": 6,
             "rationale": "Mainline center-left Dem; fiscal/governance focus, not culture-war-forward.",
             "confidence": "medium"
-          }
+          },
+          "tier": "major"
         },
         {
           "name": "Matt Mahan",
@@ -391,13 +407,1038 @@
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
             "asOf": "2026-04-28",
-            "liquidityUsd": 295,
-            "note": "No liquid two-sided market (bid=0.001, ask=0.473, liq $295)."
+            "liquidityUsd": 186,
+            "note": "No liquid two-sided market (bid=0.004, ask=0.409, liq $186)."
           },
           "wokeIndex": {
             "value": 4,
             "rationale": "Tech-Dem moderate; tough-on-homelessness/public-safety stance has drawn progressive criticism.",
             "confidence": "medium"
+          },
+          "tier": "major"
+        },
+        {
+          "name": "Akinyemi Agbede",
+          "party": "Democratic",
+          "occupation": "Mathematician/Educator",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Akinyemi Agbede controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Mohammad Arif",
+          "party": "Democratic",
+          "occupation": "Immigrants Organizer",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Mohammad Arif controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Larry Azevedo",
+          "party": "Democratic",
+          "occupation": "Businessman",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Larry Azevedo controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Carolina Buhler",
+          "party": "Democratic",
+          "occupation": "UCLA Student",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Carolina Buhler controversy"
+          },
+          "winChance": {
+            "value": 0.0055,
+            "source": "Polymarket (illiquid)",
+            "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
+            "asOf": "2026-04-28",
+            "liquidityUsd": 63,
+            "basis": "mid",
+            "note": "Thin market (~$63 liquidity); price may not reflect real consensus."
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Louis De Barraicua",
+          "party": "Democratic",
+          "occupation": "Teacher/Business Owner",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Louis De Barraicua controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Sophia Edum-a-Sam",
+          "party": "Democratic",
+          "occupation": "Project Manager",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Sophia Edum-a-Sam controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Derek Grasty",
+          "party": "Democratic",
+          "occupation": "San Jose School District Trustee",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Derek Grasty controversy"
+          },
+          "winChance": {
+            "value": 0.018,
+            "source": "Polymarket",
+            "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
+            "asOf": "2026-04-28",
+            "liquidityUsd": 315,
+            "basis": "mid"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Joel Jacob",
+          "party": "Democratic",
+          "occupation": "Business Owner",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Joel Jacob controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Gary Howard Kidgell",
+          "party": "Democratic",
+          "occupation": "Building Consultant",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Gary Howard Kidgell controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Matthew Levy",
+          "party": "Democratic",
+          "occupation": "Physicist",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Matthew Levy controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Barack Obama Shaw",
+          "party": "Democratic",
+          "occupation": "Business Owner",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Barack Obama Shaw controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Thunder Parley",
+          "party": "Democratic",
+          "occupation": "Software Engineer",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Thunder Parley controversy"
+          },
+          "winChance": {
+            "value": 0.0165,
+            "source": "Polymarket",
+            "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
+            "asOf": "2026-04-28",
+            "liquidityUsd": 271,
+            "basis": "mid"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Raji Rab",
+          "party": "Democratic",
+          "occupation": "Pilot/Perennial Candidate",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Raji Rab controversy"
+          },
+          "winChance": {
+            "value": 0.016,
+            "source": "Polymarket",
+            "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
+            "asOf": "2026-04-28",
+            "liquidityUsd": 338,
+            "basis": "mid"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Satish Rao",
+          "party": "Democratic",
+          "occupation": "Professor",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Satish Rao controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Scott Shields",
+          "party": "Democratic",
+          "occupation": "Executive Director",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Scott Shields controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Erin Zezulak",
+          "party": "Democratic",
+          "occupation": "Consultant",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Erin Zezulak controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Eric Swalwell",
+          "party": "Democratic",
+          "occupation": "Former U.S. Representative (withdrew, remained on ballot; endorsed Steyer)",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Eric Swalwell controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "James Athans Jr.",
+          "party": "Republican",
+          "occupation": "Real Estate Agent",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "James Athans Jr. controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Patricia De Luca Basualdo",
+          "party": "Republican",
+          "occupation": "Real Estate Broker",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Patricia De Luca Basualdo controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Randeep Dhillon",
+          "party": "Republican",
+          "occupation": "Businessman/Farmer",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Randeep Dhillon controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Rafael Hernandez",
+          "party": "Republican",
+          "occupation": "Businessman",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Rafael Hernandez controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Alicia Olivia Lapp",
+          "party": "Republican",
+          "occupation": "—",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Alicia Olivia Lapp controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Leo Naranjo IV",
+          "party": "Republican",
+          "occupation": "Veteran",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Leo Naranjo IV controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Tim Nelson",
+          "party": "Republican",
+          "occupation": "Diplomat",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Tim Nelson controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Gretha Solórzano",
+          "party": "Republican",
+          "occupation": "Retired Nuclear Engineer",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Gretha Solórzano controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Leo Zacky",
+          "party": "Republican",
+          "occupation": "VP, Zacky Farms",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Leo Zacky controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "Polymarket",
+            "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
+            "asOf": "2026-04-28",
+            "liquidityUsd": 172,
+            "label": "no quote",
+            "note": "No liquid two-sided market (bid=0.006, ask=0.428, liq $172)."
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "David Zickefoose",
+          "party": "Republican",
+          "occupation": "Real Estate Investor",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "David Zickefoose controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Tom Woodard",
+          "party": "Libertarian",
+          "occupation": "Retired CEO",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Tom Woodard controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Ramsey Robinson",
+          "party": "Peace and Freedom",
+          "occupation": "School Social Worker",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Ramsey Robinson controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "Polymarket",
+            "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
+            "asOf": "2026-04-28",
+            "liquidityUsd": 122,
+            "label": "no quote",
+            "note": "No liquid two-sided market (bid=0.009, ask=0.436, liq $122)."
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Naomi Bar-Lev",
+          "party": "No Party Preference",
+          "occupation": "Musician",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Naomi Bar-Lev controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Joseph Cabrera",
+          "party": "No Party Preference",
+          "occupation": "Administrator",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Joseph Cabrera controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Elaine Culotti",
+          "party": "No Party Preference",
+          "occupation": "Entrepreneur/Farmer/Developer",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Elaine Culotti controversy"
+          },
+          "winChance": {
+            "value": 0.027,
+            "source": "Polymarket (illiquid)",
+            "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
+            "asOf": "2026-04-28",
+            "liquidityUsd": 182,
+            "basis": "mid",
+            "note": "Thin market (~$182 liquidity); price may not reflect real consensus."
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "LivingForGod AndCountry DeMott",
+          "party": "No Party Preference",
+          "occupation": "Chaplain",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "LivingForGod AndCountry DeMott controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Serge Fiankan",
+          "party": "No Party Preference",
+          "occupation": "Real Estate Broker",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Serge Fiankan controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Lukasz Adam Filinski",
+          "party": "No Party Preference",
+          "occupation": "—",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Lukasz Adam Filinski controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Max Fomin",
+          "party": "No Party Preference",
+          "occupation": "Business Owner",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Max Fomin controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Don Grundmann",
+          "party": "No Party Preference",
+          "occupation": "Chiropractor",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Don Grundmann controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Jon Henderson",
+          "party": "No Party Preference",
+          "occupation": "Business Owner",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Jon Henderson controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Lewis Herms",
+          "party": "No Party Preference",
+          "occupation": "—",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Lewis Herms controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Dawit Kellel",
+          "party": "No Party Preference",
+          "occupation": "—",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Dawit Kellel controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Anne Komarovsk",
+          "party": "No Party Preference",
+          "occupation": "Communications Executive",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Anne Komarovsk controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Duane Terrence Loynes Jr.",
+          "party": "No Party Preference",
+          "occupation": "American Solidarity Party Nominee",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Duane Terrence Loynes Jr. controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Amanda Martin",
+          "party": "No Party Preference",
+          "occupation": "Entrepreneur",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Amanda Martin controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Brent Maupin",
+          "party": "No Party Preference",
+          "occupation": "Civil Engineer",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Brent Maupin controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Daniel Mercuri",
+          "party": "No Party Preference",
+          "occupation": "Author/Former Republican Gov Candidate",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Daniel Mercuri controversy"
+          },
+          "winChance": {
+            "value": 0.0105,
+            "source": "Polymarket",
+            "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
+            "asOf": "2026-04-28",
+            "liquidityUsd": 381,
+            "basis": "mid"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Mauro Alberto Orozco",
+          "party": "No Party Preference",
+          "occupation": "Business Owner",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Mauro Alberto Orozco controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Reza Safarnejad",
+          "party": "No Party Preference",
+          "occupation": "Business Owner",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Reza Safarnejad controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Sam Sandak",
+          "party": "No Party Preference",
+          "occupation": "Filmmaker",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Sam Sandak controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Christine Sarmiento",
+          "party": "No Party Preference",
+          "occupation": "Public Health Nurse",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Christine Sarmiento controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Frederic Schultz",
+          "party": "No Party Preference",
+          "occupation": "Human Rights Attorney",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Frederic Schultz controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Margaret Trowe",
+          "party": "No Party Preference",
+          "occupation": "Hospitality Worker",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Margaret Trowe controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Nancy Young",
+          "party": "No Party Preference",
+          "occupation": "Businesswoman",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Nancy Young controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         }
       ]
@@ -410,15 +1451,16 @@
       "incumbent": "Eleni Kounalakis (term-limited)",
       "seat": "open",
       "ballotOrder": 3,
-      "notes": "Partial candidate list — verify against your sample ballot when received.",
+      "notes": "Open seat — Eleni Kounalakis termed out and ran briefly for governor before withdrawing (now running for Treasurer). Top two advance to Nov.",
       "candidates": [
         {
-          "name": "Tony Vazquez",
+          "name": "Fiona Ma",
           "party": "Democratic",
-          "occupation": "Member, State Board of Equalization",
+          "occupation": "California State Treasurer",
+          "tier": "major",
           "scandal": {
             "summary": null,
-            "searchQuery": "Tony Vazquez Board of Equalization controversy"
+            "searchQuery": "Fiona Ma controversy"
           },
           "winChance": {
             "value": null,
@@ -426,53 +1468,18 @@
           },
           "wokeIndex": {
             "value": 6,
-            "rationale": "Latino LA-area Dem; mainline party priors.",
-            "confidence": "low"
+            "rationale": "Long-time Dem statewide official; mainline progressive priors.",
+            "confidence": "medium"
           }
         },
         {
-          "name": "Jennifer Hawks",
-          "party": "Republican",
-          "occupation": "Retired Businesswoman",
+          "name": "Michael Tubbs",
+          "party": "Democratic",
+          "occupation": "Former Mayor of Stockton",
+          "tier": "major",
           "scandal": {
             "summary": null,
-            "searchQuery": "Jennifer Hawks California Lt Governor"
-          },
-          "winChance": {
-            "value": null,
-            "source": "no market"
-          },
-          "wokeIndex": {
-            "value": 2,
-            "rationale": "R candidate; assumed conservative.",
-            "confidence": "low"
-          }
-        },
-        {
-          "name": "David Serpa",
-          "party": "Republican",
-          "occupation": "Businessman/Author/Father",
-          "scandal": {
-            "summary": null,
-            "searchQuery": "David Serpa California Republican controversy"
-          },
-          "winChance": {
-            "value": null,
-            "source": "no market"
-          },
-          "wokeIndex": {
-            "value": 1,
-            "rationale": "Trad-coded ballot designation; R challenger.",
-            "confidence": "low"
-          }
-        },
-        {
-          "name": "Glenn Turner",
-          "party": "Green",
-          "occupation": "—",
-          "scandal": {
-            "summary": null,
-            "searchQuery": "Glenn Turner Green Party California"
+            "searchQuery": "Michael Tubbs controversy"
           },
           "winChance": {
             "value": null,
@@ -480,8 +1487,274 @@
           },
           "wokeIndex": {
             "value": 8,
-            "rationale": "Green Party; assumed strongly culturally progressive.",
-            "confidence": "low"
+            "rationale": "Built profile around guaranteed-income pilot and equity policy as Stockton mayor.",
+            "confidence": "high"
+          }
+        },
+        {
+          "name": "Josh Fryday",
+          "party": "Democratic",
+          "occupation": "Chief Service Officer for Gov. Newsom; Former Mayor of Novato",
+          "tier": "major",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Josh Fryday controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": 7,
+            "rationale": "Newsom administration service-program lead; mainline progressive.",
+            "confidence": "medium"
+          }
+        },
+        {
+          "name": "Janelle Kellman",
+          "party": "Democratic",
+          "occupation": "Former Mayor of Sausalito",
+          "tier": "major",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Janelle Kellman controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": 6,
+            "rationale": "Coastal-Marin Dem; environmental focus.",
+            "confidence": "medium"
+          }
+        },
+        {
+          "name": "Gloria Romero",
+          "party": "Republican",
+          "occupation": "Former Democratic Majority Leader, California Senate",
+          "tier": "major",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Gloria Romero controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": 3,
+            "rationale": "Switched parties; cultural-conservative pivot on schools.",
+            "confidence": "medium"
+          }
+        },
+        {
+          "name": "Jeyson Lopez",
+          "party": "Democratic",
+          "occupation": "Customer Service Consultant",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Jeyson Lopez controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Oliver Ma",
+          "party": "Democratic",
+          "occupation": "Civil Rights Attorney",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Oliver Ma controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Tim Myers",
+          "party": "Democratic",
+          "occupation": "Musician/Record Producer",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Tim Myers controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Abdul Sikder",
+          "party": "Democratic",
+          "occupation": "San Francisco State University Professor",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Abdul Sikder controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "David Collenberg",
+          "party": "Republican",
+          "occupation": "Farmer/Business Owner",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "David Collenberg controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "David Fennell",
+          "party": "Republican",
+          "occupation": "Entrepreneur",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "David Fennell controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Ebie Lynch",
+          "party": "Republican",
+          "occupation": "Nurse",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Ebie Lynch controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Skip Shelton",
+          "party": "Republican",
+          "occupation": "Defense Technology Executive",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Skip Shelton controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Rakesh Christian",
+          "party": "No Party Preference",
+          "occupation": "Business Owner",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Rakesh Christian controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Sean Collinson",
+          "party": "No Party Preference",
+          "occupation": "Mediator",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Sean Collinson controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Alice Stek",
+          "party": "Peace and Freedom",
+          "occupation": "Obstetrician-Gynecologist",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Alice Stek controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         }
       ]
@@ -494,7 +1767,6 @@
       "incumbent": "Shirley Weber",
       "seat": "incumbent running",
       "ballotOrder": 4,
-      "notes": "Candidate list incomplete — verify against your sample ballot when received.",
       "candidates": [
         {
           "name": "Shirley Weber",
@@ -514,6 +1786,64 @@
             "value": 9,
             "rationale": "Authored the reparations task-force law; long civil-rights and voting-rights record.",
             "confidence": "high"
+          },
+          "tier": "major"
+        },
+        {
+          "name": "Don Wagner",
+          "party": "Republican",
+          "occupation": "Orange County Supervisor",
+          "tier": "major",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Don Wagner controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": 2,
+            "rationale": "OC R supervisor; conservative on culture-war issues.",
+            "confidence": "medium"
+          }
+        },
+        {
+          "name": "Gary Blenner",
+          "party": "Green",
+          "occupation": "Teacher",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Gary Blenner controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Michael Feinstein",
+          "party": "Green",
+          "occupation": "Former Santa Monica City Councilor",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Michael Feinstein controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": 8,
+            "rationale": "Long Green Party record; left on cultural issues.",
+            "confidence": "medium"
           }
         }
       ]
@@ -526,7 +1856,6 @@
       "incumbent": "Malia Cohen",
       "seat": "incumbent running",
       "ballotOrder": 5,
-      "notes": "Candidate list incomplete — verify against your sample ballot when received.",
       "candidates": [
         {
           "name": "Malia Cohen",
@@ -545,6 +1874,45 @@
             "value": 7,
             "rationale": "Former SF supervisor with progressive social record; less culture-war-forward in current role.",
             "confidence": "medium"
+          },
+          "tier": "major"
+        },
+        {
+          "name": "Herb Morgan",
+          "party": "Republican",
+          "occupation": "CIO, Cantor Fitzgerald",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Herb Morgan controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Meghann Adams",
+          "party": "Peace and Freedom",
+          "occupation": "Union President, SMART Local 1741",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Meghann Adams controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": 9,
+            "rationale": "PF Party; far-left labor candidate.",
+            "confidence": "medium"
           }
         }
       ]
@@ -554,11 +1922,126 @@
       "office": "Treasurer",
       "level": "state-exec",
       "termYears": 4,
-      "incumbent": "Fiona Ma (term-limited)",
+      "incumbent": "Fiona Ma (running for Lt Gov)",
       "seat": "open",
       "ballotOrder": 6,
-      "notes": "Candidate list incomplete — verify against your sample ballot when received.",
-      "candidates": []
+      "candidates": [
+        {
+          "name": "Eleni Kounalakis",
+          "party": "Democratic",
+          "occupation": "Lieutenant Governor",
+          "tier": "major",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Eleni Kounalakis controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": 7,
+            "rationale": "Sitting Lt Gov; Newsom-aligned progressive.",
+            "confidence": "medium"
+          }
+        },
+        {
+          "name": "Anna Caballero",
+          "party": "Democratic",
+          "occupation": "State Senator",
+          "tier": "major",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Anna Caballero controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": 6,
+            "rationale": "Central Valley moderate Dem; pragmatist.",
+            "confidence": "medium"
+          }
+        },
+        {
+          "name": "Tony Vazquez",
+          "party": "Democratic",
+          "occupation": "Member, State Board of Equalization",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Tony Vazquez controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Jennifer Hawks",
+          "party": "Republican",
+          "occupation": "Retired Businesswoman",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Jennifer Hawks controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "David Serpa",
+          "party": "Republican",
+          "occupation": "Real Estate Business Owner",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "David Serpa controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Glenn Turner",
+          "party": "Green",
+          "occupation": "—",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Glenn Turner controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        }
+      ],
+      "notes": "Open seat. Top two advance to Nov."
     },
     {
       "id": "attorney-general",
@@ -587,7 +2070,8 @@
             "value": 8,
             "rationale": "Sued anti-LGBT districts over parental-notification, expanded hate-crime/civil-rights enforcement, Trump lawsuit leader.",
             "confidence": "high"
-          }
+          },
+          "tier": "major"
         },
         {
           "name": "Michael Gates",
@@ -606,12 +2090,13 @@
             "value": 1,
             "rationale": "Architect of HB voter-ID and anti-sanctuary suits; explicit anti-woke posture.",
             "confidence": "high"
-          }
+          },
+          "tier": "major"
         },
         {
           "name": "Marjorie Mikels",
-          "party": "Democratic",
-          "occupation": "—",
+          "party": "Green",
+          "occupation": "Activist",
           "scandal": {
             "summary": null,
             "searchQuery": "Marjorie Mikels Attorney General California"
@@ -621,10 +2106,11 @@
             "source": "no market"
           },
           "wokeIndex": {
-            "value": 6,
-            "rationale": "Dem priors; little public record to refine.",
+            "value": 8,
+            "rationale": "Green Party; progressive priors.",
             "confidence": "low"
-          }
+          },
+          "tier": "major"
         }
       ]
     },
@@ -636,8 +2122,217 @@
       "incumbent": "Ricardo Lara (term-limited)",
       "seat": "open",
       "ballotOrder": 8,
-      "notes": "Candidate list incomplete — verify against your sample ballot when received.",
-      "candidates": []
+      "candidates": [
+        {
+          "name": "Ben Allen",
+          "party": "Democratic",
+          "occupation": "State Senator",
+          "tier": "major",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Ben Allen controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": 8,
+            "rationale": "Westside LA progressive Dem; environmental and education focus.",
+            "confidence": "high"
+          }
+        },
+        {
+          "name": "Steven Bradford",
+          "party": "Democratic",
+          "occupation": "Former State Senator",
+          "tier": "major",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Steven Bradford controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": 8,
+            "rationale": "Reparations task force member; veteran Black-caucus legislator.",
+            "confidence": "high"
+          }
+        },
+        {
+          "name": "Jane Kim",
+          "party": "Democratic",
+          "occupation": "Former San Francisco Supervisor",
+          "tier": "major",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Jane Kim controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": 9,
+            "rationale": "Working Families Party leader; SF progressive on housing/labor/identity.",
+            "confidence": "high"
+          }
+        },
+        {
+          "name": "Patrick Wolff",
+          "party": "Democratic",
+          "occupation": "Chess Grandmaster/Financial Analyst",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Patrick Wolff controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Eric Thor Aarnio",
+          "party": "Republican",
+          "occupation": "Contractor",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Eric Thor Aarnio controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Merritt Farren",
+          "party": "Republican",
+          "occupation": "Attorney",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Merritt Farren controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Robert Howell",
+          "party": "Republican",
+          "occupation": "2022 Candidate for Insurance Commissioner",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Robert Howell controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Stacy Korsgaden",
+          "party": "Republican",
+          "occupation": "Insurance Agent",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Stacy Korsgaden controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Sean Lee",
+          "party": "Republican",
+          "occupation": "Finance Executive",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Sean Lee controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Keith Davis",
+          "party": "American Independent",
+          "occupation": "Insurance Agent",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Keith Davis controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": 1,
+            "rationale": "AIP candidate; conservative cultural priors.",
+            "confidence": "medium"
+          }
+        },
+        {
+          "name": "Eduardo \"Lalo\" Vargas",
+          "party": "Peace and Freedom",
+          "occupation": "High School Teacher",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Eduardo \"Lalo\" Vargas controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": 9,
+            "rationale": "PF Party; far-left priors.",
+            "confidence": "medium"
+          }
+        }
+      ]
     },
     {
       "id": "state-senate-sd-02",
@@ -667,7 +2362,8 @@
             "value": 6,
             "rationale": "Marin environmental Dem; reliable progressive votes but not culture-war-forward.",
             "confidence": "medium"
-          }
+          },
+          "tier": "major"
         },
         {
           "name": "Aaron Smith",
@@ -686,7 +2382,8 @@
             "value": 2,
             "rationale": "'School Trustee/Dad' designation signals parental-rights branding.",
             "confidence": "low"
-          }
+          },
+          "tier": "major"
         },
         {
           "name": "Tief Gibbs",
@@ -704,7 +2401,8 @@
             "value": 2,
             "rationale": "R challenger; assumed conservative.",
             "confidence": "low"
-          }
+          },
+          "tier": "major"
         }
       ]
     },
@@ -736,7 +2434,8 @@
             "value": 6,
             "rationale": "Mainline Dem priors; little public record.",
             "confidence": "low"
-          }
+          },
+          "tier": "major"
         },
         {
           "name": "Eric Lucan",
@@ -755,7 +2454,8 @@
             "value": 6,
             "rationale": "Marin supervisor; mainline Dem priors.",
             "confidence": "low"
-          }
+          },
+          "tier": "major"
         },
         {
           "name": "Eli Beckman",
@@ -773,7 +2473,8 @@
             "value": 6,
             "rationale": "Bay Area Dem councilmember priors.",
             "confidence": "low"
-          }
+          },
+          "tier": "major"
         },
         {
           "name": "Jackie Elward",
@@ -792,7 +2493,8 @@
             "value": 7,
             "rationale": "Cameroonian-American immigrant; progressive Rohnert Park record on housing/equity.",
             "confidence": "medium"
-          }
+          },
+          "tier": "major"
         },
         {
           "name": "Holli Thier",
@@ -810,7 +2512,8 @@
             "value": 7,
             "rationale": "Environmental attorney; Bay-Area progressive priors.",
             "confidence": "low"
-          }
+          },
+          "tier": "major"
         },
         {
           "name": "Eryn Cervantes",
@@ -829,7 +2532,8 @@
             "value": 2,
             "rationale": "Corrections background + R; conservative cultural priors.",
             "confidence": "low"
-          }
+          },
+          "tier": "major"
         }
       ]
     },
@@ -861,7 +2565,8 @@
             "value": 8,
             "rationale": "Long progressive record (anti-spanking bill, gender pay-gap, civil rights).",
             "confidence": "high"
-          }
+          },
+          "tier": "major"
         }
       ]
     },
@@ -873,7 +2578,7 @@
       "incumbent": "Tony Thurmond (term-limited; running for Governor)",
       "seat": "open",
       "ballotOrder": 12,
-      "notes": "Officially nonpartisan. Top two advance to Nov runoff if no one clears 50%.",
+      "notes": "Officially nonpartisan but candidates self-identify with parties. Top two advance to Nov runoff if no one clears 50%.",
       "candidates": [
         {
           "name": "Anthony Rendon",
@@ -892,7 +2597,8 @@
             "value": 7,
             "rationale": "Reliable progressive Speaker on social issues; cooler on left litmus tests (single payer).",
             "confidence": "medium"
-          }
+          },
+          "tier": "major"
         },
         {
           "name": "Al Muratsuchi",
@@ -910,7 +2616,8 @@
             "value": 7,
             "rationale": "Dem AM, education chair, AAPI advocate; mainline progressive votes.",
             "confidence": "medium"
-          }
+          },
+          "tier": "major"
         },
         {
           "name": "Josh Newman",
@@ -928,7 +2635,8 @@
             "value": 6,
             "rationale": "Center-left Dem in a swing district; pragmatist priors.",
             "confidence": "medium"
-          }
+          },
+          "tier": "major"
         },
         {
           "name": "Sonja Shaw",
@@ -947,25 +2655,8 @@
             "value": 0,
             "rationale": "Built profile explicitly leading anti-trans-policy and anti-DEI fights as a school board president.",
             "confidence": "high"
-          }
-        },
-        {
-          "name": "Andra Hoffman",
-          "party": "Nonpartisan",
-          "occupation": "L.A. Community College District Trustee",
-          "scandal": {
-            "summary": null,
-            "searchQuery": "Andra Hoffman LACCD trustee"
           },
-          "winChance": {
-            "value": null,
-            "source": "no market"
-          },
-          "wokeIndex": {
-            "value": 7,
-            "rationale": "LACCD trustee with mainline LA-Dem priors.",
-            "confidence": "low"
-          }
+          "tier": "major"
         },
         {
           "name": "Nichelle Henderson",
@@ -983,7 +2674,8 @@
             "value": 7,
             "rationale": "Educator-of-color background in teacher prep; equity-coded priors.",
             "confidence": "low"
-          }
+          },
+          "tier": "major"
         },
         {
           "name": "Frank Lara",
@@ -1001,15 +2693,36 @@
             "value": null,
             "rationale": "Not enough public record to assess.",
             "confidence": null
+          },
+          "tier": "major"
+        },
+        {
+          "name": "Richard Barrera",
+          "party": "Nonpartisan",
+          "occupation": "San Diego Unified School District Board Member",
+          "tier": "major",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Richard Barrera controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": 7,
+            "rationale": "Veteran SD school-board Dem; equity-focused.",
+            "confidence": "medium"
           }
         },
         {
-          "name": "Jeff Maffly",
+          "name": "Wendy Castaneda Leal",
           "party": "Nonpartisan",
-          "occupation": "—",
+          "occupation": "Superintendent, Semitropic Elementary School District",
+          "tier": "minor",
           "scandal": {
             "summary": null,
-            "searchQuery": "Jeff Maffly California Superintendent"
+            "searchQuery": "Wendy Castaneda Leal controversy"
           },
           "winChance": {
             "value": null,
@@ -1017,8 +2730,46 @@
           },
           "wokeIndex": {
             "value": null,
-            "rationale": "Not enough public record to assess.",
+            "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          }
+        },
+        {
+          "name": "Ainye Long",
+          "party": "Nonpartisan",
+          "occupation": "Teacher",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Ainye Long controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Gus Mattammal",
+          "party": "Nonpartisan",
+          "occupation": "Educator/Republican Candidate",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Gus Mattammal controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": 2,
+            "rationale": "Past R Congressional candidate; conservative priors.",
+            "confidence": "low"
           }
         }
       ]
@@ -1050,7 +2801,8 @@
             "value": null,
             "rationale": "Judicial role — partisan/cultural index not meaningful and no public political record.",
             "confidence": null
-          }
+          },
+          "tier": "major"
         }
       ]
     },
@@ -1080,7 +2832,8 @@
             "value": 6,
             "rationale": "Sonoma educator; mainline equity-aware priors typical of county supt role.",
             "confidence": "low"
-          }
+          },
+          "tier": "major"
         }
       ]
     },
@@ -1110,7 +2863,8 @@
             "value": null,
             "rationale": "Administrative role — no meaningful cultural-political signal.",
             "confidence": null
-          }
+          },
+          "tier": "major"
         }
       ]
     },
@@ -1139,7 +2893,8 @@
             "value": null,
             "rationale": "Administrative role — no meaningful cultural-political signal.",
             "confidence": null
-          }
+          },
+          "tier": "major"
         }
       ]
     },
@@ -1171,7 +2926,8 @@
             "value": 6,
             "rationale": "Petaluma school board; mainline Dem-leaning priors.",
             "confidence": "low"
-          }
+          },
+          "tier": "major"
         },
         {
           "name": "Shelina Moreda",
@@ -1190,7 +2946,8 @@
             "value": 4,
             "rationale": "Ag/motorsports profile cross-codes against typical Sonoma-Dem priors.",
             "confidence": "low"
-          }
+          },
+          "tier": "major"
         },
         {
           "name": "Sylvia Lemus",
@@ -1208,7 +2965,8 @@
             "value": 6,
             "rationale": "Cotati councilmember; small-city Dem priors.",
             "confidence": "low"
-          }
+          },
+          "tier": "major"
         },
         {
           "name": "John E. King",
@@ -1227,7 +2985,8 @@
             "value": 3,
             "rationale": "Rural rancher/operating engineer profile; conservative-coded historically.",
             "confidence": "low"
-          }
+          },
+          "tier": "major"
         }
       ]
     }
