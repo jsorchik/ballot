@@ -363,14 +363,53 @@ a:hover { text-decoration: underline; }
 .ballot-actions button.danger:hover { border-color: var(--danger); color: var(--danger); }
 .ballot-note { color: var(--muted); font-size: 0.75rem; margin: 0.5rem 0 0; }
 
-/* print */
+/* print: just the ballot list, formatted as a take-to-the-polling-place sheet */
 @media print {
-  .topbar, .filters, .ballot-actions, .ballot-note, .candidate-chance, .race-tag, aside { display: none; }
-  body { background: white; }
-  .layout { grid-template-columns: 1fr; padding: 0; }
-  .race { box-shadow: none; border-color: #ccc; page-break-inside: avoid; }
-  .candidate { background: white; }
-  .candidate:not(.selected) { display: none; }
+  @page { margin: 0.6in; }
+  body { background: white; color: black; font-size: 11pt; }
+  .topbar, .races-pane, .ballot-actions, .ballot-note { display: none; }
+  .layout {
+    display: block;
+    padding: 0;
+    max-width: none;
+    margin: 0;
+  }
+  .ballot-pane {
+    position: static;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    max-height: none;
+    overflow: visible;
+    background: white;
+  }
+  .ballot-pane h2 {
+    font-size: 16pt;
+    margin: 0 0 0.4rem;
+  }
+  .ballot-pane h2::after {
+    content: " — California Primary, June 2, 2026";
+    font-weight: 400;
+    font-size: 12pt;
+    color: #444;
+  }
+  .ballot-header .count { display: none; }
+  .ballot-list { gap: 0.2rem; }
+  .ballot-item {
+    border: 1px solid #aaa;
+    background: white;
+    padding: 0.3rem 0.5rem;
+    page-break-inside: avoid;
+  }
+  .ballot-item .office {
+    font-weight: 600;
+    font-size: 9pt;
+    color: #333;
+  }
+  .candidate-party {
+    border-color: #888 !important;
+    color: #333 !important;
+  }
 }
 
 .empty-state {

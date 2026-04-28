@@ -170,27 +170,41 @@ function bindBallotActions() {
 
 function visibleCandidates(race) {
   if (STATE.filters.showMinor) return race.candidates;
-  return race.candidates.filter((c) => c.tier !== 'minor');
+  const selected = STATE.selections[race.id];
+  const search = STATE.filters.search;
+  return race.candidates.filter((c) => {
+    if (c.tier !== 'minor') return true;
+    // Always show selected candidate (even if minor) — otherwise the race card
+    // looks empty while the ballot panel still has a pick for it.
+    if (c.name === selected) return true;
+    // If there's an active search and this minor matches, reveal it.
+    if (search) {
+      const hay = `${c.name} ${c.party} ${c.occupation || ''}`.toLowerCase();
+      if (hay.includes(search)) return true;
+    }
+    return false;
+  });
 }
 
 function applyFilters(races) {
   const f = STATE.filters;
   return races.filter((race) => {
-    const visible = visibleCandidates(race);
     if (f.levels.size && !f.levels.has(race.level)) return false;
-    if (f.contestedOnly && visible.length < 2) return false;
+    // Contested status uses the total filed count, not the tier-filtered count.
+    if (f.contestedOnly && race.candidates.length < 2) return false;
     if (f.undecidedOnly && STATE.selections[race.id]) return false;
     if (f.parties.size) {
-      const has = visible.some((c) => f.parties.has(c.party));
+      const has = race.candidates.some((c) => f.parties.has(c.party));
       if (!has) return false;
     }
     if (f.search) {
+      // Search across ALL candidates so a minor name still surfaces its race.
       const haystack = (
         race.office +
         ' ' +
         (race.district || '') +
         ' ' +
-        visible.map((c) => `${c.name} ${c.party} ${c.occupation || ''}`).join(' ')
+        race.candidates.map((c) => `${c.name} ${c.party} ${c.occupation || ''}`).join(' ')
       ).toLowerCase();
       if (!haystack.includes(f.search)) return false;
     }

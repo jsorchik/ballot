@@ -1459,8 +1459,8 @@
           "occupation": "California State Treasurer",
           "tier": "major",
           "scandal": {
-            "summary": null,
-            "searchQuery": "Fiona Ma controversy"
+            "summary": "Former chief of staff Judith Sapper sued in 2021 alleging sexual harassment, retaliation, and racial discrimination; case settled in 2024.",
+            "searchQuery": "Fiona Ma Judith Sapper harassment lawsuit"
           },
           "winChance": {
             "value": null,
@@ -1478,8 +1478,8 @@
           "occupation": "Former Mayor of Stockton",
           "tier": "major",
           "scandal": {
-            "summary": null,
-            "searchQuery": "Michael Tubbs controversy"
+            "summary": "Lost re-election in 2020 after a hyperlocal anti-Tubbs blog (\"126 Cars\") published a steady stream of attacks; later sued the blog's operator (case dismissed).",
+            "searchQuery": "Michael Tubbs 126 Cars Stockton lawsuit"
           },
           "winChance": {
             "value": null,
@@ -1795,8 +1795,8 @@
           "occupation": "Orange County Supervisor",
           "tier": "major",
           "scandal": {
-            "summary": null,
-            "searchQuery": "Don Wagner controversy"
+            "summary": "OC Board of Supervisors under Wagner has repeatedly sued or sided against the state on housing-element law and sanctuary policy.",
+            "searchQuery": "Don Wagner Orange County housing law sanctuary lawsuits"
           },
           "winChance": {
             "value": null,
@@ -1932,8 +1932,8 @@
           "occupation": "Lieutenant Governor",
           "tier": "major",
           "scandal": {
-            "summary": null,
-            "searchQuery": "Eleni Kounalakis controversy"
+            "summary": "Daughter of Sacramento developer/megadonor Angelo Tsakopoulos; appointed U.S. Ambassador to Hungary by Obama in 2010 after the family's significant Democratic giving.",
+            "searchQuery": "Eleni Kounalakis Tsakopoulos Hungary ambassador donor"
           },
           "winChance": {
             "value": null,
