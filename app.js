@@ -325,10 +325,12 @@ function renderWoke(el, w) {
   bar.appendChild(marker);
   el.appendChild(bar);
   const s = document.createElement('span');
-  s.className = `woke-source confidence-${w.confidence || 'medium'}`;
-  s.textContent = `woke · ${w.confidence || 'medium'}`;
+  const conf = w.confidence || 'medium';
+  s.className = `woke-source confidence-${conf}`;
+  const confLabel = { high: 'high conf.', medium: 'med conf.', low: 'low conf.' }[conf] || conf;
+  s.textContent = confLabel;
   el.appendChild(s);
-  el.title = [w.rationale || '', w.confidence ? `confidence: ${w.confidence}` : ''].filter(Boolean).join(' · ');
+  el.title = [w.rationale || '', `confidence in score: ${conf}`].filter(Boolean).join(' · ');
 }
 
 function renderScandal(c) {
