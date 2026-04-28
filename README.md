@@ -36,6 +36,43 @@ python3 -m http.server 8765
 
 Hover the chance value for source/date/note details.
 
+### Live Polymarket refresh
+
+Any race in an election JSON can declare a `priceSources.polymarket` block:
+
+```json
+"priceSources": {
+  "polymarket": {
+    "eventSlug": "california-governor-primary-election-first-place",
+    "matchBy": "groupItemTitle",
+    "minLiquidity": 200
+  }
+}
+```
+
+The refresh script (`scripts/refresh-prices.mjs`) hits the public Polymarket
+Gamma API, finds the event, matches each candidate to a market by
+`groupItemTitle`, and updates `winChance` with the bid/ask midpoint.
+
+Honesty rules:
+
+- Requires **both** a best-bid and best-ask, with a spread under 20¢. Wider
+  than that and the value is set to `null` with a "no quote" label — wide
+  spreads mean nobody actually believes a price.
+- If liquidity is below `minLiquidity` (default 100, governor uses 200), the
+  source is labeled `Polymarket (illiquid)` and a tooltip note flags the
+  thinness.
+
+Run it locally:
+
+```sh
+node scripts/refresh-prices.mjs
+```
+
+Or let CI do it: `.github/workflows/refresh-prices.yml` runs every 6 hours,
+commits the updated JSON, and the GH Pages rebuild picks it up. Trigger a
+manual run from the Actions tab.
+
 ## Scandal one-liners
 
 Editorial calls based on contemporaneous reporting. For races without a confident
@@ -57,3 +94,5 @@ No build step — it's plain HTML/CSS/JS.
 - `app.js` — state, filters, sort, selection, localStorage, ballot rendering
 - `data/elections.json` — list of available elections
 - `data/<id>.json` — race + candidate data for one election
+- `scripts/refresh-prices.mjs` — Polymarket price refresher
+- `.github/workflows/refresh-prices.yml` — 6-hour cron + manual dispatch
