@@ -10,6 +10,7 @@ const STATE = {
     contestedOnly: false,
     undecidedOnly: false,
     sort: 'ballot',
+    candidateSort: 'default',
   },
   selections: {},
 };
@@ -131,6 +132,24 @@ function bindFilters() {
     STATE.filters.sort = e.target.value;
     render();
   });
+  document.getElementById('candidate-sort').addEventListener('change', (e) => {
+    STATE.filters.candidateSort = e.target.value;
+    render();
+  });
+}
+
+function sortCandidates(candidates) {
+  const mode = STATE.filters.candidateSort;
+  if (mode === 'default') return candidates;
+  const arr = [...candidates];
+  if (mode === 'chance') {
+    arr.sort((a, b) => (b.winChance?.value ?? -1) - (a.winChance?.value ?? -1));
+  } else if (mode === 'woke-desc') {
+    arr.sort((a, b) => (b.wokeIndex?.value ?? -1) - (a.wokeIndex?.value ?? -1));
+  } else if (mode === 'woke-asc') {
+    arr.sort((a, b) => (a.wokeIndex?.value ?? 99) - (b.wokeIndex?.value ?? 99));
+  }
+  return arr;
 }
 
 function bindBallotActions() {
@@ -220,7 +239,7 @@ function renderRace(race) {
   }
 
   const list = article.querySelector('.candidates');
-  race.candidates.forEach((c) => list.appendChild(renderCandidate(race, c)));
+  sortCandidates(race.candidates).forEach((c) => list.appendChild(renderCandidate(race, c)));
   return article;
 }
 
@@ -274,8 +293,41 @@ function renderCandidate(race, candidate) {
 
   const chanceEl = tpl.querySelector('.candidate-chance');
   renderChance(chanceEl, candidate.winChance);
+  const wokeEl = tpl.querySelector('.candidate-woke');
+  renderWoke(wokeEl, candidate.wokeIndex);
 
   return li;
+}
+
+function renderWoke(el, w) {
+  if (!w || w.value == null) {
+    el.classList.add('woke-unknown');
+    const v = document.createElement('span');
+    v.className = 'woke-value';
+    v.textContent = '—';
+    el.appendChild(v);
+    const s = document.createElement('span');
+    s.className = 'woke-source';
+    s.textContent = 'woke n/a';
+    el.appendChild(s);
+    el.title = w?.rationale || 'No woke index available.';
+    return;
+  }
+  const v = document.createElement('span');
+  v.className = 'woke-value';
+  v.textContent = `${w.value}/10`;
+  el.appendChild(v);
+  const bar = document.createElement('div');
+  bar.className = 'woke-bar';
+  const fill = document.createElement('span');
+  fill.style.width = `${(w.value / 10) * 100}%`;
+  bar.appendChild(fill);
+  el.appendChild(bar);
+  const s = document.createElement('span');
+  s.className = `woke-source confidence-${w.confidence || 'medium'}`;
+  s.textContent = `woke · ${w.confidence || 'medium'}`;
+  el.appendChild(s);
+  el.title = [w.rationale || '', w.confidence ? `confidence: ${w.confidence}` : ''].filter(Boolean).join(' · ');
 }
 
 function renderScandal(c) {

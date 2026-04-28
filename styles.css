@@ -252,14 +252,21 @@ a:hover { text-decoration: underline; }
 .scandal-none { color: var(--muted); font-style: italic; }
 .scandal-link { margin-left: 0.4rem; color: var(--muted); font-size: 0.78rem; }
 
-.candidate-chance {
+.candidate-metrics {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  min-width: 92px;
+  gap: 0.45rem;
+  min-width: 100px;
   font-variant-numeric: tabular-nums;
 }
-.chance-bar {
+.metric {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  line-height: 1.15;
+}
+.chance-bar, .woke-bar {
   width: 80px;
   height: 6px;
   background: var(--line);
@@ -272,9 +279,18 @@ a:hover { text-decoration: underline; }
   height: 100%;
   background: linear-gradient(90deg, var(--accent), #8aa9ee);
 }
-.chance-value { font-size: 0.85rem; font-weight: 600; }
-.chance-source { font-size: 0.7rem; color: var(--muted); }
-.chance-unknown .chance-value { color: var(--muted); font-weight: 400; }
+.woke-bar > span {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, #c33b3b, #d6a93a 35%, #6f8fdb 65%, #6e3fc7);
+}
+.chance-value, .woke-value { font-size: 0.85rem; font-weight: 600; }
+.chance-source, .woke-source { font-size: 0.7rem; color: var(--muted); }
+.chance-unknown .chance-value, .woke-unknown .woke-value {
+  color: var(--muted);
+  font-weight: 400;
+}
+.woke-source.confidence-low { font-style: italic; }
 
 /* ballot pane */
 .ballot-pane {

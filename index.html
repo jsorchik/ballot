@@ -38,6 +38,15 @@
               <option value="contested">Most contested first</option>
             </select>
           </label>
+          <label class="sort">
+            Candidates
+            <select id="candidate-sort">
+              <option value="default">Default</option>
+              <option value="chance">By win chance ↓</option>
+              <option value="woke-desc">Most woke first</option>
+              <option value="woke-asc">Least woke first</option>
+            </select>
+          </label>
         </div>
       </section>
 
@@ -85,11 +94,14 @@
           <div class="candidate-occupation"></div>
           <div class="candidate-scandal"></div>
         </div>
-        <div class="candidate-chance" title=""></div>
+        <div class="candidate-metrics">
+          <div class="candidate-chance metric" title=""></div>
+          <div class="candidate-woke metric" title=""></div>
+        </div>
       </label>
     </li>
   </template>
 
-  <script src="app.js"></script>
+  <script src="app.js?v=2"></script>
 </body>
 </html>
