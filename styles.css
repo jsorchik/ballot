@@ -281,6 +281,19 @@ a:hover { text-decoration: underline; }
 .scandal-none { color: var(--muted); font-style: italic; }
 .scandal-link { margin-left: 0.4rem; color: var(--muted); font-size: 0.78rem; }
 
+.candidate-finance {
+  font-size: 0.8rem;
+  margin-top: 0.2rem;
+  color: var(--ink);
+  line-height: 1.35;
+}
+.finance-label { color: var(--muted); margin-right: 0.1rem; font-weight: 600; }
+.finance-none { color: var(--muted); font-style: italic; }
+.finance-sep { color: var(--muted); margin: 0 0.15rem; }
+.finance-networth { color: var(--ink); }
+.finance-conf { color: var(--muted); font-style: italic; }
+.finance-link { margin-left: 0.4rem; color: var(--muted); font-size: 0.75rem; }
+
 .candidate-metrics {
   display: flex;
   flex-direction: column;

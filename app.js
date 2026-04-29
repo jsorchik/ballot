@@ -425,6 +425,9 @@ function renderCandidate(race, candidate) {
   const scandalEl = tpl.querySelector('.candidate-scandal');
   scandalEl.appendChild(renderScandal(candidate));
 
+  const financeEl = tpl.querySelector('.candidate-finance');
+  financeEl.appendChild(renderFinance(candidate));
+
   const chanceEl = tpl.querySelector('.candidate-chance');
   renderChance(chanceEl, candidate.winChance);
   const wokeEl = tpl.querySelector('.candidate-woke');
@@ -489,6 +492,55 @@ function renderScandal(c) {
   link.rel = 'noopener';
   link.textContent = 'search ↗';
   frag.appendChild(link);
+  return frag;
+}
+
+function renderFinance(c) {
+  const frag = document.createDocumentFragment();
+  const f = c.finance || {};
+  const searchUrl =
+    f.summaryUrl ||
+    f.searchUrl ||
+    `https://www.google.com/search?q=${encodeURIComponent(`${c.name} campaign finance donors net worth`)}`;
+
+  const line = document.createElement('span');
+  line.className = 'finance-summary';
+  if (f.summary) {
+    line.innerHTML = `<span class="finance-label">$$ </span>${escapeHtml(f.summary)}`;
+  } else {
+    line.innerHTML = `<span class="finance-label">$$ </span><span class="finance-none">Not researched</span>`;
+  }
+  frag.appendChild(line);
+
+  if (f.netWorth) {
+    const sep = document.createElement('span');
+    sep.className = 'finance-sep';
+    sep.textContent = ' · ';
+    frag.appendChild(sep);
+    const nw = document.createElement('span');
+    nw.className = 'finance-networth';
+    nw.textContent = `Net worth ${f.netWorth}`;
+    if (f.netWorthSource) nw.title = f.netWorthSource;
+    frag.appendChild(nw);
+  }
+
+  if (f.confidence === 'low' && f.summary) {
+    const conf = document.createElement('span');
+    conf.className = 'finance-conf';
+    conf.textContent = ' (low conf.)';
+    conf.title = 'Editorial summary; verify via search link.';
+    frag.appendChild(conf);
+  }
+
+  const link = document.createElement('a');
+  link.className = 'finance-link';
+  link.href = searchUrl;
+  link.target = '_blank';
+  link.rel = 'noopener';
+  link.textContent = 'search ↗';
+  frag.appendChild(document.createTextNode(' '));
+  frag.appendChild(link);
+
   return frag;
 }
 

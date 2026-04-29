@@ -46,7 +46,14 @@
             "rationale": "Freethought Caucus founder, consistent progressive votes on LGBTQ+/climate/social issues.",
             "confidence": "high"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": "Top donors: environmental groups, local trial lawyers, public-sector unions",
+            "summaryUrl": "https://www.opensecrets.org/members-of-congress/jared-huffman/summary?cid=N00033552",
+            "netWorth": "~$300K–1M",
+            "netWorthSource": "House financial disclosure",
+            "confidence": "high"
+          }
         },
         {
           "name": "Rose Penelope Yee",
@@ -66,7 +73,12 @@
             "rationale": "Generic Bay Area Dem priors; little public record.",
             "confidence": "low"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": null,
+            "searchUrl": "https://www.google.com/search?q=Rose%20Penelope%20Yee%20campaign%20finance%20donors%20net%20worth",
+            "confidence": null
+          }
         },
         {
           "name": "Nicolette Hahn Niman",
@@ -86,7 +98,12 @@
             "rationale": "Environmental author/rancher; left on climate but cross-coded; NPP signaling.",
             "confidence": "low"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": null,
+            "searchUrl": "https://www.google.com/search?q=Nicolette%20Hahn%20Niman%20campaign%20finance%20donors%20net%20worth",
+            "confidence": null
+          }
         },
         {
           "name": "Gregory Burgess",
@@ -105,7 +122,12 @@
             "rationale": "Not enough public record to assess.",
             "confidence": null
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": null,
+            "searchUrl": "https://www.google.com/search?q=Gregory%20Burgess%20campaign%20finance%20donors%20net%20worth",
+            "confidence": null
+          }
         },
         {
           "name": "Robin Littau",
@@ -125,7 +147,12 @@
             "rationale": "Far-north CA R school board member; conservative priors.",
             "confidence": "low"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": null,
+            "searchUrl": "https://www.google.com/search?q=Robin%20Littau%20campaign%20finance%20donors%20net%20worth",
+            "confidence": null
+          }
         },
         {
           "name": "Paul Saulsbury",
@@ -144,7 +171,12 @@
             "rationale": "R challenger; assumed conservative on cultural issues.",
             "confidence": "low"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": null,
+            "searchUrl": "https://www.google.com/search?q=Paul%20Saulsbury%20campaign%20finance%20donors%20net%20worth",
+            "confidence": null
+          }
         },
         {
           "name": "Tim Geist",
@@ -163,7 +195,12 @@
             "rationale": "R challenger; assumed conservative.",
             "confidence": "low"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": null,
+            "searchUrl": "https://www.google.com/search?q=Tim%20Geist%20campaign%20finance%20donors%20net%20worth",
+            "confidence": null
+          }
         },
         {
           "name": "Angelita Valles",
@@ -182,7 +219,12 @@
             "rationale": "R challenger; assumed conservative.",
             "confidence": "low"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": null,
+            "searchUrl": "https://www.google.com/search?q=Angelita%20Valles%20campaign%20finance%20donors%20net%20worth",
+            "confidence": null
+          }
         }
       ]
     },
@@ -215,7 +257,13 @@
             "rationale": "Marin environmental Dem; reliable progressive votes but not culture-war-forward.",
             "confidence": "medium"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": "Top donors: environmental groups, public-sector unions, Marin Dems",
+            "netWorth": "~$500K–1M",
+            "netWorthSource": "Form 700 estimate",
+            "confidence": "medium"
+          }
         },
         {
           "name": "Aaron Smith",
@@ -235,7 +283,12 @@
             "rationale": "'School Trustee/Dad' designation signals parental-rights branding.",
             "confidence": "low"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": null,
+            "searchUrl": "https://www.google.com/search?q=Aaron%20Smith%20campaign%20finance%20donors%20net%20worth",
+            "confidence": null
+          }
         },
         {
           "name": "Tief Gibbs",
@@ -254,7 +307,12 @@
             "rationale": "R challenger; assumed conservative.",
             "confidence": "low"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": null,
+            "searchUrl": "https://www.google.com/search?q=Tief%20Gibbs%20campaign%20finance%20donors%20net%20worth",
+            "confidence": null
+          }
         }
       ]
     },
@@ -287,7 +345,12 @@
             "rationale": "Mainline Dem priors; little public record.",
             "confidence": "low"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": "Top donors: nonprofit/agricultural networks",
+            "netWorth": "unknown",
+            "confidence": "low"
+          }
         },
         {
           "name": "Eric Lucan",
@@ -307,7 +370,12 @@
             "rationale": "Marin supervisor; mainline Dem priors.",
             "confidence": "low"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": "Top donors: Marin Dems, building trades",
+            "netWorth": "unknown",
+            "confidence": "low"
+          }
         },
         {
           "name": "Eli Beckman",
@@ -326,7 +394,12 @@
             "rationale": "Bay Area Dem councilmember priors.",
             "confidence": "low"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": "Top donors: small-business, Marin Dems",
+            "netWorth": "unknown",
+            "confidence": "low"
+          }
         },
         {
           "name": "Jackie Elward",
@@ -346,7 +419,12 @@
             "rationale": "Cameroonian-American immigrant; progressive Rohnert Park record on housing/equity.",
             "confidence": "medium"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": "Top donors: progressive Dems, immigrant-rights networks",
+            "netWorth": "unknown",
+            "confidence": "low"
+          }
         },
         {
           "name": "Holli Thier",
@@ -365,7 +443,12 @@
             "rationale": "Environmental attorney; Bay-Area progressive priors.",
             "confidence": "low"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": "Top donors: environmental advocates, Marin Dems",
+            "netWorth": "unknown",
+            "confidence": "low"
+          }
         },
         {
           "name": "Eryn Cervantes",
@@ -385,7 +468,12 @@
             "rationale": "Corrections background + R; conservative cultural priors.",
             "confidence": "low"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": null,
+            "searchUrl": "https://www.google.com/search?q=Eryn%20Cervantes%20campaign%20finance%20donors%20net%20worth",
+            "confidence": null
+          }
         }
       ]
     },
@@ -418,7 +506,12 @@
             "rationale": "Long progressive record (anti-spanking bill, gender pay-gap, civil rights).",
             "confidence": "high"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": null,
+            "searchUrl": "https://www.google.com/search?q=Sally%20Lieber%20campaign%20finance%20donors%20net%20worth",
+            "confidence": null
+          }
         }
       ]
     },
@@ -450,6 +543,11 @@
             "value": null,
             "rationale": "Local race; no public record reviewed.",
             "confidence": null
+          },
+          "finance": {
+            "summary": null,
+            "searchUrl": "https://www.google.com/search?q=Curtis%20Aikens%20campaign%20finance%20donors%20net%20worth",
+            "confidence": null
           }
         },
         {
@@ -468,6 +566,11 @@
           "wokeIndex": {
             "value": null,
             "rationale": "Local race; no public record reviewed.",
+            "confidence": null
+          },
+          "finance": {
+            "summary": null,
+            "searchUrl": "https://www.google.com/search?q=Chris%20Carpiniello%20campaign%20finance%20donors%20net%20worth",
             "confidence": null
           }
         },
@@ -488,6 +591,11 @@
             "value": null,
             "rationale": "Local race; no public record reviewed.",
             "confidence": null
+          },
+          "finance": {
+            "summary": null,
+            "searchUrl": "https://www.google.com/search?q=Mark%20Hunter%20Lewis%20campaign%20finance%20donors%20net%20worth",
+            "confidence": null
           }
         },
         {
@@ -507,6 +615,11 @@
             "value": null,
             "rationale": "Local race; no public record reviewed.",
             "confidence": null
+          },
+          "finance": {
+            "summary": null,
+            "searchUrl": "https://www.google.com/search?q=Magali%20Limeta%20campaign%20finance%20donors%20net%20worth",
+            "confidence": null
           }
         },
         {
@@ -525,6 +638,11 @@
           "wokeIndex": {
             "value": null,
             "rationale": "Local race; no public record reviewed.",
+            "confidence": null
+          },
+          "finance": {
+            "summary": null,
+            "searchUrl": "https://www.google.com/search?q=Andy%20Podshadley%20campaign%20finance%20donors%20net%20worth",
             "confidence": null
           }
         }

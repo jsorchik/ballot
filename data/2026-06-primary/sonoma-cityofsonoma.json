@@ -45,7 +45,13 @@
             "rationale": "Marin environmental Dem; reliable progressive votes but not culture-war-forward.",
             "confidence": "medium"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": "Top donors: environmental groups, public-sector unions, Marin Dems",
+            "netWorth": "~$500K–1M",
+            "netWorthSource": "Form 700 estimate",
+            "confidence": "medium"
+          }
         },
         {
           "name": "Aaron Smith",
@@ -65,7 +71,12 @@
             "rationale": "'School Trustee/Dad' designation signals parental-rights branding.",
             "confidence": "low"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": null,
+            "searchUrl": "https://www.google.com/search?q=Aaron%20Smith%20campaign%20finance%20donors%20net%20worth",
+            "confidence": null
+          }
         },
         {
           "name": "Tief Gibbs",
@@ -84,7 +95,12 @@
             "rationale": "R challenger; assumed conservative.",
             "confidence": "low"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": null,
+            "searchUrl": "https://www.google.com/search?q=Tief%20Gibbs%20campaign%20finance%20donors%20net%20worth",
+            "confidence": null
+          }
         }
       ]
     },
@@ -117,7 +133,12 @@
             "rationale": "Long progressive record (anti-spanking bill, gender pay-gap, civil rights).",
             "confidence": "high"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": null,
+            "searchUrl": "https://www.google.com/search?q=Sally%20Lieber%20campaign%20finance%20donors%20net%20worth",
+            "confidence": null
+          }
         }
       ]
     },
@@ -149,7 +170,12 @@
             "rationale": "Judicial role — partisan/cultural index not meaningful and no public political record.",
             "confidence": null
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": null,
+            "searchUrl": "https://www.google.com/search?q=David%20Kim%20campaign%20finance%20donors%20net%20worth",
+            "confidence": null
+          }
         }
       ]
     },
@@ -180,7 +206,12 @@
             "rationale": "Sonoma educator; mainline equity-aware priors typical of county supt role.",
             "confidence": "low"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": "Administrative office; no significant campaign committee",
+            "searchUrl": "https://www.google.com/search?q=Amie%20Carter%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "medium"
+          }
         }
       ]
     },
@@ -211,7 +242,12 @@
             "rationale": "Administrative role — no meaningful cultural-political signal.",
             "confidence": null
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": "Administrative office; no significant campaign committee",
+            "searchUrl": "https://www.google.com/search?q=Deva%20Marie%20Proto%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "medium"
+          }
         }
       ]
     },
@@ -241,7 +277,12 @@
             "rationale": "Administrative role — no meaningful cultural-political signal.",
             "confidence": null
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": "Administrative office; no significant campaign committee",
+            "searchUrl": "https://www.google.com/search?q=Amanda%20Ruch%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "medium"
+          }
         }
       ]
     },
@@ -274,6 +315,13 @@
             "value": 6,
             "rationale": "Centrist 'Blue Dog'-aligned Dem; pro-gun-rights for a Dem; mainline progressive on social issues but not culture-war-forward.",
             "confidence": "medium"
+          },
+          "finance": {
+            "summary": "Top donors: wine industry, healthcare, agribusiness",
+            "summaryUrl": "https://www.opensecrets.org/members-of-congress/mike-thompson/summary?cid=N00006804",
+            "netWorth": "~$1–3M",
+            "netWorthSource": "House financial disclosure",
+            "confidence": "high"
           }
         },
         {
@@ -293,6 +341,11 @@
             "value": null,
             "rationale": "Local race; no public record reviewed.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=John%20Mackenzie%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -312,6 +365,11 @@
             "value": null,
             "rationale": "Local race; no public record reviewed.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Thomas%20M%20Roach%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -331,6 +389,11 @@
             "value": null,
             "rationale": "Local race; no public record reviewed.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Ray%20Riehle%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -350,6 +413,11 @@
             "value": null,
             "rationale": "Local race; no public record reviewed.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Sharon%20Brown%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -369,6 +437,11 @@
             "value": null,
             "rationale": "Local race; no public record reviewed.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Jimih%20Jones%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -388,6 +461,11 @@
             "value": null,
             "rationale": "Local race; no public record reviewed.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Eric%20Jones%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -407,6 +485,11 @@
             "value": null,
             "rationale": "Local race; no public record reviewed.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Mandy%20Ghusar%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -426,6 +509,11 @@
             "value": null,
             "rationale": "Local race; no public record reviewed.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Chuck%20Uribe%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         }
       ]
@@ -457,6 +545,12 @@
           "wokeIndex": {
             "value": 6,
             "rationale": "Rural-Dem moderate; agricultural focus; mainline progressive on social.",
+            "confidence": "medium"
+          },
+          "finance": {
+            "summary": "Top donors: agribusiness, building trades, Central Valley Dems",
+            "netWorth": "~$500K–1M",
+            "netWorthSource": "Form 700 estimate",
             "confidence": "medium"
           }
         }

@@ -46,7 +46,14 @@
             "rationale": "Climate-progressive billionaire; econ-focused, less identity-politics-coded.",
             "confidence": "medium"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": "$132M self-funded; founded Farallon Capital hedge fund",
+            "summaryUrl": "https://www.opensecrets.org/2026-elections/california-governor",
+            "netWorth": "~$1.6B",
+            "netWorthSource": "Forbes (2025)",
+            "confidence": "high"
+          }
         },
         {
           "name": "Xavier Becerra",
@@ -70,7 +77,14 @@
             "rationale": "Latino civil-rights record as CA AG (sanctuary, abortion, Trump lawsuits); HHS expanded gender-affirming care guidance.",
             "confidence": "high"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": "Top donors: trial lawyers, healthcare unions, Latino political networks",
+            "summaryUrl": "https://www.opensecrets.org/people/becerra_xavier/summary?cid=N00006504",
+            "netWorth": "~$1–3M",
+            "netWorthSource": "House/Cabinet disclosure ranges",
+            "confidence": "high"
+          }
         },
         {
           "name": "Steve Hilton",
@@ -93,7 +107,13 @@
             "rationale": "Built brand explicitly on anti-woke commentary; populist-right cultural platform.",
             "confidence": "high"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": "Top donors: conservative media, Silicon Valley GOP, Thiel-aligned networks",
+            "netWorth": "~$2–10M",
+            "netWorthSource": "estimate from media career",
+            "confidence": "medium"
+          }
         },
         {
           "name": "Chad Bianco",
@@ -116,7 +136,13 @@
             "rationale": "Oath Keepers past, refused to enforce COVID rules, ICE cooperator, anti-DEI.",
             "confidence": "high"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": "Top donors: law-enforcement PACs, sheriff associations",
+            "netWorth": "<$1M",
+            "netWorthSource": "Riverside Sheriff salary range",
+            "confidence": "medium"
+          }
         },
         {
           "name": "Katie Porter",
@@ -139,7 +165,14 @@
             "rationale": "Warren-aligned econ progressive; reliable progressive cultural votes but not identity-politics-forward.",
             "confidence": "high"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": "~85% small-dollar (<$200); pledged no corporate PAC money",
+            "summaryUrl": "https://www.opensecrets.org/members-of-congress/katie-porter/summary?cid=N00042581",
+            "netWorth": "~$1–3M",
+            "netWorthSource": "House financial disclosure",
+            "confidence": "high"
+          }
         },
         {
           "name": "Tony Thurmond",
@@ -162,7 +195,13 @@
             "rationale": "DEI/ethnic-studies champion as Superintendent; vocal opponent of parental-notification policies.",
             "confidence": "high"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": "Top donors: California Teachers Association (CTA), labor unions",
+            "netWorth": "~$500K–1M",
+            "netWorthSource": "CDE salary; estimate",
+            "confidence": "medium"
+          }
         },
         {
           "name": "Antonio Villaraigosa",
@@ -185,7 +224,13 @@
             "rationale": "Old-school LA labor Dem; pragmatist on schools and policing; less culturally progressive than the field.",
             "confidence": "medium"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": "Top donors: real estate, charter-school networks, LA lobbying firms",
+            "netWorth": "~$1–3M",
+            "netWorthSource": "estimate from post-mayoral consulting",
+            "confidence": "medium"
+          }
         },
         {
           "name": "Betty Yee",
@@ -209,7 +254,13 @@
             "rationale": "Mainline center-left Dem; fiscal/governance focus, not culture-war-forward.",
             "confidence": "medium"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": "Top donors: public-sector unions, Asian-American Dem networks",
+            "netWorth": "~$500K–1M",
+            "netWorthSource": "Controller salary; estimate",
+            "confidence": "medium"
+          }
         },
         {
           "name": "Matt Mahan",
@@ -232,7 +283,13 @@
             "rationale": "Tech-Dem moderate; tough-on-homelessness/public-safety stance has drawn progressive criticism.",
             "confidence": "medium"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": "Top donors: tech / Silicon Valley civic-tech networks",
+            "netWorth": "~$1–5M",
+            "netWorthSource": "Brigade civic-tech startup co-founder; estimate",
+            "confidence": "medium"
+          }
         },
         {
           "name": "Akinyemi Agbede",
@@ -251,6 +308,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Akinyemi%20Agbede%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -270,6 +332,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Mohammad%20Arif%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -289,6 +356,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Larry%20Azevedo%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -312,6 +384,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Carolina%20Buhler%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -331,6 +408,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Louis%20De%20Barraicua%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -350,6 +432,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Sophia%20Edum-a-Sam%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -373,6 +460,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Derek%20Grasty%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -392,6 +484,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Joel%20Jacob%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -411,6 +508,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Gary%20Howard%20Kidgell%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -430,6 +532,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Matthew%20Levy%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -449,6 +556,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Barack%20Obama%20Shaw%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -472,6 +584,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Thunder%20Parley%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -495,6 +612,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Raji%20Rab%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -514,6 +636,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Satish%20Rao%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -533,6 +660,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Scott%20Shields%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -552,6 +684,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Erin%20Zezulak%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -571,6 +708,12 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "Top donors: trial lawyers, defense industry, labor (when active); withdrew",
+            "netWorth": "~$300K–1M",
+            "netWorthSource": "House financial disclosure",
+            "confidence": "high"
           }
         },
         {
@@ -590,6 +733,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=James%20Athans%20Jr.%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -609,6 +757,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Patricia%20De%20Luca%20Basualdo%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -628,6 +781,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Randeep%20Dhillon%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -647,6 +805,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Rafael%20Hernandez%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -666,6 +829,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Alicia%20Olivia%20Lapp%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -685,6 +853,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Leo%20Naranjo%20IV%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -704,6 +877,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Tim%20Nelson%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -723,6 +901,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Gretha%20Sol%C3%B3rzano%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -746,6 +929,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Leo%20Zacky%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -765,6 +953,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=David%20Zickefoose%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -784,6 +977,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Tom%20Woodard%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -807,6 +1005,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Ramsey%20Robinson%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -826,6 +1029,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Naomi%20Bar-Lev%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -845,6 +1053,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Joseph%20Cabrera%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -868,6 +1081,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Elaine%20Culotti%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -887,6 +1105,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=LivingForGod%20AndCountry%20DeMott%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -906,6 +1129,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Serge%20Fiankan%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -925,6 +1153,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Lukasz%20Adam%20Filinski%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -944,6 +1177,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Max%20Fomin%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -963,6 +1201,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Don%20Grundmann%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -982,6 +1225,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Jon%20Henderson%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -1001,6 +1249,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Lewis%20Herms%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -1020,6 +1273,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Dawit%20Kellel%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -1039,6 +1297,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Anne%20Komarovsk%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -1058,6 +1321,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Duane%20Terrence%20Loynes%20Jr.%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -1077,6 +1345,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Amanda%20Martin%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -1096,6 +1369,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Brent%20Maupin%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -1119,6 +1397,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Daniel%20Mercuri%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -1138,6 +1421,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Mauro%20Alberto%20Orozco%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -1157,6 +1445,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Reza%20Safarnejad%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -1176,6 +1469,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Sam%20Sandak%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -1195,6 +1493,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Christine%20Sarmiento%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -1214,6 +1517,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Frederic%20Schultz%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -1233,6 +1541,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Margaret%20Trowe%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -1252,6 +1565,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Nancy%20Young%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         }
       ]
@@ -1283,6 +1601,12 @@
             "value": 6,
             "rationale": "Long-time Dem statewide official; mainline progressive priors.",
             "confidence": "medium"
+          },
+          "finance": {
+            "summary": "Top donors: real estate, finance, Asian-American Dem networks",
+            "netWorth": "~$1–3M",
+            "netWorthSource": "Form 700 estimate",
+            "confidence": "medium"
           }
         },
         {
@@ -1302,6 +1626,12 @@
             "value": 8,
             "rationale": "Built profile around guaranteed-income pilot and equity policy as Stockton mayor.",
             "confidence": "high"
+          },
+          "finance": {
+            "summary": "Top donors: tech philanthropy network (Omidyar, Hoffman, Zuckerberg-aligned)",
+            "netWorth": "~$500K–1M",
+            "netWorthSource": "estimate from foundation/speaking work",
+            "confidence": "medium"
           }
         },
         {
@@ -1321,6 +1651,12 @@
             "value": 7,
             "rationale": "Newsom administration service-program lead; mainline progressive.",
             "confidence": "medium"
+          },
+          "finance": {
+            "summary": "Top donors: Newsom administration network, North Bay Dems",
+            "netWorth": "~$500K–1M",
+            "netWorthSource": "estimate",
+            "confidence": "low"
           }
         },
         {
@@ -1340,6 +1676,11 @@
             "value": 6,
             "rationale": "Coastal-Marin Dem; environmental focus.",
             "confidence": "medium"
+          },
+          "finance": {
+            "summary": "Top donors: environmental/coastal advocacy, North Bay Dems",
+            "netWorth": "unknown",
+            "confidence": "low"
           }
         },
         {
@@ -1358,6 +1699,11 @@
           "wokeIndex": {
             "value": 3,
             "rationale": "Switched parties; cultural-conservative pivot on schools.",
+            "confidence": "medium"
+          },
+          "finance": {
+            "summary": "Top donors: charter-school advocates (post-2024 party switch)",
+            "netWorth": "unknown",
             "confidence": "medium"
           }
         },
@@ -1378,6 +1724,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Jeyson%20Lopez%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -1397,6 +1748,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Oliver%20Ma%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -1416,6 +1772,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Tim%20Myers%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -1435,6 +1796,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Abdul%20Sikder%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -1454,6 +1820,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=David%20Collenberg%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -1473,6 +1844,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=David%20Fennell%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -1492,6 +1868,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Ebie%20Lynch%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -1511,6 +1892,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Skip%20Shelton%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -1530,6 +1916,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Rakesh%20Christian%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -1549,6 +1940,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Sean%20Collinson%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -1568,6 +1964,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Alice%20Stek%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         }
       ]
@@ -1600,7 +2001,13 @@
             "rationale": "Authored the reparations task-force law; long civil-rights and voting-rights record.",
             "confidence": "high"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": "Top donors: civil-rights groups, Black-caucus networks, public-sector unions",
+            "netWorth": "~$500K–1M",
+            "netWorthSource": "estimate from academic career",
+            "confidence": "medium"
+          }
         },
         {
           "name": "Don Wagner",
@@ -1618,6 +2025,12 @@
           "wokeIndex": {
             "value": 2,
             "rationale": "OC R supervisor; conservative on culture-war issues.",
+            "confidence": "medium"
+          },
+          "finance": {
+            "summary": "Top donors: Orange County homebuilders, business interests",
+            "netWorth": "~$1–3M",
+            "netWorthSource": "estimate",
             "confidence": "medium"
           }
         },
@@ -1638,6 +2051,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Gary%20Blenner%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -1657,6 +2075,11 @@
             "value": 8,
             "rationale": "Long Green Party record; left on cultural issues.",
             "confidence": "medium"
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Michael%20Feinstein%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         }
       ]
@@ -1688,7 +2111,13 @@
             "rationale": "Former SF supervisor with progressive social record; less culture-war-forward in current role.",
             "confidence": "medium"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": "Top donors: SF political network, public-sector unions",
+            "netWorth": "~$500K–1M",
+            "netWorthSource": "Form 700 estimate",
+            "confidence": "medium"
+          }
         },
         {
           "name": "Herb Morgan",
@@ -1707,6 +2136,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Herb%20Morgan%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -1726,6 +2160,11 @@
             "value": 9,
             "rationale": "PF Party; far-left labor candidate.",
             "confidence": "medium"
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Meghann%20Adams%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         }
       ]
@@ -1756,6 +2195,12 @@
             "value": 7,
             "rationale": "Sitting Lt Gov; Newsom-aligned progressive.",
             "confidence": "medium"
+          },
+          "finance": {
+            "summary": "Top donors: real estate (Tsakopoulos family network), Greek-American Dems",
+            "netWorth": "~$10M+",
+            "netWorthSource": "family wealth from AKT Development; Form 700 ranges",
+            "confidence": "high"
           }
         },
         {
@@ -1774,6 +2219,12 @@
           "wokeIndex": {
             "value": 6,
             "rationale": "Central Valley moderate Dem; pragmatist.",
+            "confidence": "medium"
+          },
+          "finance": {
+            "summary": "Top donors: agribusiness, Central Valley Dems",
+            "netWorth": "~$500K–1M",
+            "netWorthSource": "estimate",
             "confidence": "medium"
           }
         },
@@ -1794,6 +2245,12 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "Top donors: labor unions, Latino political networks",
+            "netWorth": "~$500K–1M",
+            "netWorthSource": "estimate",
+            "confidence": "low"
           }
         },
         {
@@ -1813,6 +2270,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Jennifer%20Hawks%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -1832,6 +2294,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=David%20Serpa%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -1851,6 +2318,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Glenn%20Turner%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         }
       ],
@@ -1884,7 +2356,13 @@
             "rationale": "Sued anti-LGBT districts over parental-notification, expanded hate-crime/civil-rights enforcement, Trump lawsuit leader.",
             "confidence": "high"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": "Top donors: trial lawyers, labor unions, tribal gaming",
+            "netWorth": "~$1–3M",
+            "netWorthSource": "Form 700 estimate",
+            "confidence": "high"
+          }
         },
         {
           "name": "Michael Gates",
@@ -1904,7 +2382,13 @@
             "rationale": "Architect of HB voter-ID and anti-sanctuary suits; explicit anti-woke posture.",
             "confidence": "high"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": "Top donors: Huntington Beach business, Orange County GOP",
+            "netWorth": "~$1–3M",
+            "netWorthSource": "estimate",
+            "confidence": "medium"
+          }
         },
         {
           "name": "Marjorie Mikels",
@@ -1923,7 +2407,12 @@
             "rationale": "Green Party; progressive priors.",
             "confidence": "low"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": null,
+            "searchUrl": "https://www.google.com/search?q=Marjorie%20Mikels%20campaign%20finance%20donors%20net%20worth",
+            "confidence": null
+          }
         }
       ]
     },
@@ -1953,6 +2442,12 @@
             "value": 8,
             "rationale": "Westside LA progressive Dem; environmental and education focus.",
             "confidence": "high"
+          },
+          "finance": {
+            "summary": "Top donors: environmental groups, public-sector unions, Westside LA Dems",
+            "netWorth": "~$1–3M",
+            "netWorthSource": "Form 700 estimate",
+            "confidence": "medium"
           }
         },
         {
@@ -1972,6 +2467,12 @@
             "value": 8,
             "rationale": "Reparations task force member; veteran Black-caucus legislator.",
             "confidence": "high"
+          },
+          "finance": {
+            "summary": "Top donors: utilities, energy industry, labor unions",
+            "netWorth": "~$500K–1M",
+            "netWorthSource": "estimate",
+            "confidence": "medium"
           }
         },
         {
@@ -1991,6 +2492,12 @@
             "value": 9,
             "rationale": "Working Families Party leader; SF progressive on housing/labor/identity.",
             "confidence": "high"
+          },
+          "finance": {
+            "summary": "Top donors: progressive labor, Working Families Party network",
+            "netWorth": "<$500K",
+            "netWorthSource": "estimate from non-profit career",
+            "confidence": "medium"
           }
         },
         {
@@ -2010,6 +2517,12 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "Top donors: chess/financial-analyst networks (small field)",
+            "netWorth": "~$1–5M",
+            "netWorthSource": "estimate from finance career",
+            "confidence": "low"
           }
         },
         {
@@ -2029,6 +2542,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Eric%20Thor%20Aarnio%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -2048,6 +2566,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Merritt%20Farren%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -2067,6 +2590,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Robert%20Howell%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -2086,6 +2614,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Stacy%20Korsgaden%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -2105,6 +2638,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Sean%20Lee%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -2124,6 +2662,11 @@
             "value": 1,
             "rationale": "AIP candidate; conservative cultural priors.",
             "confidence": "medium"
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Keith%20Davis%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -2143,6 +2686,11 @@
             "value": 9,
             "rationale": "PF Party; far-left priors.",
             "confidence": "medium"
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Eduardo%20%22Lalo%22%20Vargas%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         }
       ]
@@ -2175,7 +2723,13 @@
             "rationale": "Reliable progressive Speaker on social issues; cooler on left litmus tests (single payer).",
             "confidence": "medium"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": "Top donors: pharmaceutical, health insurers, building trades",
+            "netWorth": "~$500K–1M",
+            "netWorthSource": "Form 700 estimate",
+            "confidence": "medium"
+          }
         },
         {
           "name": "Al Muratsuchi",
@@ -2194,7 +2748,13 @@
             "rationale": "Dem AM, education chair, AAPI advocate; mainline progressive votes.",
             "confidence": "medium"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": "Top donors: California Teachers Association (CTA), education unions",
+            "netWorth": "~$500K–1M",
+            "netWorthSource": "Form 700 estimate",
+            "confidence": "medium"
+          }
         },
         {
           "name": "Josh Newman",
@@ -2213,7 +2773,13 @@
             "rationale": "Center-left Dem in a swing district; pragmatist priors.",
             "confidence": "medium"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": "Top donors: trial lawyers, labor unions",
+            "netWorth": "~$500K–1M",
+            "netWorthSource": "Form 700 estimate",
+            "confidence": "medium"
+          }
         },
         {
           "name": "Sonja Shaw",
@@ -2233,7 +2799,12 @@
             "rationale": "Built profile explicitly leading anti-trans-policy and anti-DEI fights as a school board president.",
             "confidence": "high"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": "Top donors: parental-rights groups, Inland Empire conservative networks",
+            "netWorth": "unknown",
+            "confidence": "low"
+          }
         },
         {
           "name": "Nichelle Henderson",
@@ -2252,7 +2823,12 @@
             "rationale": "Educator-of-color background in teacher prep; equity-coded priors.",
             "confidence": "low"
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": null,
+            "searchUrl": "https://www.google.com/search?q=Nichelle%20Henderson%20campaign%20finance%20donors%20net%20worth",
+            "confidence": null
+          }
         },
         {
           "name": "Frank Lara",
@@ -2271,7 +2847,12 @@
             "rationale": "Not enough public record to assess.",
             "confidence": null
           },
-          "tier": "major"
+          "tier": "major",
+          "finance": {
+            "summary": null,
+            "searchUrl": "https://www.google.com/search?q=Frank%20Lara%20campaign%20finance%20donors%20net%20worth",
+            "confidence": null
+          }
         },
         {
           "name": "Richard Barrera",
@@ -2290,6 +2871,11 @@
             "value": 7,
             "rationale": "Veteran SD school-board Dem; equity-focused.",
             "confidence": "medium"
+          },
+          "finance": {
+            "summary": "Top donors: education unions, San Diego Dems",
+            "netWorth": "unknown",
+            "confidence": "low"
           }
         },
         {
@@ -2309,6 +2895,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Wendy%20Castaneda%20Leal%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -2328,6 +2919,11 @@
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Ainye%20Long%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
           }
         },
         {
@@ -2346,6 +2942,11 @@
           "wokeIndex": {
             "value": 2,
             "rationale": "Past R Congressional candidate; conservative priors.",
+            "confidence": "low"
+          },
+          "finance": {
+            "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
+            "searchUrl": "https://www.google.com/search?q=Gus%20Mattammal%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
           }
         }
