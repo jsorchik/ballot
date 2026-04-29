@@ -28,28 +28,25 @@
 
   <div class="layout">
     <main class="races-pane">
-      <section class="filters" aria-label="Filters">
-        <input id="search" type="search" placeholder="Search office, candidate, party…" autocomplete="off" />
+      <section class="filters" aria-label="View options">
+        <input id="search" type="search" placeholder="Search office or candidate name…" autocomplete="off" />
         <div class="filter-row">
           <div class="chips" id="level-chips" role="group" aria-label="Filter by level"></div>
-          <div class="chips" id="party-chips" role="group" aria-label="Filter by party"></div>
         </div>
         <div class="filter-row">
-          <label class="toggle"><input type="checkbox" id="contested-only" /> Contested only</label>
-          <label class="toggle"><input type="checkbox" id="undecided-only" /> Undecided only</label>
           <label class="toggle"><input type="checkbox" id="show-minor" /> Show minor candidates</label>
           <label class="sort">
-            Sort
+            Races
             <select id="sort-select">
               <option value="ballot">Ballot order</option>
               <option value="level">By level</option>
-              <option value="contested">Most contested first</option>
+              <option value="contested">Most candidates first</option>
             </select>
           </label>
           <label class="sort">
             Candidates
             <select id="candidate-sort">
-              <option value="default">Default</option>
+              <option value="default">Ballot order</option>
               <option value="chance">By win chance ↓</option>
               <option value="woke-desc">Most woke first</option>
               <option value="woke-asc">Least woke first</option>
@@ -111,6 +108,6 @@
     </li>
   </template>
 
-  <script src="app.js?v=11"></script>
+  <script src="app.js?v=15"></script>
 </body>
 </html>

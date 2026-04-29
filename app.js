@@ -10,9 +10,6 @@ const STATE = {
   filters: {
     search: '',
     levels: new Set(),
-    parties: new Set(),
-    contestedOnly: false,
-    undecidedOnly: false,
     showMinor: false,
     sort: 'ballot',
     candidateSort: 'default',
@@ -126,8 +123,27 @@ async function loadJurisdiction(electionId, jurisdictionId) {
 
   renderHeader();
   buildLevelChips();
-  buildPartyChips();
   render();
+}
+
+function buildLevelChips() {
+  const present = new Set(STATE.election.races.map((r) => r.level));
+  const container = document.getElementById('level-chips');
+  container.innerHTML = '';
+  LEVEL_ORDER.filter((l) => present.has(l)).forEach((level) => {
+    const chip = document.createElement('button');
+    chip.className = 'chip';
+    chip.type = 'button';
+    chip.textContent = LEVEL_LABELS[level] || level;
+    chip.dataset.level = level;
+    chip.addEventListener('click', () => {
+      if (STATE.filters.levels.has(level)) STATE.filters.levels.delete(level);
+      else STATE.filters.levels.add(level);
+      chip.classList.toggle('active');
+      render();
+    });
+    container.appendChild(chip);
+  });
 }
 
 function renderHeader() {
@@ -162,64 +178,9 @@ function renderHeader() {
     : '';
 }
 
-function buildLevelChips() {
-  const present = new Set(STATE.election.races.map((r) => r.level));
-  const container = document.getElementById('level-chips');
-  container.innerHTML = '';
-  LEVEL_ORDER.filter((l) => present.has(l)).forEach((level) => {
-    const chip = document.createElement('button');
-    chip.className = 'chip';
-    chip.type = 'button';
-    chip.textContent = LEVEL_LABELS[level] || level;
-    chip.dataset.level = level;
-    chip.addEventListener('click', () => {
-      if (STATE.filters.levels.has(level)) STATE.filters.levels.delete(level);
-      else STATE.filters.levels.add(level);
-      chip.classList.toggle('active');
-      render();
-    });
-    container.appendChild(chip);
-  });
-}
-
-function buildPartyChips() {
-  const partyCounts = new Map();
-  STATE.election.races.forEach((r) =>
-    r.candidates.forEach((c) => {
-      partyCounts.set(c.party, (partyCounts.get(c.party) || 0) + 1);
-    })
-  );
-  const container = document.getElementById('party-chips');
-  container.innerHTML = '';
-  Array.from(partyCounts.keys())
-    .sort()
-    .forEach((party) => {
-      const chip = document.createElement('button');
-      chip.className = 'chip';
-      chip.type = 'button';
-      chip.textContent = party;
-      chip.dataset.party = party;
-      chip.addEventListener('click', () => {
-        if (STATE.filters.parties.has(party)) STATE.filters.parties.delete(party);
-        else STATE.filters.parties.add(party);
-        chip.classList.toggle('active');
-        render();
-      });
-      container.appendChild(chip);
-    });
-}
-
 function bindFilters() {
   document.getElementById('search').addEventListener('input', (e) => {
     STATE.filters.search = e.target.value.toLowerCase().trim();
-    render();
-  });
-  document.getElementById('contested-only').addEventListener('change', (e) => {
-    STATE.filters.contestedOnly = e.target.checked;
-    render();
-  });
-  document.getElementById('undecided-only').addEventListener('change', (e) => {
-    STATE.filters.undecidedOnly = e.target.checked;
     render();
   });
   document.getElementById('show-minor').addEventListener('change', (e) => {
@@ -262,20 +223,20 @@ function bindBallotActions() {
 }
 
 function visibleCandidates(race) {
-  if (STATE.filters.showMinor) return race.candidates;
-  const selected = STATE.selections[race.id];
+  const showMinor = STATE.filters.showMinor;
   const search = STATE.filters.search;
+  const selected = STATE.selections[race.id];
+
   return race.candidates.filter((c) => {
-    if (c.tier !== 'minor') return true;
-    // Always show selected candidate (even if minor) — otherwise the race card
-    // looks empty while the ballot panel still has a pick for it.
+    // Always keep the user's selected candidate visible.
     if (c.name === selected) return true;
-    // If there's an active search and this minor matches, reveal it.
-    if (search) {
+    // Hide minors unless the toggle is on or search reveals them.
+    if (!showMinor && c.tier === 'minor') {
+      if (!search) return false;
       const hay = `${c.name} ${c.party} ${c.occupation || ''}`.toLowerCase();
-      if (hay.includes(search)) return true;
+      if (!hay.includes(search)) return false;
     }
-    return false;
+    return true;
   });
 }
 
@@ -283,15 +244,7 @@ function applyFilters(races) {
   const f = STATE.filters;
   return races.filter((race) => {
     if (f.levels.size && !f.levels.has(race.level)) return false;
-    // Contested status uses the total filed count, not the tier-filtered count.
-    if (f.contestedOnly && race.candidates.length < 2) return false;
-    if (f.undecidedOnly && STATE.selections[race.id]) return false;
-    if (f.parties.size) {
-      const has = race.candidates.some((c) => f.parties.has(c.party));
-      if (!has) return false;
-    }
     if (f.search) {
-      // Search across ALL candidates so a minor name still surfaces its race.
       const haystack = (
         race.office +
         ' ' +
