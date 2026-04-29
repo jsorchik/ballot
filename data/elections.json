@@ -4,7 +4,14 @@
       "id": "2026-06-primary",
       "name": "California Primary — June 2, 2026",
       "date": "2026-06-02",
-      "file": "data/2026-06-primary.json"
+      "statewide": "data/2026-06-primary/statewide.json",
+      "jurisdictions": [
+        {
+          "id": "sonoma-petaluma",
+          "name": "Sonoma County — Petaluma area (unincorporated)",
+          "file": "data/2026-06-primary/sonoma-petaluma.json"
+        }
+      ]
     }
   ]
 }

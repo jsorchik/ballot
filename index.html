@@ -10,11 +10,18 @@
   <header class="topbar">
     <div class="brand">
       <h1>Ballot Builder</h1>
-      <p class="tagline" id="jurisdiction">—</p>
+      <p class="breadcrumb" id="jurisdiction">—</p>
+      <p class="districts-line" id="districts-line"></p>
     </div>
-    <div class="election-picker">
-      <label for="election-select">Election</label>
-      <select id="election-select"></select>
+    <div class="pickers">
+      <label class="picker">
+        Jurisdiction
+        <select id="jurisdiction-select"></select>
+      </label>
+      <label class="picker">
+        Election
+        <select id="election-select"></select>
+      </label>
       <span class="last-updated" id="last-updated"></span>
     </div>
   </header>
@@ -103,6 +110,6 @@
     </li>
   </template>
 
-  <script src="app.js?v=9"></script>
+  <script src="app.js?v=10"></script>
 </body>
 </html>

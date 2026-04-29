@@ -1,0 +1,642 @@
+{
+  "id": "sonoma-petaluma",
+  "name": "Petaluma area (unincorporated)",
+  "path": [
+    "California",
+    "Sonoma County",
+    "Petaluma area (unincorporated)"
+  ],
+  "districts": {
+    "Congress": "CA-02",
+    "State Senate": "SD-02",
+    "State Assembly": "AD-12",
+    "Supervisor": "BOS District 2",
+    "Board of Equalization": "BOE District 2"
+  },
+  "lastUpdated": "2026-04-28",
+  "notes": "No statewide ballot measures on the June primary; the qualified statewide measures are on the Nov general.",
+  "races": [
+    {
+      "id": "us-house-ca-02",
+      "office": "U.S. Representative",
+      "district": "CA-02",
+      "level": "federal",
+      "termYears": 2,
+      "incumbent": "Jared Huffman",
+      "seat": "incumbent running",
+      "ballotOrder": 1,
+      "candidates": [
+        {
+          "name": "Jared Huffman",
+          "party": "Democratic",
+          "occupation": "U.S. Representative",
+          "incumbent": true,
+          "scandal": {
+            "summary": "Founded the Congressional Freethought Caucus; outspoken atheism has drawn pushback from religious groups but no ethics scandal of note.",
+            "searchQuery": "Jared Huffman controversy"
+          },
+          "winChance": {
+            "value": 0.92,
+            "source": "estimate (incumbency + D+24 PVI)",
+            "asOf": "2026-04-28",
+            "note": "No prediction market for this race; safe-Democratic district, well-known incumbent."
+          },
+          "wokeIndex": {
+            "value": 8,
+            "rationale": "Freethought Caucus founder, consistent progressive votes on LGBTQ+/climate/social issues.",
+            "confidence": "high"
+          },
+          "tier": "major"
+        },
+        {
+          "name": "Rose Penelope Yee",
+          "party": "Democratic",
+          "occupation": "Finance Businesswoman",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Rose Penelope Yee Congress controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "estimate",
+            "note": "Long-shot challenger from incumbent's own party."
+          },
+          "wokeIndex": {
+            "value": 6,
+            "rationale": "Generic Bay Area Dem priors; little public record.",
+            "confidence": "low"
+          },
+          "tier": "major"
+        },
+        {
+          "name": "Nicolette Hahn Niman",
+          "party": "No Party Preference",
+          "occupation": "Author/Rancher/Mother",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Nicolette Hahn Niman controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "estimate",
+            "note": "Known author/activist; NPP candidate in heavy-D district."
+          },
+          "wokeIndex": {
+            "value": 5,
+            "rationale": "Environmental author/rancher; left on climate but cross-coded; NPP signaling.",
+            "confidence": "low"
+          },
+          "tier": "major"
+        },
+        {
+          "name": "Gregory Burgess",
+          "party": "No Party Preference",
+          "occupation": "Elder Caregiver",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Gregory Burgess Congress California"
+          },
+          "winChance": {
+            "value": null,
+            "source": "estimate"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Not enough public record to assess.",
+            "confidence": null
+          },
+          "tier": "major"
+        },
+        {
+          "name": "Robin Littau",
+          "party": "Republican",
+          "occupation": "Enterprise Elementary School Board Member",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Robin Littau Enterprise school board"
+          },
+          "winChance": {
+            "value": null,
+            "source": "estimate",
+            "note": "R candidate — top-two means ~1 R likely advances to Nov from a crowded R field."
+          },
+          "wokeIndex": {
+            "value": 2,
+            "rationale": "Far-north CA R school board member; conservative priors.",
+            "confidence": "low"
+          },
+          "tier": "major"
+        },
+        {
+          "name": "Paul Saulsbury",
+          "party": "Republican",
+          "occupation": "Mobile Crisis Clinician",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Paul Saulsbury California Republican"
+          },
+          "winChance": {
+            "value": null,
+            "source": "estimate"
+          },
+          "wokeIndex": {
+            "value": 2,
+            "rationale": "R challenger; assumed conservative on cultural issues.",
+            "confidence": "low"
+          },
+          "tier": "major"
+        },
+        {
+          "name": "Tim Geist",
+          "party": "Republican",
+          "occupation": "Retired Researcher",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Tim Geist California Republican Congress"
+          },
+          "winChance": {
+            "value": null,
+            "source": "estimate"
+          },
+          "wokeIndex": {
+            "value": 2,
+            "rationale": "R challenger; assumed conservative.",
+            "confidence": "low"
+          },
+          "tier": "major"
+        },
+        {
+          "name": "Angelita Valles",
+          "party": "Republican",
+          "occupation": "Business Owner",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Angelita Valles California Republican Congress"
+          },
+          "winChance": {
+            "value": null,
+            "source": "estimate"
+          },
+          "wokeIndex": {
+            "value": 2,
+            "rationale": "R challenger; assumed conservative.",
+            "confidence": "low"
+          },
+          "tier": "major"
+        }
+      ]
+    },
+    {
+      "id": "state-senate-sd-02",
+      "office": "State Senator",
+      "district": "SD-02",
+      "level": "state-leg",
+      "termYears": 4,
+      "incumbent": "Mike McGuire (term-limited)",
+      "seat": "open",
+      "ballotOrder": 9,
+      "candidates": [
+        {
+          "name": "Damon Connolly",
+          "party": "Democratic",
+          "occupation": "California State Assemblymember",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Damon Connolly Marin Assembly controversy"
+          },
+          "winChance": {
+            "value": 0.8,
+            "source": "estimate (sitting AM, deeply Dem district)",
+            "asOf": "2026-04-28",
+            "note": "Heavy favorite in safe-D district."
+          },
+          "wokeIndex": {
+            "value": 6,
+            "rationale": "Marin environmental Dem; reliable progressive votes but not culture-war-forward.",
+            "confidence": "medium"
+          },
+          "tier": "major"
+        },
+        {
+          "name": "Aaron Smith",
+          "party": "Republican",
+          "occupation": "School Trustee/Dad",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Aaron Smith California Republican State Senate"
+          },
+          "winChance": {
+            "value": null,
+            "source": "estimate",
+            "note": "One of two R candidates — likely advances to Nov as #2."
+          },
+          "wokeIndex": {
+            "value": 2,
+            "rationale": "'School Trustee/Dad' designation signals parental-rights branding.",
+            "confidence": "low"
+          },
+          "tier": "major"
+        },
+        {
+          "name": "Tief Gibbs",
+          "party": "Republican",
+          "occupation": "Small Businesswoman",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Tief Gibbs California Republican"
+          },
+          "winChance": {
+            "value": null,
+            "source": "estimate"
+          },
+          "wokeIndex": {
+            "value": 2,
+            "rationale": "R challenger; assumed conservative.",
+            "confidence": "low"
+          },
+          "tier": "major"
+        }
+      ]
+    },
+    {
+      "id": "state-assembly-ad-12",
+      "office": "State Assembly",
+      "district": "AD-12",
+      "level": "state-leg",
+      "termYears": 2,
+      "incumbent": "Damon Connolly (running for SD-02)",
+      "seat": "open",
+      "ballotOrder": 10,
+      "notes": "Five Democrats and one Republican — top-two primary; in this D-leaning district two Dems likely advance.",
+      "candidates": [
+        {
+          "name": "Steve Schwartz",
+          "party": "Democratic",
+          "occupation": "Non-profit Executive/Farmer",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Steve Schwartz California Assembly District 12"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market",
+            "note": "Crowded 5-way Dem field."
+          },
+          "wokeIndex": {
+            "value": 6,
+            "rationale": "Mainline Dem priors; little public record.",
+            "confidence": "low"
+          },
+          "tier": "major"
+        },
+        {
+          "name": "Eric Lucan",
+          "party": "Democratic",
+          "occupation": "County Supervisor/Father",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Eric Lucan Marin Supervisor controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market",
+            "note": "Sitting Marin supervisor — name recognition advantage."
+          },
+          "wokeIndex": {
+            "value": 6,
+            "rationale": "Marin supervisor; mainline Dem priors.",
+            "confidence": "low"
+          },
+          "tier": "major"
+        },
+        {
+          "name": "Eli Beckman",
+          "party": "Democratic",
+          "occupation": "Councilmember/Business Owner",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Eli Beckman Corte Madera council"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": 6,
+            "rationale": "Bay Area Dem councilmember priors.",
+            "confidence": "low"
+          },
+          "tier": "major"
+        },
+        {
+          "name": "Jackie Elward",
+          "party": "Democratic",
+          "occupation": "Councilwoman/Educator",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Jackie Elward Rohnert Park controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market",
+            "note": "Rohnert Park mayor; only Sonoma-side Dem in the field."
+          },
+          "wokeIndex": {
+            "value": 7,
+            "rationale": "Cameroonian-American immigrant; progressive Rohnert Park record on housing/equity.",
+            "confidence": "medium"
+          },
+          "tier": "major"
+        },
+        {
+          "name": "Holli Thier",
+          "party": "Democratic",
+          "occupation": "Councilmember/Environmental Attorney",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Holli Thier Tiburon council"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": 7,
+            "rationale": "Environmental attorney; Bay-Area progressive priors.",
+            "confidence": "low"
+          },
+          "tier": "major"
+        },
+        {
+          "name": "Eryn Cervantes",
+          "party": "Republican",
+          "occupation": "Correctional Counselor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Eryn Cervantes California Republican Assembly"
+          },
+          "winChance": {
+            "value": null,
+            "source": "estimate",
+            "note": "Only R — almost certainly advances to Nov as #2."
+          },
+          "wokeIndex": {
+            "value": 2,
+            "rationale": "Corrections background + R; conservative cultural priors.",
+            "confidence": "low"
+          },
+          "tier": "major"
+        }
+      ]
+    },
+    {
+      "id": "boe-district-2",
+      "office": "Board of Equalization",
+      "district": "BOE-02",
+      "level": "state-board",
+      "termYears": 4,
+      "incumbent": "Sally Lieber",
+      "seat": "incumbent running",
+      "ballotOrder": 11,
+      "notes": "Candidate list incomplete — verify against your sample ballot when received.",
+      "candidates": [
+        {
+          "name": "Sally Lieber",
+          "party": "Democratic",
+          "occupation": "State Board of Equalization Member",
+          "incumbent": true,
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Sally Lieber BOE controversy"
+          },
+          "winChance": {
+            "value": 0.7,
+            "source": "estimate (incumbency)"
+          },
+          "wokeIndex": {
+            "value": 8,
+            "rationale": "Long progressive record (anti-spanking bill, gender pay-gap, civil rights).",
+            "confidence": "high"
+          },
+          "tier": "major"
+        }
+      ]
+    },
+    {
+      "id": "superior-court-10",
+      "office": "Superior Court Judge",
+      "district": "Office #10",
+      "level": "judicial",
+      "termYears": 6,
+      "incumbent": "Kenneth Gnoss",
+      "seat": "see notes",
+      "ballotOrder": 13,
+      "notes": "Only David Kim filed for this seat per the registrar — verify whether the incumbent is on the ballot.",
+      "candidates": [
+        {
+          "name": "David Kim",
+          "party": "Nonpartisan",
+          "occupation": "Superior Court Commissioner",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "David Kim Sonoma Court Commissioner"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Judicial role — partisan/cultural index not meaningful and no public political record.",
+            "confidence": null
+          },
+          "tier": "major"
+        }
+      ]
+    },
+    {
+      "id": "county-superintendent-schools",
+      "office": "County Superintendent of Schools",
+      "level": "county",
+      "termYears": 4,
+      "incumbent": "Amie Carter",
+      "seat": "incumbent running",
+      "ballotOrder": 14,
+      "candidates": [
+        {
+          "name": "Amie Carter",
+          "party": "Nonpartisan",
+          "occupation": "County Superintendent of Schools",
+          "incumbent": true,
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Amie Carter Sonoma County Superintendent"
+          },
+          "winChance": {
+            "value": 1,
+            "source": "uncontested"
+          },
+          "wokeIndex": {
+            "value": 6,
+            "rationale": "Sonoma educator; mainline equity-aware priors typical of county supt role.",
+            "confidence": "low"
+          },
+          "tier": "major"
+        }
+      ]
+    },
+    {
+      "id": "county-clerk-recorder-assessor",
+      "office": "County Clerk-Recorder-Assessor",
+      "level": "county",
+      "termYears": 4,
+      "incumbent": "Deva Marie Proto",
+      "seat": "incumbent running",
+      "ballotOrder": 15,
+      "candidates": [
+        {
+          "name": "Deva Marie Proto",
+          "party": "Nonpartisan",
+          "occupation": "County Clerk-Recorder-Assessor",
+          "incumbent": true,
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Deva Marie Proto Sonoma Clerk Recorder"
+          },
+          "winChance": {
+            "value": 1,
+            "source": "uncontested"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Administrative role — no meaningful cultural-political signal.",
+            "confidence": null
+          },
+          "tier": "major"
+        }
+      ]
+    },
+    {
+      "id": "county-actc",
+      "office": "Auditor-Controller-Treasurer-Tax Collector",
+      "level": "county",
+      "termYears": 4,
+      "incumbent": "Erick Roeser (not running)",
+      "seat": "open",
+      "ballotOrder": 16,
+      "candidates": [
+        {
+          "name": "Amanda Ruch",
+          "party": "Nonpartisan",
+          "occupation": "Assistant Auditor-Controller",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Amanda Ruch Sonoma Auditor Controller"
+          },
+          "winChance": {
+            "value": 1,
+            "source": "uncontested"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Administrative role — no meaningful cultural-political signal.",
+            "confidence": null
+          },
+          "tier": "major"
+        }
+      ]
+    },
+    {
+      "id": "supervisor-d2",
+      "office": "County Supervisor",
+      "district": "District 2",
+      "level": "county",
+      "termYears": 4,
+      "incumbent": "David Rabbitt (not running)",
+      "seat": "open",
+      "ballotOrder": 17,
+      "notes": "Open seat — most competitive D2 race in 16 years. Top vote-getter wins outright if >50%; otherwise top two go to Nov runoff.",
+      "candidates": [
+        {
+          "name": "Joanna Paun",
+          "party": "Nonpartisan",
+          "occupation": "Trustee, Petaluma Jt. Union High School District",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Joanna Paun Petaluma school board controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market",
+            "note": "Petaluma school board incumbent; covered by Press Democrat."
+          },
+          "wokeIndex": {
+            "value": 6,
+            "rationale": "Petaluma school board; mainline Dem-leaning priors.",
+            "confidence": "low"
+          },
+          "tier": "major"
+        },
+        {
+          "name": "Shelina Moreda",
+          "party": "Nonpartisan",
+          "occupation": "Professional Athlete/Farmer",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Shelina Moreda Sonoma supervisor controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market",
+            "note": "Pro motorcycle racer; agricultural background."
+          },
+          "wokeIndex": {
+            "value": 4,
+            "rationale": "Ag/motorsports profile cross-codes against typical Sonoma-Dem priors.",
+            "confidence": "low"
+          },
+          "tier": "major"
+        },
+        {
+          "name": "Sylvia Lemus",
+          "party": "Nonpartisan",
+          "occupation": "Councilmember/Businesswoman/Mom",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Sylvia Lemus Cotati council controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": 6,
+            "rationale": "Cotati councilmember; small-city Dem priors.",
+            "confidence": "low"
+          },
+          "tier": "major"
+        },
+        {
+          "name": "John E. King",
+          "party": "Nonpartisan",
+          "occupation": "Operating Engineer/Farmer",
+          "scandal": {
+            "summary": "Has run twice before for this seat without success (2018, 2022).",
+            "searchQuery": "John King Sonoma supervisor Penngrove rancher"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market",
+            "note": "Penngrove rancher, third run."
+          },
+          "wokeIndex": {
+            "value": 3,
+            "rationale": "Rural rancher/operating engineer profile; conservative-coded historically.",
+            "confidence": "low"
+          },
+          "tier": "major"
+        }
+      ]
+    }
+  ]
+}

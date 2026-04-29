@@ -2,7 +2,11 @@
 
 const STATE = {
   electionsIndex: null,
-  election: null,
+  electionMeta: null,           // entry from elections.json
+  jurisdictionMeta: null,       // entry from elections.json's jurisdictions[]
+  statewide: null,              // loaded statewide data (or null if election has none)
+  jurisdiction: null,           // loaded jurisdiction data
+  election: null,               // merged view: { id, name, date, lastUpdated, races, ... }
   filters: {
     search: '',
     levels: new Set(),
@@ -15,6 +19,8 @@ const STATE = {
   },
   selections: {},
 };
+
+const JURISDICTION_PREF_KEY = 'lastJurisdiction';
 
 const LEVEL_LABELS = {
   federal: 'Federal',
@@ -39,14 +45,19 @@ async function init() {
     return;
   }
 
-  const select = document.getElementById('election-select');
+  const electionSelect = document.getElementById('election-select');
   STATE.electionsIndex.elections.forEach((e) => {
     const opt = document.createElement('option');
     opt.value = e.id;
     opt.textContent = e.name;
-    select.appendChild(opt);
+    electionSelect.appendChild(opt);
   });
-  select.addEventListener('change', () => loadElection(select.value));
+  electionSelect.addEventListener('change', () => loadElection(electionSelect.value));
+
+  const jurisdictionSelect = document.getElementById('jurisdiction-select');
+  jurisdictionSelect.addEventListener('change', () =>
+    loadJurisdiction(STATE.electionMeta.id, jurisdictionSelect.value)
+  );
 
   await loadElection(STATE.electionsIndex.elections[0].id);
 
@@ -54,19 +65,101 @@ async function init() {
   bindBallotActions();
 }
 
-async function loadElection(id) {
-  const meta = STATE.electionsIndex.elections.find((e) => e.id === id);
+async function loadElection(electionId) {
+  const meta = STATE.electionsIndex.elections.find((e) => e.id === electionId);
   if (!meta) return;
-  const res = await fetch(meta.file);
-  STATE.election = await res.json();
-  STATE.selections = loadSelections(id);
-  document.getElementById('jurisdiction').textContent = STATE.election.jurisdiction || '';
-  document.getElementById('last-updated').textContent = STATE.election.lastUpdated
-    ? `data as of ${STATE.election.lastUpdated}`
-    : '';
+  STATE.electionMeta = meta;
+
+  // Load statewide once per election (shared across jurisdictions).
+  STATE.statewide = null;
+  if (meta.statewide) {
+    const res = await fetch(meta.statewide);
+    STATE.statewide = await res.json();
+  }
+
+  // Populate jurisdiction picker for this election.
+  const jurisdictionSelect = document.getElementById('jurisdiction-select');
+  jurisdictionSelect.innerHTML = '';
+  meta.jurisdictions.forEach((j) => {
+    const opt = document.createElement('option');
+    opt.value = j.id;
+    opt.textContent = j.name;
+    jurisdictionSelect.appendChild(opt);
+  });
+
+  const lastChosen = localStorage.getItem(`${JURISDICTION_PREF_KEY}:${electionId}`);
+  const initialId =
+    (lastChosen && meta.jurisdictions.some((j) => j.id === lastChosen) && lastChosen) ||
+    meta.jurisdictions[0].id;
+  jurisdictionSelect.value = initialId;
+
+  await loadJurisdiction(electionId, initialId);
+}
+
+async function loadJurisdiction(electionId, jurisdictionId) {
+  const electionMeta = STATE.electionsIndex.elections.find((e) => e.id === electionId);
+  const jMeta = electionMeta.jurisdictions.find((j) => j.id === jurisdictionId);
+  if (!jMeta) return;
+  STATE.jurisdictionMeta = jMeta;
+  localStorage.setItem(`${JURISDICTION_PREF_KEY}:${electionId}`, jurisdictionId);
+
+  const res = await fetch(jMeta.file);
+  STATE.jurisdiction = await res.json();
+
+  // Build merged election view.
+  const sw = STATE.statewide;
+  const ju = STATE.jurisdiction;
+  const races = [...(sw?.races || []), ...(ju.races || [])].sort(
+    (a, b) => (a.ballotOrder ?? 0) - (b.ballotOrder ?? 0)
+  );
+  STATE.election = {
+    id: electionId,
+    jurisdictionId: jurisdictionId,
+    name: electionMeta.name,
+    date: electionMeta.date,
+    lastUpdated: ju.lastUpdated || sw?.lastUpdated,
+    notes: ju.notes || sw?.notes,
+    races,
+  };
+
+  STATE.selections = loadSelections(electionId, jurisdictionId);
+
+  renderHeader();
   buildLevelChips();
   buildPartyChips();
   render();
+}
+
+function renderHeader() {
+  const path = STATE.jurisdiction?.path || [];
+  const breadcrumb = document.getElementById('jurisdiction');
+  breadcrumb.innerHTML = '';
+  path.forEach((seg, i) => {
+    if (i > 0) {
+      const sep = document.createElement('span');
+      sep.className = 'breadcrumb-sep';
+      sep.textContent = ' › ';
+      breadcrumb.appendChild(sep);
+    }
+    const span = document.createElement('span');
+    span.className = 'breadcrumb-seg';
+    span.textContent = seg;
+    breadcrumb.appendChild(span);
+  });
+
+  const districtsEl = document.getElementById('districts-line');
+  districtsEl.innerHTML = '';
+  const districts = STATE.jurisdiction?.districts || {};
+  Object.entries(districts).forEach(([k, v]) => {
+    const tag = document.createElement('span');
+    tag.className = 'district-tag';
+    tag.textContent = `${k}: ${v}`;
+    districtsEl.appendChild(tag);
+  });
+
+  document.getElementById('last-updated').textContent = STATE.election.lastUpdated
+    ? `data as of ${STATE.election.lastUpdated}`
+    : '';
 }
 
 function buildLevelChips() {
@@ -493,18 +586,24 @@ function flashButton(id, label) {
   setTimeout(() => (btn.textContent = orig), 1200);
 }
 
-function selectionsKey(eid) {
-  return `ballot:${eid}`;
+function selectionsKey(eid, jid) {
+  return jid ? `ballot:${eid}:${jid}` : `ballot:${eid}`;
 }
-function loadSelections(eid) {
+function loadSelections(eid, jid) {
+  // Try the jurisdiction-scoped key first; fall back to legacy un-scoped key
+  // so existing personal data isn't lost across the migration.
   try {
-    return JSON.parse(localStorage.getItem(selectionsKey(eid)) || '{}');
+    const raw = localStorage.getItem(selectionsKey(eid, jid));
+    if (raw) return JSON.parse(raw);
+    const legacy = localStorage.getItem(selectionsKey(eid));
+    return legacy ? JSON.parse(legacy) : {};
   } catch {
     return {};
   }
 }
 function saveSelections() {
-  localStorage.setItem(selectionsKey(STATE.election.id), JSON.stringify(STATE.selections));
+  const key = selectionsKey(STATE.election.id, STATE.election.jurisdictionId);
+  localStorage.setItem(key, JSON.stringify(STATE.selections));
 }
 
 function escapeHtml(s) {
