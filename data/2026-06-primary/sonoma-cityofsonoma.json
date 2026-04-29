@@ -1,0 +1,466 @@
+{
+  "id": "sonoma-cityofsonoma",
+  "name": "City of Sonoma",
+  "path": [
+    "California",
+    "Sonoma County",
+    "City of Sonoma"
+  ],
+  "districts": {
+    "Congress": "CA-04",
+    "State Senate": "SD-02",
+    "State Assembly": "AD-04",
+    "Supervisor": "BOS District 1 (not on 2026 ballot)",
+    "Board of Equalization": "BOE District 2"
+  },
+  "lastUpdated": "2026-04-28",
+  "notes": "Sample jurisdiction. City of Sonoma council elections are on the November ballot. BOS District 1 was last elected in 2024.",
+  "races": [
+    {
+      "id": "state-senate-sd-02",
+      "office": "State Senator",
+      "district": "SD-02",
+      "level": "state-leg",
+      "termYears": 4,
+      "incumbent": "Mike McGuire (term-limited)",
+      "seat": "open",
+      "ballotOrder": 9,
+      "candidates": [
+        {
+          "name": "Damon Connolly",
+          "party": "Democratic",
+          "occupation": "California State Assemblymember",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Damon Connolly Marin Assembly controversy"
+          },
+          "winChance": {
+            "value": 0.8,
+            "source": "estimate (sitting AM, deeply Dem district)",
+            "asOf": "2026-04-28",
+            "note": "Heavy favorite in safe-D district."
+          },
+          "wokeIndex": {
+            "value": 6,
+            "rationale": "Marin environmental Dem; reliable progressive votes but not culture-war-forward.",
+            "confidence": "medium"
+          },
+          "tier": "major"
+        },
+        {
+          "name": "Aaron Smith",
+          "party": "Republican",
+          "occupation": "School Trustee/Dad",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Aaron Smith California Republican State Senate"
+          },
+          "winChance": {
+            "value": null,
+            "source": "estimate",
+            "note": "One of two R candidates — likely advances to Nov as #2."
+          },
+          "wokeIndex": {
+            "value": 2,
+            "rationale": "'School Trustee/Dad' designation signals parental-rights branding.",
+            "confidence": "low"
+          },
+          "tier": "major"
+        },
+        {
+          "name": "Tief Gibbs",
+          "party": "Republican",
+          "occupation": "Small Businesswoman",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Tief Gibbs California Republican"
+          },
+          "winChance": {
+            "value": null,
+            "source": "estimate"
+          },
+          "wokeIndex": {
+            "value": 2,
+            "rationale": "R challenger; assumed conservative.",
+            "confidence": "low"
+          },
+          "tier": "major"
+        }
+      ]
+    },
+    {
+      "id": "boe-district-2",
+      "office": "Board of Equalization",
+      "district": "BOE-02",
+      "level": "state-board",
+      "termYears": 4,
+      "incumbent": "Sally Lieber",
+      "seat": "incumbent running",
+      "ballotOrder": 11,
+      "notes": "Candidate list incomplete — verify against your sample ballot when received.",
+      "candidates": [
+        {
+          "name": "Sally Lieber",
+          "party": "Democratic",
+          "occupation": "State Board of Equalization Member",
+          "incumbent": true,
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Sally Lieber BOE controversy"
+          },
+          "winChance": {
+            "value": 0.7,
+            "source": "estimate (incumbency)"
+          },
+          "wokeIndex": {
+            "value": 8,
+            "rationale": "Long progressive record (anti-spanking bill, gender pay-gap, civil rights).",
+            "confidence": "high"
+          },
+          "tier": "major"
+        }
+      ]
+    },
+    {
+      "id": "superior-court-10",
+      "office": "Superior Court Judge",
+      "district": "Office #10",
+      "level": "judicial",
+      "termYears": 6,
+      "incumbent": "Kenneth Gnoss",
+      "seat": "see notes",
+      "ballotOrder": 13,
+      "notes": "Only David Kim filed for this seat per the registrar — verify whether the incumbent is on the ballot.",
+      "candidates": [
+        {
+          "name": "David Kim",
+          "party": "Nonpartisan",
+          "occupation": "Superior Court Commissioner",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "David Kim Sonoma Court Commissioner"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Judicial role — partisan/cultural index not meaningful and no public political record.",
+            "confidence": null
+          },
+          "tier": "major"
+        }
+      ]
+    },
+    {
+      "id": "county-superintendent-schools",
+      "office": "County Superintendent of Schools",
+      "level": "county",
+      "termYears": 4,
+      "incumbent": "Amie Carter",
+      "seat": "incumbent running",
+      "ballotOrder": 14,
+      "candidates": [
+        {
+          "name": "Amie Carter",
+          "party": "Nonpartisan",
+          "occupation": "County Superintendent of Schools",
+          "incumbent": true,
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Amie Carter Sonoma County Superintendent"
+          },
+          "winChance": {
+            "value": 1,
+            "source": "uncontested"
+          },
+          "wokeIndex": {
+            "value": 6,
+            "rationale": "Sonoma educator; mainline equity-aware priors typical of county supt role.",
+            "confidence": "low"
+          },
+          "tier": "major"
+        }
+      ]
+    },
+    {
+      "id": "county-clerk-recorder-assessor",
+      "office": "County Clerk-Recorder-Assessor",
+      "level": "county",
+      "termYears": 4,
+      "incumbent": "Deva Marie Proto",
+      "seat": "incumbent running",
+      "ballotOrder": 15,
+      "candidates": [
+        {
+          "name": "Deva Marie Proto",
+          "party": "Nonpartisan",
+          "occupation": "County Clerk-Recorder-Assessor",
+          "incumbent": true,
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Deva Marie Proto Sonoma Clerk Recorder"
+          },
+          "winChance": {
+            "value": 1,
+            "source": "uncontested"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Administrative role — no meaningful cultural-political signal.",
+            "confidence": null
+          },
+          "tier": "major"
+        }
+      ]
+    },
+    {
+      "id": "county-actc",
+      "office": "Auditor-Controller-Treasurer-Tax Collector",
+      "level": "county",
+      "termYears": 4,
+      "incumbent": "Erick Roeser (not running)",
+      "seat": "open",
+      "ballotOrder": 16,
+      "candidates": [
+        {
+          "name": "Amanda Ruch",
+          "party": "Nonpartisan",
+          "occupation": "Assistant Auditor-Controller",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Amanda Ruch Sonoma Auditor Controller"
+          },
+          "winChance": {
+            "value": 1,
+            "source": "uncontested"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Administrative role — no meaningful cultural-political signal.",
+            "confidence": null
+          },
+          "tier": "major"
+        }
+      ]
+    },
+    {
+      "id": "us-house-ca-04",
+      "office": "U.S. Representative",
+      "district": "CA-04",
+      "level": "federal",
+      "termYears": 2,
+      "incumbent": "Mike Thompson",
+      "seat": "incumbent running",
+      "ballotOrder": 1,
+      "candidates": [
+        {
+          "name": "Mike Thompson",
+          "party": "Democratic",
+          "occupation": "Member of Congress",
+          "tier": "major",
+          "incumbent": true,
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Mike Thompson Congress controversy"
+          },
+          "winChance": {
+            "value": 0.9,
+            "source": "estimate (incumbency + safe-D district)",
+            "asOf": "2026-04-28"
+          },
+          "wokeIndex": {
+            "value": 6,
+            "rationale": "Centrist 'Blue Dog'-aligned Dem; pro-gun-rights for a Dem; mainline progressive on social issues but not culture-war-forward.",
+            "confidence": "medium"
+          }
+        },
+        {
+          "name": "John Mackenzie",
+          "party": "Republican",
+          "occupation": "Registered Nurse",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "John Mackenzie controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Local race; no public record reviewed.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Thomas M Roach",
+          "party": "No Party Preference",
+          "occupation": "—",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Thomas M Roach controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Local race; no public record reviewed.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Ray Riehle",
+          "party": "Republican",
+          "occupation": "Business Owner/Entrepreneur",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Ray Riehle controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Local race; no public record reviewed.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Sharon Brown",
+          "party": "Republican",
+          "occupation": "Registered Nurse",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Sharon Brown controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Local race; no public record reviewed.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Jimih Jones",
+          "party": "Republican",
+          "occupation": "Parts Manager",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Jimih Jones controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Local race; no public record reviewed.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Eric Jones",
+          "party": "Democratic",
+          "occupation": "Businessman/Nonprofit Executive",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Eric Jones controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Local race; no public record reviewed.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Mandy Ghusar",
+          "party": "Republican",
+          "occupation": "LVN Nurse",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Mandy Ghusar controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Local race; no public record reviewed.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Chuck Uribe",
+          "party": "Republican",
+          "occupation": "Public School Teacher",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Chuck Uribe controversy"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "wokeIndex": {
+            "value": null,
+            "rationale": "Local race; no public record reviewed.",
+            "confidence": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "state-assembly-ad-04",
+      "office": "State Assembly",
+      "district": "AD-04",
+      "level": "state-leg",
+      "termYears": 2,
+      "incumbent": "Cecilia M. Aguiar-Curry",
+      "seat": "incumbent running",
+      "ballotOrder": 10,
+      "candidates": [
+        {
+          "name": "Cecilia M. Aguiar-Curry",
+          "party": "Democratic",
+          "occupation": "State Assemblymember",
+          "tier": "major",
+          "incumbent": true,
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Cecilia Aguiar-Curry Assembly controversy"
+          },
+          "winChance": {
+            "value": 1,
+            "source": "uncontested"
+          },
+          "wokeIndex": {
+            "value": 6,
+            "rationale": "Rural-Dem moderate; agricultural focus; mainline progressive on social.",
+            "confidence": "medium"
+          }
+        }
+      ]
+    }
+  ]
+}

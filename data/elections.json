@@ -10,6 +10,21 @@
           "id": "sonoma-petaluma",
           "name": "Sonoma County — Petaluma area (unincorporated)",
           "file": "data/2026-06-primary/sonoma-petaluma.json"
+        },
+        {
+          "id": "sonoma-petaluma-incity",
+          "name": "Sonoma County — City of Petaluma",
+          "file": "data/2026-06-primary/sonoma-petaluma-incity.json"
+        },
+        {
+          "id": "sonoma-cityofsonoma",
+          "name": "Sonoma County — City of Sonoma",
+          "file": "data/2026-06-primary/sonoma-cityofsonoma.json"
+        },
+        {
+          "id": "marin-novato",
+          "name": "Marin County — Novato (District 5)",
+          "file": "data/2026-06-primary/marin-novato.json"
         }
       ]
     }
