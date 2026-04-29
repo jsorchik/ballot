@@ -6,9 +6,9 @@ search link for more), a rough probability of winning where one's
 available, and a 0–10 "woke index" with a one-line rationale. Pick
 choices, copy the list, take it to the polling place.
 
-Built first for the **California Primary — June 2, 2026**, with one
-jurisdiction populated: Sonoma County (unincorporated, near Petaluma).
-Designed so anyone can fork-and-PR their own jurisdiction.
+Built first for the **California Primary — June 2, 2026**, with several
+North Bay jurisdictions populated as examples. Designed so anyone can
+fork-and-PR their own jurisdiction.
 
 ## Run locally
 
