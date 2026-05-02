@@ -39,7 +39,7 @@
             "asOf": "2026-05-02",
             "note": "$132M self-funded; primary frontrunner.",
             "basis": "mid",
-            "liquidityUsd": 20380
+            "liquidityUsd": 19886
           },
           "wokeIndex": {
             "value": 6,
@@ -70,7 +70,7 @@
             "asOf": "2026-05-02",
             "note": "Surged after Swalwell withdrew and Speaker Rivas endorsed.",
             "basis": "mid",
-            "liquidityUsd": 14766
+            "liquidityUsd": 12861
           },
           "wokeIndex": {
             "value": 7,
@@ -99,7 +99,7 @@
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
             "asOf": "2026-05-02",
-            "liquidityUsd": 14038,
+            "liquidityUsd": 13060,
             "basis": "mid"
           },
           "wokeIndex": {
@@ -124,12 +124,12 @@
             "searchQuery": "Chad Bianco Oath Keepers Riverside Sheriff"
           },
           "winChance": {
-            "value": 0.0155,
+            "value": 0.0215,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
             "asOf": "2026-05-02",
             "basis": "mid",
-            "liquidityUsd": 5593
+            "liquidityUsd": 3046
           },
           "wokeIndex": {
             "value": 0,
@@ -153,12 +153,12 @@
             "searchQuery": "Katie Porter staff allegations Politico"
           },
           "winChance": {
-            "value": 0.004,
+            "value": 0.0015,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
             "asOf": "2026-05-02",
             "basis": "mid",
-            "liquidityUsd": 5098
+            "liquidityUsd": 4891
           },
           "wokeIndex": {
             "value": 7,
@@ -187,7 +187,7 @@
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
             "asOf": "2026-05-02",
-            "liquidityUsd": 2311,
+            "liquidityUsd": 2152,
             "basis": "mid"
           },
           "wokeIndex": {
@@ -216,7 +216,7 @@
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
             "asOf": "2026-05-02",
-            "liquidityUsd": 4268,
+            "liquidityUsd": 3662,
             "basis": "mid"
           },
           "wokeIndex": {
@@ -242,12 +242,12 @@
             "searchQuery": "Betty Yee Controller controversy"
           },
           "winChance": {
-            "value": 0.0015,
+            "value": 0.0025,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
             "asOf": "2026-05-02",
             "basis": "mid",
-            "liquidityUsd": 2193
+            "liquidityUsd": 2248
           },
           "wokeIndex": {
             "value": 6,
@@ -275,7 +275,7 @@
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
             "asOf": "2026-05-02",
-            "liquidityUsd": 5272,
+            "liquidityUsd": 4940,
             "basis": "mid"
           },
           "wokeIndex": {
@@ -373,11 +373,11 @@
             "searchQuery": "Carolina Buhler controversy"
           },
           "winChance": {
-            "value": 0.006,
+            "value": 0.0055,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
             "asOf": "2026-05-02",
-            "liquidityUsd": 2340,
+            "liquidityUsd": 3133,
             "basis": "mid"
           },
           "wokeIndex": {
@@ -449,11 +449,11 @@
             "searchQuery": "Derek Grasty controversy"
           },
           "winChance": {
-            "value": 0.009,
+            "value": 0.0135,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
             "asOf": "2026-05-02",
-            "liquidityUsd": 3378,
+            "liquidityUsd": 2644,
             "basis": "mid"
           },
           "wokeIndex": {
@@ -577,7 +577,7 @@
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
             "asOf": "2026-05-02",
-            "liquidityUsd": 1807,
+            "liquidityUsd": 1670,
             "basis": "mid"
           },
           "wokeIndex": {
@@ -605,7 +605,7 @@
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
             "asOf": "2026-05-02",
-            "liquidityUsd": 2843,
+            "liquidityUsd": 2752,
             "basis": "mid"
           },
           "wokeIndex": {
@@ -918,11 +918,11 @@
             "searchQuery": "Leo Zacky controversy"
           },
           "winChance": {
-            "value": 0.0045,
+            "value": 0.0175,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
             "asOf": "2026-05-02",
-            "liquidityUsd": 2576,
+            "liquidityUsd": 2399,
             "basis": "mid"
           },
           "wokeIndex": {
@@ -998,7 +998,7 @@
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
             "asOf": "2026-05-02",
-            "liquidityUsd": 3196,
+            "liquidityUsd": 2311,
             "basis": "mid"
           },
           "wokeIndex": {
@@ -1070,11 +1070,11 @@
             "searchQuery": "Elaine Culotti controversy"
           },
           "winChance": {
-            "value": 0.011,
+            "value": 0.0155,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
             "asOf": "2026-05-02",
-            "liquidityUsd": 1767,
+            "liquidityUsd": 1466,
             "basis": "mid"
           },
           "wokeIndex": {
@@ -1390,7 +1390,7 @@
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
             "asOf": "2026-05-02",
-            "liquidityUsd": 2470,
+            "liquidityUsd": 2701,
             "basis": "mid"
           },
           "wokeIndex": {
