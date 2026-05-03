@@ -109,12 +109,19 @@ async function loadJurisdiction(electionId, jurisdictionId) {
   const races = [...(sw?.races || []), ...(ju.races || [])].sort(
     (a, b) => (a.ballotOrder ?? 0) - (b.ballotOrder ?? 0)
   );
+  // "Data as of" should reflect the freshest source — the Polymarket cron
+  // updates statewide.json's lastUpdated but not the jurisdiction file's.
+  const lastUpdated = [ju.lastUpdated, sw?.lastUpdated]
+    .filter(Boolean)
+    .sort()
+    .reverse()[0];
+
   STATE.election = {
     id: electionId,
     jurisdictionId: jurisdictionId,
     name: electionMeta.name,
     date: electionMeta.date,
-    lastUpdated: ju.lastUpdated || sw?.lastUpdated,
+    lastUpdated,
     notes: ju.notes || sw?.notes,
     races,
   };
@@ -203,10 +210,10 @@ function sortCandidates(candidates) {
   const arr = [...candidates];
   if (mode === 'chance') {
     arr.sort((a, b) => (b.winChance?.value ?? -1) - (a.winChance?.value ?? -1));
-  } else if (mode === 'woke-desc') {
-    arr.sort((a, b) => (b.wokeIndex?.value ?? -1) - (a.wokeIndex?.value ?? -1));
-  } else if (mode === 'woke-asc') {
-    arr.sort((a, b) => (a.wokeIndex?.value ?? 99) - (b.wokeIndex?.value ?? 99));
+  } else if (mode === 'lean-prog') {
+    arr.sort((a, b) => (b.culturalLean?.value ?? -1) - (a.culturalLean?.value ?? -1));
+  } else if (mode === 'lean-trad') {
+    arr.sort((a, b) => (a.culturalLean?.value ?? 99) - (b.culturalLean?.value ?? 99));
   }
   return arr;
 }
@@ -383,39 +390,39 @@ function renderCandidate(race, candidate) {
 
   const chanceEl = tpl.querySelector('.candidate-chance');
   renderChance(chanceEl, candidate.winChance);
-  const wokeEl = tpl.querySelector('.candidate-woke');
-  renderWoke(wokeEl, candidate.wokeIndex);
+  const leanEl = tpl.querySelector('.candidate-lean');
+  renderLean(leanEl, candidate.culturalLean);
 
   return li;
 }
 
-function renderWoke(el, w) {
+function renderLean(el, w) {
   if (!w || w.value == null) {
-    el.classList.add('woke-unknown');
+    el.classList.add('lean-unknown');
     const v = document.createElement('span');
-    v.className = 'woke-value';
+    v.className = 'lean-value';
     v.textContent = '—';
     el.appendChild(v);
     const s = document.createElement('span');
-    s.className = 'woke-source';
-    s.textContent = 'woke n/a';
+    s.className = 'lean-source';
+    s.textContent = 'lean n/a';
     el.appendChild(s);
-    el.title = w?.rationale || 'No woke index available.';
+    el.title = w?.rationale || 'No cultural-lean score available.';
     return;
   }
   const v = document.createElement('span');
-  v.className = 'woke-value';
+  v.className = 'lean-value';
   v.textContent = `${w.value}/10`;
   el.appendChild(v);
   const bar = document.createElement('div');
-  bar.className = 'woke-bar';
+  bar.className = 'lean-bar';
   const fill = document.createElement('span');
   fill.style.width = `${(w.value / 10) * 100}%`;
   bar.appendChild(fill);
   el.appendChild(bar);
   const s = document.createElement('span');
   const conf = w.confidence || 'medium';
-  s.className = `woke-source confidence-${conf}`;
+  s.className = `lean-source confidence-${conf}`;
   const confLabel = { high: 'high conf.', medium: 'med conf.', low: 'low conf.' }[conf] || conf;
   s.textContent = confLabel;
   el.appendChild(s);

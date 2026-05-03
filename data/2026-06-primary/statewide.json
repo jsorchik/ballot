@@ -5,7 +5,6 @@
   "state": "California",
   "lastUpdated": "2026-05-03",
   "notes": "Top-two primary — top two finishers regardless of party advance to Nov 3 general (except for nonpartisan county/judicial offices, which are decided in June if a candidate gets >50%). No statewide ballot measures on the June primary; the qualified statewide measures are on the Nov general.",
-  "wokeIndexNote": "Editorial 0–10 score where 0 = traditional/anti-DEI/anti-identity-politics and 10 = strongly progressive on identity, DEI, criminal justice reform, and culture-war issues. Confidence reflects how much public record exists.",
   "races": [
     {
       "id": "governor",
@@ -29,8 +28,8 @@
           "party": "Democratic",
           "occupation": "Hedge Fund Founder/Investor",
           "scandal": {
-            "summary": "His former hedge fund Farallon Capital invested heavily in coal and fossil-fuel projects, despite his climate-activism platform.",
-            "searchQuery": "Tom Steyer Farallon coal fossil fuels"
+            "summary": "His former hedge fund Farallon Capital invested in coal, fossil-fuel projects, and private prisons — repeatedly raised by rivals during the April 2026 debate, despite his climate-activism platform.",
+            "searchQuery": "Tom Steyer Farallon coal private prisons fossil fuels"
           },
           "winChance": {
             "value": 0.365,
@@ -41,11 +40,6 @@
             "basis": "mid",
             "liquidityUsd": 22226
           },
-          "wokeIndex": {
-            "value": 6,
-            "rationale": "Climate-progressive billionaire; econ-focused, less identity-politics-coded.",
-            "confidence": "medium"
-          },
           "tier": "major",
           "finance": {
             "summary": "$132M self-funded; founded Farallon Capital hedge fund",
@@ -53,6 +47,11 @@
             "netWorth": "~$1.6B",
             "netWorthSource": "Forbes (2025)",
             "confidence": "high"
+          },
+          "culturalLean": {
+            "value": 6,
+            "rationale": "Climate-progressive billionaire; econ-focused, less identity-politics-coded.",
+            "confidence": "medium"
           }
         },
         {
@@ -72,17 +71,18 @@
             "basis": "mid",
             "liquidityUsd": 15905
           },
-          "wokeIndex": {
-            "value": 7,
-            "rationale": "Latino civil-rights record as CA AG (sanctuary, abortion, Trump lawsuits); HHS expanded gender-affirming care guidance.",
-            "confidence": "high"
-          },
           "tier": "major",
           "finance": {
             "summary": "Top donors: trial lawyers, healthcare unions, Latino political networks",
             "summaryUrl": "https://www.opensecrets.org/people/becerra_xavier/summary?cid=N00006504",
             "netWorth": "~$1–3M",
             "netWorthSource": "House/Cabinet disclosure ranges",
+            "confidence": "high"
+          },
+          "openSecretsCid": "N00006504",
+          "culturalLean": {
+            "value": 7,
+            "rationale": "Latino civil-rights record as CA AG (sanctuary, abortion, Trump lawsuits); HHS expanded gender-affirming care guidance.",
             "confidence": "high"
           }
         },
@@ -102,17 +102,17 @@
             "liquidityUsd": 16116,
             "basis": "mid"
           },
-          "wokeIndex": {
-            "value": 1,
-            "rationale": "Built brand explicitly on anti-woke commentary; populist-right cultural platform.",
-            "confidence": "high"
-          },
           "tier": "major",
           "finance": {
             "summary": "Top donors: conservative media, Silicon Valley GOP, Thiel-aligned networks",
             "netWorth": "~$2–10M",
             "netWorthSource": "estimate from media career",
             "confidence": "medium"
+          },
+          "culturalLean": {
+            "value": 1,
+            "rationale": "Built brand explicitly on anti-progressive commentary; populist-right cultural platform.",
+            "confidence": "high"
           }
         },
         {
@@ -131,17 +131,17 @@
             "basis": "mid",
             "liquidityUsd": 3977
           },
-          "wokeIndex": {
-            "value": 0,
-            "rationale": "Oath Keepers past, refused to enforce COVID rules, ICE cooperator, anti-DEI.",
-            "confidence": "high"
-          },
           "tier": "major",
           "finance": {
             "summary": "Top donors: law-enforcement PACs, sheriff associations",
             "netWorth": "<$1M",
             "netWorthSource": "Riverside Sheriff salary range",
             "confidence": "medium"
+          },
+          "culturalLean": {
+            "value": 0,
+            "rationale": "Oath Keepers past, refused to enforce COVID rules, ICE cooperator, anti-DEI.",
+            "confidence": "high"
           }
         },
         {
@@ -160,17 +160,18 @@
             "basis": "mid",
             "liquidityUsd": 5941
           },
-          "wokeIndex": {
-            "value": 7,
-            "rationale": "Warren-aligned econ progressive; reliable progressive cultural votes but not identity-politics-forward.",
-            "confidence": "high"
-          },
           "tier": "major",
           "finance": {
             "summary": "~85% small-dollar (<$200); pledged no corporate PAC money",
             "summaryUrl": "https://www.opensecrets.org/members-of-congress/katie-porter/summary?cid=N00042581",
             "netWorth": "~$1–3M",
             "netWorthSource": "House financial disclosure",
+            "confidence": "high"
+          },
+          "openSecretsCid": "N00042581",
+          "culturalLean": {
+            "value": 7,
+            "rationale": "Warren-aligned econ progressive; reliable progressive cultural votes but not identity-politics-forward.",
             "confidence": "high"
           }
         },
@@ -190,17 +191,17 @@
             "liquidityUsd": 3285,
             "basis": "mid"
           },
-          "wokeIndex": {
-            "value": 9,
-            "rationale": "DEI/ethnic-studies champion as Superintendent; vocal opponent of parental-notification policies.",
-            "confidence": "high"
-          },
           "tier": "major",
           "finance": {
             "summary": "Top donors: California Teachers Association (CTA), labor unions",
             "netWorth": "~$500K–1M",
             "netWorthSource": "CDE salary; estimate",
             "confidence": "medium"
+          },
+          "culturalLean": {
+            "value": 9,
+            "rationale": "DEI/ethnic-studies champion as Superintendent; vocal opponent of parental-notification policies.",
+            "confidence": "high"
           }
         },
         {
@@ -219,16 +220,16 @@
             "liquidityUsd": 5498,
             "basis": "mid"
           },
-          "wokeIndex": {
-            "value": 5,
-            "rationale": "Old-school LA labor Dem; pragmatist on schools and policing; less culturally progressive than the field.",
-            "confidence": "medium"
-          },
           "tier": "major",
           "finance": {
             "summary": "Top donors: real estate, charter-school networks, LA lobbying firms",
             "netWorth": "~$1–3M",
             "netWorthSource": "estimate from post-mayoral consulting",
+            "confidence": "medium"
+          },
+          "culturalLean": {
+            "value": 5,
+            "rationale": "Old-school LA labor Dem; pragmatist on schools and policing; less culturally progressive than the field.",
             "confidence": "medium"
           }
         },
@@ -249,16 +250,16 @@
             "basis": "mid",
             "liquidityUsd": 3786
           },
-          "wokeIndex": {
-            "value": 6,
-            "rationale": "Mainline center-left Dem; fiscal/governance focus, not culture-war-forward.",
-            "confidence": "medium"
-          },
           "tier": "major",
           "finance": {
             "summary": "Top donors: public-sector unions, Asian-American Dem networks",
             "netWorth": "~$500K–1M",
             "netWorthSource": "Controller salary; estimate",
+            "confidence": "medium"
+          },
+          "culturalLean": {
+            "value": 6,
+            "rationale": "Mainline center-left Dem; fiscal/governance focus, not culture-war-forward.",
             "confidence": "medium"
           }
         },
@@ -278,16 +279,16 @@
             "liquidityUsd": 7030,
             "basis": "mid"
           },
-          "wokeIndex": {
-            "value": 4,
-            "rationale": "Tech-Dem moderate; tough-on-homelessness/public-safety stance has drawn progressive criticism.",
-            "confidence": "medium"
-          },
           "tier": "major",
           "finance": {
             "summary": "Top donors: tech / Silicon Valley civic-tech networks",
             "netWorth": "~$1–5M",
             "netWorthSource": "Brigade civic-tech startup co-founder; estimate",
+            "confidence": "medium"
+          },
+          "culturalLean": {
+            "value": 4,
+            "rationale": "Tech-Dem moderate; tough-on-homelessness/public-safety stance has drawn progressive criticism.",
             "confidence": "medium"
           }
         },
@@ -304,15 +305,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Akinyemi%20Agbede%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -328,15 +329,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Mohammad%20Arif%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -352,15 +353,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Larry%20Azevedo%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -380,15 +381,15 @@
             "liquidityUsd": 3216,
             "basis": "mid"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Carolina%20Buhler%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -404,15 +405,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Louis%20De%20Barraicua%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -428,15 +429,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Sophia%20Edum-a-Sam%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -456,15 +457,15 @@
             "liquidityUsd": 5355,
             "basis": "mid"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Derek%20Grasty%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -480,15 +481,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Joel%20Jacob%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -504,15 +505,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Gary%20Howard%20Kidgell%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -528,15 +529,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Matthew%20Levy%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -552,15 +553,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Barack%20Obama%20Shaw%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -580,15 +581,15 @@
             "liquidityUsd": 3116,
             "basis": "mid"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Thunder%20Parley%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -608,15 +609,15 @@
             "liquidityUsd": 4715,
             "basis": "mid"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Raji%20Rab%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -632,15 +633,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Satish%20Rao%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -656,15 +657,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Scott%20Shields%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -680,40 +681,41 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Erin%20Zezulak%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
           "name": "Eric Swalwell",
           "party": "Democratic",
-          "occupation": "Former U.S. Representative (withdrew, remained on ballot; endorsed Steyer)",
+          "occupation": "Former U.S. Representative (withdrew, remains on ballot)",
           "tier": "minor",
           "scandal": {
-            "summary": null,
-            "searchQuery": "Eric Swalwell controversy"
+            "summary": "Withdrew April 12, 2026 after the SF Chronicle and CNN published sexual misconduct allegations from former staffers (one alleging rape); endorsed Steyer.",
+            "searchQuery": "Eric Swalwell sexual misconduct allegations 2026"
           },
           "winChance": {
             "value": null,
             "source": "no market"
-          },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
           },
           "finance": {
             "summary": "Top donors: trial lawyers, defense industry, labor (when active); withdrew",
             "netWorth": "~$300K–1M",
             "netWorthSource": "House financial disclosure",
             "confidence": "high"
+          },
+          "openSecretsCid": "N00033508",
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -729,15 +731,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=James%20Athans%20Jr.%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -753,15 +755,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Patricia%20De%20Luca%20Basualdo%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -777,15 +779,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Randeep%20Dhillon%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -801,15 +803,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Rafael%20Hernandez%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -825,15 +827,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Alicia%20Olivia%20Lapp%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -849,15 +851,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Leo%20Naranjo%20IV%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -873,15 +875,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Tim%20Nelson%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -897,15 +899,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Gretha%20Sol%C3%B3rzano%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -925,15 +927,15 @@
             "liquidityUsd": 4335,
             "basis": "mid"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Leo%20Zacky%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -949,15 +951,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=David%20Zickefoose%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -973,15 +975,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Tom%20Woodard%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -1001,15 +1003,15 @@
             "liquidityUsd": 2953,
             "basis": "mid"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Ramsey%20Robinson%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -1025,15 +1027,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Naomi%20Bar-Lev%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -1049,15 +1051,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Joseph%20Cabrera%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -1077,15 +1079,15 @@
             "liquidityUsd": 2724,
             "basis": "mid"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Elaine%20Culotti%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -1101,15 +1103,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=LivingForGod%20AndCountry%20DeMott%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -1125,15 +1127,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Serge%20Fiankan%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -1149,15 +1151,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Lukasz%20Adam%20Filinski%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -1173,15 +1175,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Max%20Fomin%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -1197,15 +1199,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Don%20Grundmann%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -1221,15 +1223,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Jon%20Henderson%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -1245,15 +1247,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Lewis%20Herms%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -1269,15 +1271,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Dawit%20Kellel%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -1293,15 +1295,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Anne%20Komarovsk%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -1317,15 +1319,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Duane%20Terrence%20Loynes%20Jr.%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -1341,15 +1343,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Amanda%20Martin%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -1365,15 +1367,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Brent%20Maupin%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -1393,15 +1395,15 @@
             "liquidityUsd": 4188,
             "basis": "mid"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Daniel%20Mercuri%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -1417,15 +1419,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Mauro%20Alberto%20Orozco%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -1441,15 +1443,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Reza%20Safarnejad%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -1465,15 +1467,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Sam%20Sandak%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -1489,15 +1491,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Christine%20Sarmiento%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -1513,15 +1515,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Frederic%20Schultz%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -1537,15 +1539,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Margaret%20Trowe%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -1561,15 +1563,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Nancy%20Young%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         }
       ]
@@ -1597,15 +1599,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": 6,
-            "rationale": "Long-time Dem statewide official; mainline progressive priors.",
-            "confidence": "medium"
-          },
           "finance": {
             "summary": "Top donors: real estate, finance, Asian-American Dem networks",
             "netWorth": "~$1–3M",
             "netWorthSource": "Form 700 estimate",
+            "confidence": "medium"
+          },
+          "culturalLean": {
+            "value": 6,
+            "rationale": "Long-time Dem statewide official; mainline progressive priors.",
             "confidence": "medium"
           }
         },
@@ -1622,16 +1624,16 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": 8,
-            "rationale": "Built profile around guaranteed-income pilot and equity policy as Stockton mayor.",
-            "confidence": "high"
-          },
           "finance": {
             "summary": "Top donors: tech philanthropy network (Omidyar, Hoffman, Zuckerberg-aligned)",
             "netWorth": "~$500K–1M",
             "netWorthSource": "estimate from foundation/speaking work",
             "confidence": "medium"
+          },
+          "culturalLean": {
+            "value": 8,
+            "rationale": "Built profile around guaranteed-income pilot and equity policy as Stockton mayor.",
+            "confidence": "high"
           }
         },
         {
@@ -1647,16 +1649,16 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": 7,
-            "rationale": "Newsom administration service-program lead; mainline progressive.",
-            "confidence": "medium"
-          },
           "finance": {
             "summary": "Top donors: Newsom administration network, North Bay Dems",
             "netWorth": "~$500K–1M",
             "netWorthSource": "estimate",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": 7,
+            "rationale": "Newsom administration service-program lead; mainline progressive.",
+            "confidence": "medium"
           }
         },
         {
@@ -1672,15 +1674,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": 6,
-            "rationale": "Coastal-Marin Dem; environmental focus.",
-            "confidence": "medium"
-          },
           "finance": {
             "summary": "Top donors: environmental/coastal advocacy, North Bay Dems",
             "netWorth": "unknown",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": 6,
+            "rationale": "Coastal-Marin Dem; environmental focus.",
+            "confidence": "medium"
           }
         },
         {
@@ -1696,14 +1698,14 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": 3,
-            "rationale": "Switched parties; cultural-conservative pivot on schools.",
-            "confidence": "medium"
-          },
           "finance": {
             "summary": "Top donors: charter-school advocates (post-2024 party switch)",
             "netWorth": "unknown",
+            "confidence": "medium"
+          },
+          "culturalLean": {
+            "value": 3,
+            "rationale": "Switched parties; cultural-conservative pivot on schools.",
             "confidence": "medium"
           }
         },
@@ -1720,15 +1722,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Jeyson%20Lopez%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -1744,15 +1746,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Oliver%20Ma%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -1768,15 +1770,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Tim%20Myers%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -1792,15 +1794,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Abdul%20Sikder%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -1816,15 +1818,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=David%20Collenberg%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -1840,15 +1842,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=David%20Fennell%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -1864,15 +1866,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Ebie%20Lynch%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -1888,15 +1890,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Skip%20Shelton%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -1912,15 +1914,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Rakesh%20Christian%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -1936,15 +1938,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Sean%20Collinson%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -1960,15 +1962,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Alice%20Stek%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         }
       ]
@@ -1996,17 +1998,17 @@
             "source": "estimate (incumbency)",
             "asOf": "2026-04-28"
           },
-          "wokeIndex": {
-            "value": 9,
-            "rationale": "Authored the reparations task-force law; long civil-rights and voting-rights record.",
-            "confidence": "high"
-          },
           "tier": "major",
           "finance": {
             "summary": "Top donors: civil-rights groups, Black-caucus networks, public-sector unions",
             "netWorth": "~$500K–1M",
             "netWorthSource": "estimate from academic career",
             "confidence": "medium"
+          },
+          "culturalLean": {
+            "value": 9,
+            "rationale": "Authored the reparations task-force law; long civil-rights and voting-rights record.",
+            "confidence": "high"
           }
         },
         {
@@ -2022,15 +2024,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": 2,
-            "rationale": "OC R supervisor; conservative on culture-war issues.",
-            "confidence": "medium"
-          },
           "finance": {
             "summary": "Top donors: Orange County homebuilders, business interests",
             "netWorth": "~$1–3M",
             "netWorthSource": "estimate",
+            "confidence": "medium"
+          },
+          "culturalLean": {
+            "value": 2,
+            "rationale": "OC R supervisor; conservative on culture-war issues.",
             "confidence": "medium"
           }
         },
@@ -2047,15 +2049,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Gary%20Blenner%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -2071,15 +2073,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": 8,
-            "rationale": "Long Green Party record; left on cultural issues.",
-            "confidence": "medium"
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Michael%20Feinstein%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": 8,
+            "rationale": "Long Green Party record; left on cultural issues.",
+            "confidence": "medium"
           }
         }
       ]
@@ -2106,16 +2108,16 @@
             "value": 0.8,
             "source": "estimate (incumbency)"
           },
-          "wokeIndex": {
-            "value": 7,
-            "rationale": "Former SF supervisor with progressive social record; less culture-war-forward in current role.",
-            "confidence": "medium"
-          },
           "tier": "major",
           "finance": {
             "summary": "Top donors: SF political network, public-sector unions",
             "netWorth": "~$500K–1M",
             "netWorthSource": "Form 700 estimate",
+            "confidence": "medium"
+          },
+          "culturalLean": {
+            "value": 7,
+            "rationale": "Former SF supervisor with progressive social record; less culture-war-forward in current role.",
             "confidence": "medium"
           }
         },
@@ -2132,15 +2134,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Herb%20Morgan%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -2156,15 +2158,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": 9,
-            "rationale": "PF Party; far-left labor candidate.",
-            "confidence": "medium"
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Meghann%20Adams%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": 9,
+            "rationale": "PF Party; far-left labor candidate.",
+            "confidence": "medium"
           }
         }
       ]
@@ -2191,16 +2193,16 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": 7,
-            "rationale": "Sitting Lt Gov; Newsom-aligned progressive.",
-            "confidence": "medium"
-          },
           "finance": {
             "summary": "Top donors: real estate (Tsakopoulos family network), Greek-American Dems",
             "netWorth": "~$10M+",
             "netWorthSource": "family wealth from AKT Development; Form 700 ranges",
             "confidence": "high"
+          },
+          "culturalLean": {
+            "value": 7,
+            "rationale": "Sitting Lt Gov; Newsom-aligned progressive.",
+            "confidence": "medium"
           }
         },
         {
@@ -2216,15 +2218,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": 6,
-            "rationale": "Central Valley moderate Dem; pragmatist.",
-            "confidence": "medium"
-          },
           "finance": {
             "summary": "Top donors: agribusiness, Central Valley Dems",
             "netWorth": "~$500K–1M",
             "netWorthSource": "estimate",
+            "confidence": "medium"
+          },
+          "culturalLean": {
+            "value": 6,
+            "rationale": "Central Valley moderate Dem; pragmatist.",
             "confidence": "medium"
           }
         },
@@ -2241,16 +2243,16 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "Top donors: labor unions, Latino political networks",
             "netWorth": "~$500K–1M",
             "netWorthSource": "estimate",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -2266,15 +2268,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Jennifer%20Hawks%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -2290,15 +2292,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=David%20Serpa%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -2314,15 +2316,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Glenn%20Turner%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         }
       ],
@@ -2351,16 +2353,16 @@
             "source": "estimate (incumbency)",
             "asOf": "2026-04-28"
           },
-          "wokeIndex": {
-            "value": 8,
-            "rationale": "Sued anti-LGBT districts over parental-notification, expanded hate-crime/civil-rights enforcement, Trump lawsuit leader.",
-            "confidence": "high"
-          },
           "tier": "major",
           "finance": {
             "summary": "Top donors: trial lawyers, labor unions, tribal gaming",
             "netWorth": "~$1–3M",
             "netWorthSource": "Form 700 estimate",
+            "confidence": "high"
+          },
+          "culturalLean": {
+            "value": 8,
+            "rationale": "Sued anti-LGBT districts over parental-notification, expanded hate-crime/civil-rights enforcement, Trump lawsuit leader.",
             "confidence": "high"
           }
         },
@@ -2377,17 +2379,17 @@
             "source": "estimate",
             "note": "Likely consolidates the R vote and advances to Nov as #2."
           },
-          "wokeIndex": {
-            "value": 1,
-            "rationale": "Architect of HB voter-ID and anti-sanctuary suits; explicit anti-woke posture.",
-            "confidence": "high"
-          },
           "tier": "major",
           "finance": {
             "summary": "Top donors: Huntington Beach business, Orange County GOP",
             "netWorth": "~$1–3M",
             "netWorthSource": "estimate",
             "confidence": "medium"
+          },
+          "culturalLean": {
+            "value": 1,
+            "rationale": "Architect of HB voter-ID and anti-sanctuary suits; explicit anti-progressive posture.",
+            "confidence": "high"
           }
         },
         {
@@ -2402,16 +2404,16 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": 8,
-            "rationale": "Green Party; progressive priors.",
-            "confidence": "low"
-          },
           "tier": "major",
           "finance": {
             "summary": null,
             "searchUrl": "https://www.google.com/search?q=Marjorie%20Mikels%20campaign%20finance%20donors%20net%20worth",
             "confidence": null
+          },
+          "culturalLean": {
+            "value": 8,
+            "rationale": "Green Party; progressive priors.",
+            "confidence": "low"
           }
         }
       ]
@@ -2438,16 +2440,16 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": 8,
-            "rationale": "Westside LA progressive Dem; environmental and education focus.",
-            "confidence": "high"
-          },
           "finance": {
             "summary": "Top donors: environmental groups, public-sector unions, Westside LA Dems",
             "netWorth": "~$1–3M",
             "netWorthSource": "Form 700 estimate",
             "confidence": "medium"
+          },
+          "culturalLean": {
+            "value": 8,
+            "rationale": "Westside LA progressive Dem; environmental and education focus.",
+            "confidence": "high"
           }
         },
         {
@@ -2463,16 +2465,16 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": 8,
-            "rationale": "Reparations task force member; veteran Black-caucus legislator.",
-            "confidence": "high"
-          },
           "finance": {
             "summary": "Top donors: utilities, energy industry, labor unions",
             "netWorth": "~$500K–1M",
             "netWorthSource": "estimate",
             "confidence": "medium"
+          },
+          "culturalLean": {
+            "value": 8,
+            "rationale": "Reparations task force member; veteran Black-caucus legislator.",
+            "confidence": "high"
           }
         },
         {
@@ -2488,16 +2490,16 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": 9,
-            "rationale": "Working Families Party leader; SF progressive on housing/labor/identity.",
-            "confidence": "high"
-          },
           "finance": {
             "summary": "Top donors: progressive labor, Working Families Party network",
             "netWorth": "<$500K",
             "netWorthSource": "estimate from non-profit career",
             "confidence": "medium"
+          },
+          "culturalLean": {
+            "value": 9,
+            "rationale": "Working Families Party leader; SF progressive on housing/labor/identity.",
+            "confidence": "high"
           }
         },
         {
@@ -2513,16 +2515,16 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "Top donors: chess/financial-analyst networks (small field)",
             "netWorth": "~$1–5M",
             "netWorthSource": "estimate from finance career",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -2538,15 +2540,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Eric%20Thor%20Aarnio%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -2562,15 +2564,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Merritt%20Farren%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -2586,15 +2588,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Robert%20Howell%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -2610,15 +2612,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Stacy%20Korsgaden%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -2634,15 +2636,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Sean%20Lee%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -2658,15 +2660,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": 1,
-            "rationale": "AIP candidate; conservative cultural priors.",
-            "confidence": "medium"
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Keith%20Davis%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": 1,
+            "rationale": "AIP candidate; conservative cultural priors.",
+            "confidence": "medium"
           }
         },
         {
@@ -2682,15 +2684,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": 9,
-            "rationale": "PF Party; far-left priors.",
-            "confidence": "medium"
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Eduardo%20%22Lalo%22%20Vargas%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": 9,
+            "rationale": "PF Party; far-left priors.",
+            "confidence": "medium"
           }
         }
       ]
@@ -2718,16 +2720,16 @@
             "source": "no market",
             "note": "Highest profile name, strong fundraising."
           },
-          "wokeIndex": {
-            "value": 7,
-            "rationale": "Reliable progressive Speaker on social issues; cooler on left litmus tests (single payer).",
-            "confidence": "medium"
-          },
           "tier": "major",
           "finance": {
             "summary": "Top donors: pharmaceutical, health insurers, building trades",
             "netWorth": "~$500K–1M",
             "netWorthSource": "Form 700 estimate",
+            "confidence": "medium"
+          },
+          "culturalLean": {
+            "value": 7,
+            "rationale": "Reliable progressive Speaker on social issues; cooler on left litmus tests (single payer).",
             "confidence": "medium"
           }
         },
@@ -2743,16 +2745,16 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": 7,
-            "rationale": "Dem AM, education chair, AAPI advocate; mainline progressive votes.",
-            "confidence": "medium"
-          },
           "tier": "major",
           "finance": {
             "summary": "Top donors: California Teachers Association (CTA), education unions",
             "netWorth": "~$500K–1M",
             "netWorthSource": "Form 700 estimate",
+            "confidence": "medium"
+          },
+          "culturalLean": {
+            "value": 7,
+            "rationale": "Dem AM, education chair, AAPI advocate; mainline progressive votes.",
             "confidence": "medium"
           }
         },
@@ -2768,16 +2770,16 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": 6,
-            "rationale": "Center-left Dem in a swing district; pragmatist priors.",
-            "confidence": "medium"
-          },
           "tier": "major",
           "finance": {
             "summary": "Top donors: trial lawyers, labor unions",
             "netWorth": "~$500K–1M",
             "netWorthSource": "Form 700 estimate",
+            "confidence": "medium"
+          },
+          "culturalLean": {
+            "value": 6,
+            "rationale": "Center-left Dem in a swing district; pragmatist priors.",
             "confidence": "medium"
           }
         },
@@ -2794,16 +2796,16 @@
             "source": "no market",
             "note": "Likely consolidates the conservative vote."
           },
-          "wokeIndex": {
-            "value": 0,
-            "rationale": "Built profile explicitly leading anti-trans-policy and anti-DEI fights as a school board president.",
-            "confidence": "high"
-          },
           "tier": "major",
           "finance": {
             "summary": "Top donors: parental-rights groups, Inland Empire conservative networks",
             "netWorth": "unknown",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": 0,
+            "rationale": "Built profile explicitly leading anti-trans-policy and anti-DEI fights as a school board president.",
+            "confidence": "high"
           }
         },
         {
@@ -2818,16 +2820,16 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": 7,
-            "rationale": "Educator-of-color background in teacher prep; equity-coded priors.",
-            "confidence": "low"
-          },
           "tier": "major",
           "finance": {
             "summary": null,
             "searchUrl": "https://www.google.com/search?q=Nichelle%20Henderson%20campaign%20finance%20donors%20net%20worth",
             "confidence": null
+          },
+          "culturalLean": {
+            "value": 7,
+            "rationale": "Educator-of-color background in teacher prep; equity-coded priors.",
+            "confidence": "low"
           }
         },
         {
@@ -2842,15 +2844,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Not enough public record to assess.",
-            "confidence": null
-          },
           "tier": "major",
           "finance": {
             "summary": null,
             "searchUrl": "https://www.google.com/search?q=Frank%20Lara%20campaign%20finance%20donors%20net%20worth",
+            "confidence": null
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Not enough public record to assess.",
             "confidence": null
           }
         },
@@ -2867,15 +2869,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": 7,
-            "rationale": "Veteran SD school-board Dem; equity-focused.",
-            "confidence": "medium"
-          },
           "finance": {
             "summary": "Top donors: education unions, San Diego Dems",
             "netWorth": "unknown",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": 7,
+            "rationale": "Veteran SD school-board Dem; equity-focused.",
+            "confidence": "medium"
           }
         },
         {
@@ -2891,15 +2893,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Wendy%20Castaneda%20Leal%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -2915,15 +2917,15 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": null,
-            "rationale": "Minor candidate; no public record to assess.",
-            "confidence": null
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Ainye%20Long%20campaign%20finance%20donors%20net%20worth",
             "confidence": "low"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Minor candidate; no public record to assess.",
+            "confidence": null
           }
         },
         {
@@ -2939,18 +2941,19 @@
             "value": null,
             "source": "no market"
           },
-          "wokeIndex": {
-            "value": 2,
-            "rationale": "Past R Congressional candidate; conservative priors.",
-            "confidence": "low"
-          },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
             "searchUrl": "https://www.google.com/search?q=Gus%20Mattammal%20campaign%20finance%20donors%20net%20worth",
+            "confidence": "low"
+          },
+          "culturalLean": {
+            "value": 2,
+            "rationale": "Past R Congressional candidate; conservative priors.",
             "confidence": "low"
           }
         }
       ]
     }
-  ]
+  ],
+  "culturalLeanNote": "Editorial 0–10 cultural-lean score: 0 = traditional / anti-DEI / anti-identity-politics, 10 = strongly progressive on identity, DEI, criminal justice reform, and culture-war issues. Confidence reflects how much public record exists."
 }

@@ -1,28 +1,35 @@
-name: Refresh prediction-market prices
+name: Refresh data
 
 on:
   schedule:
-    # Run every 6 hours. (cron uses UTC.)
+    # Polymarket: every 6 hours.
     - cron: '5 */6 * * *'
-  workflow_dispatch: {}
+    # OpenSecrets: once a day at 12:30 UTC (their data updates roughly daily).
+    - cron: '30 12 * * *'
+  workflow_dispatch:
+    inputs:
+      job:
+        description: 'Which refresher to run'
+        required: false
+        default: 'all'
+        type: choice
+        options: [all, polymarket, opensecrets]
 
 permissions:
   contents: write
 
 jobs:
-  refresh:
+  polymarket:
+    if: github.event_name != 'workflow_dispatch' || inputs.job == 'all' || inputs.job == 'polymarket'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
-
-      - name: Run refresh script
+          node-version: '22'
+      - name: Refresh Polymarket prices
         run: node scripts/refresh-prices.mjs
-
-      - name: Commit and push if data changed
+      - name: Commit and push if changed
         run: |
           if [[ -z "$(git status --porcelain data/)" ]]; then
             echo "No price changes."
@@ -30,6 +37,40 @@ jobs:
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git pull --rebase
           git add data/
           git commit -m "chore(data): refresh prediction-market prices ($(date -u +%Y-%m-%dT%H:%MZ))"
+          git push
+
+  opensecrets:
+    # Run on the daily cron OR on manual dispatch. (The 6-hourly cron skips this.)
+    if: |
+      (github.event_name == 'schedule' && github.event.schedule == '30 12 * * *') ||
+      (github.event_name == 'workflow_dispatch' && (inputs.job == 'all' || inputs.job == 'opensecrets'))
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Refresh OpenSecrets finance data
+        env:
+          OPENSECRETS_API_KEY: ${{ secrets.OPENSECRETS_API_KEY }}
+        run: |
+          if [[ -z "$OPENSECRETS_API_KEY" ]]; then
+            echo "::warning::OPENSECRETS_API_KEY secret not set; skipping. Add it under Settings → Secrets and variables → Actions."
+            exit 0
+          fi
+          node scripts/refresh-finance-opensecrets.mjs
+      - name: Commit and push if changed
+        run: |
+          if [[ -z "$(git status --porcelain data/)" ]]; then
+            echo "No finance changes."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git pull --rebase
+          git add data/
+          git commit -m "chore(data): refresh OpenSecrets finance data ($(date -u +%Y-%m-%dT%H:%MZ))"
           git push

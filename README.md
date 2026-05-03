@@ -1,10 +1,10 @@
 # Ballot Builder
 
 A personal voting-decision tool. Lists every candidate on the ballot with
-their party, a one-liner about their biggest known controversy (with a
-search link for more), a rough probability of winning where one's
-available, and a 0–10 "woke index" with a one-line rationale. Pick
-choices, copy the list, take it to the polling place.
+their party, a one-liner about their biggest known controversy, a rough
+probability of winning, a 0–10 cultural-lean score, and a "follow the
+money" note about who's funding them. Pick choices, copy the list, take
+it to the polling place.
 
 Built first for the **California Primary — June 2, 2026**, with several
 North Bay jurisdictions populated as examples. Designed so anyone can
@@ -130,19 +130,75 @@ node scripts/refresh-prices.mjs path/to/file.json # refresh one file
 `.github/workflows/refresh-prices.yml` runs every 6 hours and on manual
 dispatch, commits any changes, and triggers the GH Pages rebuild.
 
-## Woke index
+## Cultural lean
 
-0 = traditional/anti-DEI/anti-identity-politics, 10 = strongly
+0 = traditional / anti-DEI / anti-identity-politics, 10 = strongly
 progressive on identity, DEI, criminal justice reform, and culture-war
 issues. Each candidate also has a `confidence` flag (high/medium/low)
-based on how much public record exists. It's editorial — feel free to
-disagree and edit.
+reflecting how much public record exists. It's editorial — disagree
+and edit.
 
 ## Scandal one-liners
 
 Editorial calls based on contemporaneous reporting. Where there's no
 confident one-liner, the entry shows "Needs research" with a Google
 search link.
+
+## Finance signal
+
+Per-candidate `finance` field shows two pieces of follow-the-money
+context: a one-liner about who's bankrolling them (top donors, top
+industry, self-funding amount, or "no significant fundraising" for
+minor candidates) and a net-worth range when publicly disclosed.
+
+For federal candidates, this can be auto-refreshed via the OpenSecrets
+cron (see below). For state/local, it's hand-curated.
+
+### Auto-refreshing federal finance from OpenSecrets
+
+Add an `openSecretsCid: "N00033552"` field to any federal candidate
+(House/Senate). The cron will pull top industries + total raised from
+the OpenSecrets API and rewrite their `finance` block.
+
+Setup:
+
+1. Free API key from <https://www.opensecrets.org/api/>.
+2. On GitHub: Settings → Secrets and variables → Actions → New repository
+   secret → name `OPENSECRETS_API_KEY`, paste the key.
+3. The daily cron (12:30 UTC) picks it up automatically. Trigger a
+   manual run from Actions → "Refresh data" → "Run workflow" →
+   pick `opensecrets`.
+
+Run locally:
+
+```sh
+OPENSECRETS_API_KEY=... node scripts/refresh-finance-opensecrets.mjs
+```
+
+## Refreshing editorial content with an LLM
+
+The cultural-lean score, scandal one-liners, and rationale text are
+inherently editorial — no API can keep them fresh. But you can hand the
+whole repo to an LLM (Claude, GPT, etc.) and ask it to refresh.
+
+If you have Claude Code installed:
+
+```sh
+cd /path/to/this/repo
+claude
+> Refresh the scandal one-liners and cultural-lean scores for the major
+> Governor candidates. Web-search for any news from the past month, and
+> only update entries where there's a real change. Commit when done.
+```
+
+Or via claude.ai (no Claude Code): paste a candidate's JSON entry into
+a chat with Claude (or GPT-4/etc.) along with a prompt like _"You're
+updating my candidate-info file. Here's the entry. Search the web for
+recent news and return an updated JSON object with refreshed scandal,
+finance, and culturalLean fields. Mark confidence honestly."_
+
+The LLM will hallucinate sometimes — confidence flags exist for a reason.
+Verify against the search links before trusting any update.
 
 ## Deploy to GitHub Pages
 
@@ -163,4 +219,5 @@ No build step — plain HTML/CSS/JS.
 - `data/<election>/statewide.json` — races shared across all jurisdictions
 - `data/<election>/<jurisdiction>.json` — local races for one jurisdiction
 - `scripts/refresh-prices.mjs` — Polymarket price refresher
-- `.github/workflows/refresh-prices.yml` — 6-hour cron + manual dispatch
+- `scripts/refresh-finance-opensecrets.mjs` — federal finance refresher (needs API key)
+- `.github/workflows/refresh-prices.yml` — Polymarket (6h) + OpenSecrets (daily) crons
