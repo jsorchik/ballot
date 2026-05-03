@@ -13,7 +13,7 @@
     "Supervisor": "BOS District 1 (not on 2026 ballot)",
     "Board of Equalization": "BOE District 2"
   },
-  "lastUpdated": "2026-04-28",
+  "lastUpdated": "2026-05-03",
   "notes": "Sample jurisdiction. City of Sonoma council elections are on the November ballot. BOS District 1 was last elected in 2024.",
   "races": [
     {
@@ -316,14 +316,18 @@
             "summaryUrl": "https://www.opensecrets.org/members-of-congress/mike-thompson/summary?cid=N00006804",
             "netWorth": "~$1–3M",
             "netWorthSource": "House financial disclosure",
-            "confidence": "high"
+            "confidence": "high",
+            "totalRaised": "3.0M",
+            "totalRaisedRaw": 2988369.12,
+            "asOf": "2026-05-03",
+            "totalRaisedSource": "FEC"
           },
-          "openSecretsCid": "N00006804",
           "culturalLean": {
             "value": 6,
             "rationale": "Centrist 'Blue Dog'-aligned Dem; pro-gun-rights for a Dem; mainline progressive on social issues but not culture-war-forward.",
             "confidence": "medium"
-          }
+          },
+          "fecCandidateId": "H8CA01109"
         },
         {
           "name": "John Mackenzie",

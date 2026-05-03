@@ -154,26 +154,38 @@ minor candidates) and a net-worth range when publicly disclosed.
 For federal candidates, this can be auto-refreshed via the OpenSecrets
 cron (see below). For state/local, it's hand-curated.
 
-### Auto-refreshing federal finance from OpenSecrets
+### Auto-refreshing federal finance from FEC
 
-Add an `openSecretsCid: "N00033552"` field to any federal candidate
-(House/Senate). The cron will pull top industries + total raised from
-the OpenSecrets API and rewrite their `finance` block.
+> Note: OpenSecrets discontinued their public API in April 2025, so we
+> use the FEC's own open-data API instead. FEC gives us cycle-to-date
+> totals (clean and live) but not the "top industries" rollup that
+> OpenSecrets used to add — that part stays hand-curated in
+> `finance.summary`.
+
+Add a `fecCandidateId: "H2CA06259"` field to any federal candidate
+(House/Senate/President). The cron will fetch their cycle receipts
+from the FEC API and update `finance.totalRaised`. The hand-written
+`finance.summary` and `finance.netWorth` are left alone.
 
 Setup:
 
-1. Free API key from <https://www.opensecrets.org/api/>.
-2. On GitHub: Settings → Secrets and variables → Actions → New repository
-   secret → name `OPENSECRETS_API_KEY`, paste the key.
+1. Free API key from <https://api.data.gov/signup/> (raises rate from
+   30/hr to 1000/hr; optional — DEMO_KEY works for a few candidates).
+2. On GitHub: Settings → Secrets and variables → Actions → New
+   repository secret → name `FEC_API_KEY`, paste the key.
 3. The daily cron (12:30 UTC) picks it up automatically. Trigger a
-   manual run from Actions → "Refresh data" → "Run workflow" →
-   pick `opensecrets`.
+   manual run from Actions → "Refresh data" → "Run workflow" → `fec`.
 
 Run locally:
 
 ```sh
-OPENSECRETS_API_KEY=... node scripts/refresh-finance-opensecrets.mjs
+FEC_API_KEY=... node scripts/refresh-finance-fec.mjs
+# or with no key, using rate-limited DEMO_KEY:
+node scripts/refresh-finance-fec.mjs
 ```
+
+Find a candidate's FEC ID via
+<https://api.open.fec.gov/developers/#/candidate>.
 
 ## Refreshing editorial content with an LLM
 
@@ -219,5 +231,5 @@ No build step — plain HTML/CSS/JS.
 - `data/<election>/statewide.json` — races shared across all jurisdictions
 - `data/<election>/<jurisdiction>.json` — local races for one jurisdiction
 - `scripts/refresh-prices.mjs` — Polymarket price refresher
-- `scripts/refresh-finance-opensecrets.mjs` — federal finance refresher (needs API key)
-- `.github/workflows/refresh-prices.yml` — Polymarket (6h) + OpenSecrets (daily) crons
+- `scripts/refresh-finance-fec.mjs` — federal totals refresher (FEC API)
+- `.github/workflows/refresh-prices.yml` — Polymarket (6h) + FEC (daily) crons

@@ -472,6 +472,18 @@ function renderFinance(c) {
   }
   frag.appendChild(line);
 
+  if (f.totalRaised) {
+    const sep = document.createElement('span');
+    sep.className = 'finance-sep';
+    sep.textContent = ' · ';
+    frag.appendChild(sep);
+    const tr = document.createElement('span');
+    tr.className = 'finance-raised';
+    tr.textContent = `Raised $${f.totalRaised}`;
+    if (f.totalRaisedSource && f.asOf) tr.title = `${f.totalRaisedSource}, as of ${f.asOf}`;
+    frag.appendChild(tr);
+  }
+
   if (f.netWorth) {
     const sep = document.createElement('span');
     sep.className = 'finance-sep';

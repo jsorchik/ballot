@@ -4,7 +4,7 @@ on:
   schedule:
     # Polymarket: every 6 hours.
     - cron: '5 */6 * * *'
-    # OpenSecrets: once a day at 12:30 UTC (their data updates roughly daily).
+    # FEC: once a day at 12:30 UTC.
     - cron: '30 12 * * *'
   workflow_dispatch:
     inputs:
@@ -13,7 +13,7 @@ on:
         required: false
         default: 'all'
         type: choice
-        options: [all, polymarket, opensecrets]
+        options: [all, polymarket, fec]
 
 permissions:
   contents: write
@@ -42,26 +42,25 @@ jobs:
           git commit -m "chore(data): refresh prediction-market prices ($(date -u +%Y-%m-%dT%H:%MZ))"
           git push
 
-  opensecrets:
+  fec:
     # Run on the daily cron OR on manual dispatch. (The 6-hourly cron skips this.)
     if: |
       (github.event_name == 'schedule' && github.event.schedule == '30 12 * * *') ||
-      (github.event_name == 'workflow_dispatch' && (inputs.job == 'all' || inputs.job == 'opensecrets'))
+      (github.event_name == 'workflow_dispatch' && (inputs.job == 'all' || inputs.job == 'fec'))
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Refresh OpenSecrets finance data
+      - name: Refresh FEC finance data
         env:
-          OPENSECRETS_API_KEY: ${{ secrets.OPENSECRETS_API_KEY }}
+          FEC_API_KEY: ${{ secrets.FEC_API_KEY }}
         run: |
-          if [[ -z "$OPENSECRETS_API_KEY" ]]; then
-            echo "::warning::OPENSECRETS_API_KEY secret not set; skipping. Add it under Settings → Secrets and variables → Actions."
-            exit 0
-          fi
-          node scripts/refresh-finance-opensecrets.mjs
+          # FEC_API_KEY is optional — DEMO_KEY works at 30 req/hour, plenty for
+          # a few federal candidates. Real key (free at api.data.gov) raises
+          # to 1000/hour.
+          node scripts/refresh-finance-fec.mjs
       - name: Commit and push if changed
         run: |
           if [[ -z "$(git status --porcelain data/)" ]]; then
@@ -72,5 +71,5 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git pull --rebase
           git add data/
-          git commit -m "chore(data): refresh OpenSecrets finance data ($(date -u +%Y-%m-%dT%H:%MZ))"
+          git commit -m "chore(data): refresh FEC finance totals ($(date -u +%Y-%m-%dT%H:%MZ))"
           git push

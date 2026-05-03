@@ -79,7 +79,6 @@
             "netWorthSource": "House/Cabinet disclosure ranges",
             "confidence": "high"
           },
-          "openSecretsCid": "N00006504",
           "culturalLean": {
             "value": 7,
             "rationale": "Latino civil-rights record as CA AG (sanctuary, abortion, Trump lawsuits); HHS expanded gender-affirming care guidance.",
@@ -168,7 +167,6 @@
             "netWorthSource": "House financial disclosure",
             "confidence": "high"
           },
-          "openSecretsCid": "N00042581",
           "culturalLean": {
             "value": 7,
             "rationale": "Warren-aligned econ progressive; reliable progressive cultural votes but not identity-politics-forward.",
@@ -709,14 +707,19 @@
             "summary": "Top donors: trial lawyers, defense industry, labor (when active); withdrew",
             "netWorth": "~$300K–1M",
             "netWorthSource": "House financial disclosure",
-            "confidence": "high"
+            "confidence": "high",
+            "totalRaised": "1.7M",
+            "totalRaisedRaw": 1712405.47,
+            "summaryUrl": "https://www.fec.gov/data/candidate/H2CA15094/?cycle=2026",
+            "asOf": "2026-05-03",
+            "totalRaisedSource": "FEC"
           },
-          "openSecretsCid": "N00033508",
           "culturalLean": {
             "value": null,
             "rationale": "Minor candidate; no public record to assess.",
             "confidence": null
-          }
+          },
+          "fecCandidateId": "H2CA15094"
         },
         {
           "name": "James Athans Jr.",

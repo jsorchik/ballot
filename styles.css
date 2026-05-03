@@ -291,6 +291,7 @@ a:hover { text-decoration: underline; }
 .finance-none { color: var(--muted); font-style: italic; }
 .finance-sep { color: var(--muted); margin: 0 0.15rem; }
 .finance-networth { color: var(--ink); }
+.finance-raised { color: var(--ink); }
 .finance-conf { color: var(--muted); font-style: italic; }
 .finance-link { margin-left: 0.4rem; color: var(--muted); font-size: 0.75rem; }
 

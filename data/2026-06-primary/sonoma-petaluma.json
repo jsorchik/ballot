@@ -13,7 +13,7 @@
     "Supervisor": "BOS District 2",
     "Board of Equalization": "BOE District 2"
   },
-  "lastUpdated": "2026-04-28",
+  "lastUpdated": "2026-05-03",
   "notes": "No statewide ballot measures on the June primary; the qualified statewide measures are on the Nov general.",
   "races": [
     {
@@ -47,14 +47,18 @@
             "summaryUrl": "https://www.opensecrets.org/members-of-congress/jared-huffman/summary?cid=N00033552",
             "netWorth": "~$300K–1M",
             "netWorthSource": "House financial disclosure",
-            "confidence": "high"
+            "confidence": "high",
+            "totalRaised": "698K",
+            "totalRaisedRaw": 698455.72,
+            "asOf": "2026-05-03",
+            "totalRaisedSource": "FEC"
           },
-          "openSecretsCid": "N00033552",
           "culturalLean": {
             "value": 8,
             "rationale": "Freethought Caucus founder, consistent progressive votes on LGBTQ+/climate/social issues.",
             "confidence": "high"
-          }
+          },
+          "fecCandidateId": "H2CA06259"
         },
         {
           "name": "Rose Penelope Yee",
