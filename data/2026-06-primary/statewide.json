@@ -3,7 +3,7 @@
   "name": "California Primary — June 2, 2026 (statewide)",
   "date": "2026-06-02",
   "state": "California",
-  "lastUpdated": "2026-05-03",
+  "lastUpdated": "2026-05-04",
   "notes": "Top-two primary — top two finishers regardless of party advance to Nov 3 general (except for nonpartisan county/judicial offices, which are decided in June if a candidate gets >50%). No statewide ballot measures on the June primary; the qualified statewide measures are on the Nov general.",
   "races": [
     {
@@ -32,13 +32,13 @@
             "searchQuery": "Tom Steyer Farallon coal private prisons fossil fuels"
           },
           "winChance": {
-            "value": 0.365,
+            "value": 0.38,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-03",
+            "asOf": "2026-05-04",
             "note": "$132M self-funded; primary frontrunner.",
             "basis": "mid",
-            "liquidityUsd": 22226
+            "liquidityUsd": 5519
           },
           "tier": "major",
           "finance": {
@@ -66,10 +66,10 @@
             "value": 0.315,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-03",
+            "asOf": "2026-05-04",
             "note": "Surged after Swalwell withdrew and Speaker Rivas endorsed.",
             "basis": "mid",
-            "liquidityUsd": 15905
+            "liquidityUsd": 4317
           },
           "tier": "major",
           "finance": {
@@ -94,11 +94,11 @@
             "searchQuery": "Steve Hilton California governor controversy"
           },
           "winChance": {
-            "value": 0.295,
+            "value": 0.265,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-03",
-            "liquidityUsd": 16116,
+            "asOf": "2026-05-04",
+            "liquidityUsd": 6896,
             "basis": "mid"
           },
           "tier": "major",
@@ -123,12 +123,12 @@
             "searchQuery": "Chad Bianco Oath Keepers Riverside Sheriff"
           },
           "winChance": {
-            "value": 0.0205,
+            "value": 0.0215,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-03",
+            "asOf": "2026-05-04",
             "basis": "mid",
-            "liquidityUsd": 3977
+            "liquidityUsd": 4537
           },
           "tier": "major",
           "finance": {
@@ -155,9 +155,9 @@
             "value": 0.0015,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-03",
+            "asOf": "2026-05-04",
             "basis": "mid",
-            "liquidityUsd": 5941
+            "liquidityUsd": 4350
           },
           "tier": "major",
           "finance": {
@@ -185,8 +185,8 @@
             "value": 0.0015,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-03",
-            "liquidityUsd": 3285,
+            "asOf": "2026-05-04",
+            "liquidityUsd": 2012,
             "basis": "mid"
           },
           "tier": "major",
@@ -211,11 +211,11 @@
             "searchQuery": "Antonio Villaraigosa Mirthala Salinas affair"
           },
           "winChance": {
-            "value": 0.004,
+            "value": 0.0025,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-03",
-            "liquidityUsd": 5498,
+            "asOf": "2026-05-04",
+            "liquidityUsd": 4141,
             "basis": "mid"
           },
           "tier": "major",
@@ -244,9 +244,9 @@
             "value": 0.004,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-03",
+            "asOf": "2026-05-04",
             "basis": "mid",
-            "liquidityUsd": 3786
+            "liquidityUsd": 3476
           },
           "tier": "major",
           "finance": {
@@ -270,11 +270,11 @@
             "searchQuery": "Matt Mahan San Jose mayor controversy"
           },
           "winChance": {
-            "value": 0.0205,
+            "value": 0.022,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-03",
-            "liquidityUsd": 7030,
+            "asOf": "2026-05-04",
+            "liquidityUsd": 5179,
             "basis": "mid"
           },
           "tier": "major",
@@ -372,11 +372,11 @@
             "searchQuery": "Carolina Buhler controversy"
           },
           "winChance": {
-            "value": 0.004,
+            "value": 0.005,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-03",
-            "liquidityUsd": 3216,
+            "asOf": "2026-05-04",
+            "liquidityUsd": 3037,
             "basis": "mid"
           },
           "finance": {
@@ -448,11 +448,11 @@
             "searchQuery": "Derek Grasty controversy"
           },
           "winChance": {
-            "value": 0.0055,
+            "value": 0.0095,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-03",
-            "liquidityUsd": 5355,
+            "asOf": "2026-05-04",
+            "liquidityUsd": 3281,
             "basis": "mid"
           },
           "finance": {
@@ -575,8 +575,8 @@
             "value": 0.004,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-03",
-            "liquidityUsd": 3116,
+            "asOf": "2026-05-04",
+            "liquidityUsd": 2070,
             "basis": "mid"
           },
           "finance": {
@@ -600,11 +600,11 @@
             "searchQuery": "Raji Rab controversy"
           },
           "winChance": {
-            "value": 0.0035,
+            "value": 0.004,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-03",
-            "liquidityUsd": 4715,
+            "asOf": "2026-05-04",
+            "liquidityUsd": 3630,
             "basis": "mid"
           },
           "finance": {
@@ -923,11 +923,11 @@
             "searchQuery": "Leo Zacky controversy"
           },
           "winChance": {
-            "value": 0.0095,
+            "value": 0.0165,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-03",
-            "liquidityUsd": 4335,
+            "asOf": "2026-05-04",
+            "liquidityUsd": 3214,
             "basis": "mid"
           },
           "finance": {
@@ -1002,8 +1002,8 @@
             "value": 0.0015,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-03",
-            "liquidityUsd": 2953,
+            "asOf": "2026-05-04",
+            "liquidityUsd": 2723,
             "basis": "mid"
           },
           "finance": {
@@ -1075,11 +1075,11 @@
             "searchQuery": "Elaine Culotti controversy"
           },
           "winChance": {
-            "value": 0.0115,
+            "value": 0.0065,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-03",
-            "liquidityUsd": 2724,
+            "asOf": "2026-05-04",
+            "liquidityUsd": 2181,
             "basis": "mid"
           },
           "finance": {
@@ -1391,11 +1391,11 @@
             "searchQuery": "Daniel Mercuri controversy"
           },
           "winChance": {
-            "value": 0.0075,
+            "value": 0.0065,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-03",
-            "liquidityUsd": 4188,
+            "asOf": "2026-05-04",
+            "liquidityUsd": 3100,
             "basis": "mid"
           },
           "finance": {
