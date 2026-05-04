@@ -18,6 +18,11 @@ on:
 permissions:
   contents: write
 
+# Opt JS-based actions (checkout, setup-node) into Node 24 now to silence the
+# deprecation warning ahead of the June 2026 forced-upgrade.
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
+
 jobs:
   polymarket:
     if: github.event_name != 'workflow_dispatch' || inputs.job == 'all' || inputs.job == 'polymarket'
@@ -37,9 +42,11 @@ jobs:
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git pull --rebase
           git add data/
           git commit -m "chore(data): refresh prediction-market prices ($(date -u +%Y-%m-%dT%H:%MZ))"
+          # Rebase AFTER committing so we have a clean tree — protects against
+          # the FEC job and Polymarket job racing to push.
+          git pull --rebase
           git push
 
   fec:
@@ -69,7 +76,7 @@ jobs:
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git pull --rebase
           git add data/
           git commit -m "chore(data): refresh FEC finance totals ($(date -u +%Y-%m-%dT%H:%MZ))"
+          git pull --rebase
           git push
