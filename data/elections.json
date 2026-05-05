@@ -27,6 +27,19 @@
           "file": "data/2026-06-primary/marin-novato.json"
         }
       ]
+    },
+    {
+      "id": "2026-06-nv-primary",
+      "name": "Nevada Primary — June 9, 2026",
+      "date": "2026-06-09",
+      "statewide": "data/2026-06-nv-primary/statewide.json",
+      "jurisdictions": [
+        {
+          "id": "washoe-southreno",
+          "name": "Washoe County — Unincorporated south Reno (Saddlehorn area)",
+          "file": "data/2026-06-nv-primary/washoe-southreno.json"
+        }
+      ]
     }
   ]
 }

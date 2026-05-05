@@ -1,0 +1,171 @@
+{
+  "id": "washoe-southreno",
+  "name": "Unincorporated south Reno (Saddlehorn area)",
+  "path": [
+    "Nevada",
+    "Washoe County",
+    "Unincorporated south Reno (Saddlehorn area)"
+  ],
+  "districts": {
+    "Congress": "NV-02",
+    "State Senate": "SD-15 (verify against sample ballot)",
+    "State Assembly": "AD-25 (verify against sample ballot)",
+    "County Commission": "Washoe District 2 (south Reno)",
+    "Municipality": "Unincorporated (no Reno city races)"
+  },
+  "lastUpdated": "2026-05-04",
+  "notes": "Sample-ballot data quality varies. Saddlehorn sits on the southern edge of Reno where addresses split between unincorporated Washoe County and Reno city limits — verify your specific address at washoecounty.gov/voters before relying on this. Reno city races are NOT included assuming unincorporated; switch jurisdictions if your address is inside city limits.",
+  "races": [
+    {
+      "id": "nv-us-house-02",
+      "office": "U.S. Representative",
+      "district": "NV-02",
+      "level": "federal",
+      "termYears": 2,
+      "incumbent": "Mark Amodei",
+      "seat": "incumbent running",
+      "ballotOrder": 1,
+      "notes": "Candidate list needs research — verify against sample ballot.",
+      "candidates": [
+        {
+          "name": "Mark Amodei",
+          "party": "Republican",
+          "occupation": "U.S. Representative",
+          "tier": "major",
+          "incumbent": true,
+          "scandal": {
+            "summary": "Voted to certify the 2020 election, drawing primary challenges from MAGA right; endorsed Trump 2024.",
+            "searchQuery": "Mark Amodei 2020 election certify primary challenge"
+          },
+          "finance": {
+            "summary": "Top donors: NV mining industry, gaming, GOP leadership PACs",
+            "searchUrl": "https://www.fec.gov/data/candidate/?q=Amodei"
+          },
+          "winChance": {
+            "value": 0.85,
+            "source": "estimate (R+11 PVI district, sitting incumbent)",
+            "asOf": "2026-05-04"
+          },
+          "culturalLean": {
+            "value": 3,
+            "rationale": "Right of center but among NV-GOP's least culture-war-coded; mining/lands focus.",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nv-state-senate-15",
+      "office": "State Senator",
+      "district": "SD-15",
+      "level": "state-leg",
+      "termYears": 4,
+      "incumbent": "(verify)",
+      "seat": "(verify)",
+      "ballotOrder": 9,
+      "notes": "District assignment is approximate — Saddlehorn could be in SD-13, SD-15, or another district depending on address. Verify with your sample ballot.",
+      "candidates": []
+    },
+    {
+      "id": "nv-state-assembly-25",
+      "office": "State Assembly",
+      "district": "AD-25",
+      "level": "state-leg",
+      "termYears": 2,
+      "incumbent": "(verify)",
+      "seat": "(verify)",
+      "ballotOrder": 10,
+      "notes": "District assignment is approximate. Verify with your sample ballot.",
+      "candidates": []
+    },
+    {
+      "id": "washoe-commission-d2",
+      "office": "Washoe County Commission",
+      "district": "District 2",
+      "level": "county",
+      "termYears": 4,
+      "incumbent": "(verify)",
+      "seat": "(verify)",
+      "ballotOrder": 17,
+      "notes": "South Reno is in Commission District 2. Specific candidates need research at washoecounty.gov/voters.",
+      "candidates": []
+    },
+    {
+      "id": "washoe-sheriff",
+      "office": "Washoe County Sheriff",
+      "level": "county",
+      "termYears": 4,
+      "incumbent": "Darin Balaam",
+      "seat": "verify",
+      "ballotOrder": 18,
+      "notes": "Sheriff is on the 2026 ballot; specific candidates need research.",
+      "candidates": []
+    },
+    {
+      "id": "washoe-da",
+      "office": "Washoe County District Attorney",
+      "level": "county",
+      "termYears": 4,
+      "incumbent": "Chris Hicks",
+      "seat": "verify",
+      "ballotOrder": 19,
+      "notes": "DA is on the 2026 ballot; specific candidates need research.",
+      "candidates": []
+    },
+    {
+      "id": "washoe-clerk",
+      "office": "Washoe County Clerk",
+      "level": "county",
+      "termYears": 4,
+      "incumbent": "Janis Galassini",
+      "seat": "verify",
+      "ballotOrder": 20,
+      "notes": "On the 2026 ballot; candidate list needs research.",
+      "candidates": []
+    },
+    {
+      "id": "washoe-recorder",
+      "office": "Washoe County Recorder",
+      "level": "county",
+      "termYears": 4,
+      "incumbent": "Kalie Work",
+      "seat": "verify",
+      "ballotOrder": 21,
+      "notes": "On the 2026 ballot; candidate list needs research.",
+      "candidates": []
+    },
+    {
+      "id": "washoe-assessor",
+      "office": "Washoe County Assessor",
+      "level": "county",
+      "termYears": 4,
+      "incumbent": "Mike Clark",
+      "seat": "verify",
+      "ballotOrder": 22,
+      "notes": "On the 2026 ballot; candidate list needs research.",
+      "candidates": []
+    },
+    {
+      "id": "washoe-treasurer",
+      "office": "Washoe County Treasurer",
+      "level": "county",
+      "termYears": 4,
+      "incumbent": "Justin Taylor",
+      "seat": "verify",
+      "ballotOrder": 23,
+      "notes": "On the 2026 ballot; candidate list needs research.",
+      "candidates": []
+    },
+    {
+      "id": "washoe-public-admin",
+      "office": "Washoe County Public Administrator",
+      "level": "county",
+      "termYears": 4,
+      "incumbent": "(verify)",
+      "seat": "verify",
+      "ballotOrder": 24,
+      "notes": "On the 2026 ballot; candidate list needs research.",
+      "candidates": []
+    }
+  ]
+}

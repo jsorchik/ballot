@@ -1,0 +1,284 @@
+{
+  "id": "2026-06-nv-primary-statewide",
+  "name": "Nevada Primary — June 9, 2026 (statewide)",
+  "date": "2026-06-09",
+  "state": "Nevada",
+  "lastUpdated": "2026-05-04",
+  "notes": "Nevada uses a closed primary for partisan races — you can only vote in your registered party's primary. Nonpartisan offices (most judicial, county) are open. Top vote-getters in the partisan primary advance to the November general; in nonpartisan races, top two advance unless one clears 50%.",
+  "culturalLeanNote": "Editorial 0–10 cultural-lean score: 0 = traditional / anti-DEI / anti-identity-politics, 10 = strongly progressive on identity, DEI, criminal justice reform, and culture-war issues. Confidence reflects how much public record exists.",
+  "races": [
+    {
+      "id": "nv-governor",
+      "office": "Governor",
+      "level": "state-exec",
+      "termYears": 4,
+      "incumbent": "Joe Lombardo",
+      "seat": "incumbent running (R primary)",
+      "ballotOrder": 2,
+      "notes": "Closed partisan primary. Lombardo has narrow edge in R primary; Ford and Hill split D primary attention.",
+      "candidates": [
+        {
+          "name": "Joe Lombardo",
+          "party": "Republican",
+          "occupation": "Governor",
+          "tier": "major",
+          "incumbent": true,
+          "scandal": {
+            "summary": "Faced criticism over his Clark County Sheriff record on Vegas-shooting response transparency and his 2024 ICE-cooperation executive order.",
+            "searchQuery": "Joe Lombardo controversy ICE cooperation Sheriff response"
+          },
+          "finance": {
+            "summary": "Top donors: Nevada gaming (Wynn, Boyd, MGM), construction trades, GOP governors association",
+            "searchUrl": "https://www.google.com/search?q=Joe+Lombardo+campaign+donors",
+            "netWorth": "~$1–3M",
+            "netWorthSource": "Sheriff salary + family business; estimate"
+          },
+          "winChance": {
+            "value": 0.85,
+            "source": "estimate (incumbency in R primary)",
+            "asOf": "2026-05-04",
+            "note": "Two minor primary challengers; near-certain to win R nomination."
+          },
+          "culturalLean": {
+            "value": 2,
+            "rationale": "Pro-school-choice, signed parental-notification laws, opposed sanctuary cities; not a culture-war fire-breather but reliably right of center on cultural issues.",
+            "confidence": "high"
+          }
+        },
+        {
+          "name": "Aaron Ford",
+          "party": "Democratic",
+          "occupation": "Attorney General of Nevada",
+          "tier": "major",
+          "scandal": {
+            "summary": "Faced criticism for slow disclosure of his 1990s arrest record during prior campaigns; investigated (and cleared) over an alleged DUI traffic-stop incident in 2018.",
+            "searchQuery": "Aaron Ford controversy arrest record Nevada AG"
+          },
+          "finance": {
+            "summary": "Top donors: trial lawyers, Culinary Union, NV Democratic Party network",
+            "searchUrl": "https://www.google.com/search?q=Aaron+Ford+Nevada+campaign+finance",
+            "netWorth": "~$500K–1M",
+            "netWorthSource": "AG salary + prior law firm; estimate"
+          },
+          "winChance": {
+            "value": 0.65,
+            "source": "estimate (sitting AG, Culinary Union endorsement)",
+            "asOf": "2026-05-04",
+            "note": "Favored over Hill in the D primary but Washoe-vs-Clark split makes it real."
+          },
+          "culturalLean": {
+            "value": 7,
+            "rationale": "Civil-rights / criminal-justice-reform record as AG; led Nevada into multistate suits against Trump immigration and gun-rights moves.",
+            "confidence": "high"
+          }
+        },
+        {
+          "name": "Alexis Hill",
+          "party": "Democratic",
+          "occupation": "Former Washoe County Commission Chair",
+          "tier": "major",
+          "scandal": {
+            "summary": "Survived a 2023 GOP-led recall effort tied to her opposition to election-conspiracy moves on the Washoe Commission.",
+            "searchQuery": "Alexis Hill recall Washoe County Commission"
+          },
+          "finance": {
+            "summary": "Top donors: northern-Nevada small-dollar, environmental groups, Reno-area Dems",
+            "searchUrl": "https://www.google.com/search?q=Alexis+Hill+Nevada+governor+campaign+finance",
+            "netWorth": "~$300K–1M",
+            "netWorthSource": "County salary + nonprofit work; estimate"
+          },
+          "winChance": {
+            "value": 0.35,
+            "source": "estimate",
+            "asOf": "2026-05-04",
+            "note": "Northern-Nevada base; trails Ford on name ID statewide but stronger in Washoe."
+          },
+          "culturalLean": {
+            "value": 7,
+            "rationale": "Public-lands / climate progressive; defended election-integrity processes from Republican commission majority pressure.",
+            "confidence": "medium"
+          }
+        },
+        {
+          "name": "Irina Hansen",
+          "party": "Republican",
+          "occupation": "Salon Owner",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Irina Hansen controversy"
+          },
+          "finance": {
+            "summary": null,
+            "searchUrl": "https://www.google.com/search?q=Irina%20Hansen%20campaign%20finance%20donors%20net%20worth"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Not researched.",
+            "confidence": null
+          }
+        },
+        {
+          "name": "Matthew Winterhawk",
+          "party": "Republican",
+          "occupation": "Hip-Hop Artist",
+          "tier": "minor",
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Matthew Winterhawk controversy"
+          },
+          "finance": {
+            "summary": null,
+            "searchUrl": "https://www.google.com/search?q=Matthew%20Winterhawk%20campaign%20finance%20donors%20net%20worth"
+          },
+          "winChance": {
+            "value": null,
+            "source": "no market"
+          },
+          "culturalLean": {
+            "value": null,
+            "rationale": "Not researched.",
+            "confidence": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "nv-lt-governor",
+      "office": "Lieutenant Governor",
+      "level": "state-exec",
+      "termYears": 4,
+      "incumbent": "Stavros Anthony",
+      "seat": "incumbent running",
+      "ballotOrder": 3,
+      "notes": "Candidate list incomplete — verify against your sample ballot.",
+      "candidates": [
+        {
+          "name": "Stavros Anthony",
+          "party": "Republican",
+          "occupation": "Lieutenant Governor",
+          "tier": "major",
+          "incumbent": true,
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Stavros Anthony controversy"
+          },
+          "finance": {
+            "summary": null,
+            "searchUrl": "https://www.google.com/search?q=Stavros%20Anthony%20campaign%20finance%20donors%20net%20worth"
+          },
+          "winChance": {
+            "value": 0.8,
+            "source": "estimate (incumbency)",
+            "asOf": "2026-05-04"
+          },
+          "culturalLean": {
+            "value": 2,
+            "rationale": "Mainline NV-GOP priors; retired Vegas police captain.",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nv-attorney-general",
+      "office": "Attorney General",
+      "level": "state-exec",
+      "termYears": 4,
+      "incumbent": "Aaron Ford (running for Governor)",
+      "seat": "open",
+      "ballotOrder": 7,
+      "notes": "Open seat — Ford running for Governor. Candidate list needs research.",
+      "candidates": []
+    },
+    {
+      "id": "nv-secretary-of-state",
+      "office": "Secretary of State",
+      "level": "state-exec",
+      "termYears": 4,
+      "incumbent": "Cisco Aguilar",
+      "seat": "incumbent running",
+      "ballotOrder": 4,
+      "notes": "Candidate list needs research.",
+      "candidates": [
+        {
+          "name": "Cisco Aguilar",
+          "party": "Democratic",
+          "occupation": "Secretary of State",
+          "tier": "major",
+          "incumbent": true,
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Cisco Aguilar controversy"
+          },
+          "finance": {
+            "summary": null,
+            "searchUrl": "https://www.google.com/search?q=Cisco%20Aguilar%20campaign%20finance%20donors%20net%20worth"
+          },
+          "winChance": {
+            "value": 0.8,
+            "source": "estimate (incumbency)",
+            "asOf": "2026-05-04"
+          },
+          "culturalLean": {
+            "value": 7,
+            "rationale": "Pro-voting-access record; resisted 2024 election-denial push from GOP commissioners.",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nv-treasurer",
+      "office": "Treasurer",
+      "level": "state-exec",
+      "termYears": 4,
+      "incumbent": "Zach Conine (term-limited)",
+      "seat": "open",
+      "ballotOrder": 6,
+      "notes": "Open seat; candidate list needs research.",
+      "candidates": []
+    },
+    {
+      "id": "nv-controller",
+      "office": "Controller",
+      "level": "state-exec",
+      "termYears": 4,
+      "incumbent": "Andy Matthews",
+      "seat": "incumbent running",
+      "ballotOrder": 5,
+      "notes": "Candidate list needs research.",
+      "candidates": [
+        {
+          "name": "Andy Matthews",
+          "party": "Republican",
+          "occupation": "Controller",
+          "tier": "major",
+          "incumbent": true,
+          "scandal": {
+            "summary": null,
+            "searchQuery": "Andy Matthews controversy"
+          },
+          "finance": {
+            "summary": null,
+            "searchUrl": "https://www.google.com/search?q=Andy%20Matthews%20campaign%20finance%20donors%20net%20worth"
+          },
+          "winChance": {
+            "value": 0.7,
+            "source": "estimate (incumbency)",
+            "asOf": "2026-05-04"
+          },
+          "culturalLean": {
+            "value": 2,
+            "rationale": "Conservative think-tank background (NV Policy Research Institute); reliable R fiscal voice.",
+            "confidence": "medium"
+          }
+        }
+      ]
+    }
+  ]
+}
