@@ -3,7 +3,7 @@
   "name": "California Primary — June 2, 2026 (statewide)",
   "date": "2026-06-02",
   "state": "California",
-  "lastUpdated": "2026-05-18",
+  "lastUpdated": "2026-05-19",
   "notes": "Top-two primary — top two finishers regardless of party advance to Nov 3 general (except for nonpartisan county/judicial offices, which are decided in June if a candidate gets >50%). No statewide ballot measures on the June primary; the qualified statewide measures are on the Nov general.",
   "races": [
     {
@@ -35,10 +35,10 @@
             "value": 0.245,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-18",
+            "asOf": "2026-05-19",
             "note": "$132M self-funded; primary frontrunner.",
             "basis": "mid",
-            "liquidityUsd": 6336
+            "liquidityUsd": 6346
           },
           "tier": "major",
           "finance": {
@@ -66,10 +66,10 @@
             "value": 0.465,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-18",
+            "asOf": "2026-05-19",
             "note": "Surged after Swalwell withdrew and Speaker Rivas endorsed.",
             "basis": "mid",
-            "liquidityUsd": 9063
+            "liquidityUsd": 13411
           },
           "tier": "major",
           "finance": {
@@ -97,8 +97,8 @@
             "value": 0.225,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-18",
-            "liquidityUsd": 4796,
+            "asOf": "2026-05-19",
+            "liquidityUsd": 5338,
             "basis": "mid"
           },
           "tier": "major",
@@ -123,12 +123,12 @@
             "searchQuery": "Chad Bianco Oath Keepers Riverside Sheriff"
           },
           "winChance": {
-            "value": 0.037,
+            "value": 0.0295,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-18",
+            "asOf": "2026-05-19",
             "basis": "mid",
-            "liquidityUsd": 8688
+            "liquidityUsd": 5958
           },
           "tier": "major",
           "finance": {
@@ -152,12 +152,12 @@
             "searchQuery": "Katie Porter staff allegations Politico"
           },
           "winChance": {
-            "value": 0.0305,
+            "value": 0.029,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-18",
+            "asOf": "2026-05-19",
             "basis": "mid",
-            "liquidityUsd": 5849
+            "liquidityUsd": 6249
           },
           "tier": "major",
           "finance": {
@@ -185,8 +185,8 @@
             "value": 0.0015,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-18",
-            "liquidityUsd": 3351,
+            "asOf": "2026-05-19",
+            "liquidityUsd": 3395,
             "basis": "mid"
           },
           "tier": "major",
@@ -214,8 +214,8 @@
             "value": 0.0015,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-18",
-            "liquidityUsd": 7060,
+            "asOf": "2026-05-19",
+            "liquidityUsd": 7827,
             "basis": "mid"
           },
           "tier": "major",
@@ -244,9 +244,9 @@
             "value": 0.0015,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-18",
+            "asOf": "2026-05-19",
             "basis": "mid",
-            "liquidityUsd": 3683
+            "liquidityUsd": 3867
           },
           "tier": "major",
           "finance": {
@@ -270,11 +270,11 @@
             "searchQuery": "Matt Mahan San Jose mayor controversy"
           },
           "winChance": {
-            "value": 0.023,
+            "value": 0.0125,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-18",
-            "liquidityUsd": 13273,
+            "asOf": "2026-05-19",
+            "liquidityUsd": 13521,
             "basis": "mid"
           },
           "tier": "major",
@@ -375,8 +375,8 @@
             "value": 0.0015,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-18",
-            "liquidityUsd": 4577,
+            "asOf": "2026-05-19",
+            "liquidityUsd": 4585,
             "basis": "mid"
           },
           "finance": {
@@ -448,11 +448,11 @@
             "searchQuery": "Derek Grasty controversy"
           },
           "winChance": {
-            "value": 0.006,
+            "value": 0.004,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-18",
-            "liquidityUsd": 3600,
+            "asOf": "2026-05-19",
+            "liquidityUsd": 3880,
             "basis": "mid"
           },
           "finance": {
@@ -575,8 +575,8 @@
             "value": 0.002,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-18",
-            "liquidityUsd": 4693,
+            "asOf": "2026-05-19",
+            "liquidityUsd": 5113,
             "basis": "mid"
           },
           "finance": {
@@ -603,8 +603,8 @@
             "value": 0.0065,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-18",
-            "liquidityUsd": 6720,
+            "asOf": "2026-05-19",
+            "liquidityUsd": 6808,
             "basis": "mid"
           },
           "finance": {
@@ -926,8 +926,8 @@
             "value": 0.0015,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-18",
-            "liquidityUsd": 3244,
+            "asOf": "2026-05-19",
+            "liquidityUsd": 3359,
             "basis": "mid"
           },
           "finance": {
@@ -1002,8 +1002,8 @@
             "value": 0.0015,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-18",
-            "liquidityUsd": 3795,
+            "asOf": "2026-05-19",
+            "liquidityUsd": 4129,
             "basis": "mid"
           },
           "finance": {
@@ -1078,8 +1078,8 @@
             "value": 0.0025,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-18",
-            "liquidityUsd": 3744,
+            "asOf": "2026-05-19",
+            "liquidityUsd": 3462,
             "basis": "mid"
           },
           "finance": {
@@ -1391,11 +1391,11 @@
             "searchQuery": "Daniel Mercuri controversy"
           },
           "winChance": {
-            "value": 0.004,
+            "value": 0.0035,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-18",
-            "liquidityUsd": 5037,
+            "asOf": "2026-05-19",
+            "liquidityUsd": 4982,
             "basis": "mid"
           },
           "finance": {
