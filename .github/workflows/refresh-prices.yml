@@ -44,10 +44,15 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data/
           git commit -m "chore(data): refresh prediction-market prices ($(date -u +%Y-%m-%dT%H:%MZ))"
-          # Rebase AFTER committing so we have a clean tree — protects against
-          # the FEC job and Polymarket job racing to push.
-          git pull --rebase
-          git push
+          # Retry pull --rebase + push to absorb concurrent commits from the
+          # other job or manual pushes. Up to 5 attempts with jittered backoff.
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push; then exit 0; fi
+            echo "::warning::push attempt $attempt failed (remote moved); retrying..."
+            sleep $((RANDOM % 5 + 2))
+          done
+          echo "::error::push failed after 5 attempts"; exit 1
 
   fec:
     # Run on the daily cron OR on manual dispatch. (The 6-hourly cron skips this.)
@@ -78,5 +83,10 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data/
           git commit -m "chore(data): refresh FEC finance totals ($(date -u +%Y-%m-%dT%H:%MZ))"
-          git pull --rebase
-          git push
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push; then exit 0; fi
+            echo "::warning::push attempt $attempt failed (remote moved); retrying..."
+            sleep $((RANDOM % 5 + 2))
+          done
+          echo "::error::push failed after 5 attempts"; exit 1
