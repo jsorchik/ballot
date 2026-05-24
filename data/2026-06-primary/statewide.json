@@ -38,7 +38,7 @@
             "asOf": "2026-05-24",
             "note": "$132M self-funded; primary frontrunner.",
             "basis": "mid",
-            "liquidityUsd": 14480
+            "liquidityUsd": 13222
           },
           "tier": "major",
           "finance": {
@@ -69,7 +69,7 @@
             "asOf": "2026-05-24",
             "note": "Surged after Swalwell withdrew and Speaker Rivas endorsed.",
             "basis": "mid",
-            "liquidityUsd": 9797
+            "liquidityUsd": 9784
           },
           "tier": "major",
           "finance": {
@@ -98,7 +98,7 @@
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
             "asOf": "2026-05-24",
-            "liquidityUsd": 27255,
+            "liquidityUsd": 28425,
             "basis": "mid"
           },
           "tier": "major",
@@ -123,12 +123,12 @@
             "searchQuery": "Chad Bianco Oath Keepers Riverside Sheriff"
           },
           "winChance": {
-            "value": 0.016,
+            "value": 0.0215,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
             "asOf": "2026-05-24",
             "basis": "mid",
-            "liquidityUsd": 9869
+            "liquidityUsd": 10020
           },
           "tier": "major",
           "finance": {
@@ -157,7 +157,7 @@
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
             "asOf": "2026-05-24",
             "basis": "mid",
-            "liquidityUsd": 9131
+            "liquidityUsd": 9021
           },
           "tier": "major",
           "finance": {
@@ -186,7 +186,7 @@
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
             "asOf": "2026-05-24",
-            "liquidityUsd": 5241,
+            "liquidityUsd": 4484,
             "basis": "mid"
           },
           "tier": "major",
@@ -215,7 +215,7 @@
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
             "asOf": "2026-05-24",
-            "liquidityUsd": 7450,
+            "liquidityUsd": 6601,
             "basis": "mid"
           },
           "tier": "major",
@@ -246,7 +246,7 @@
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
             "asOf": "2026-05-24",
             "basis": "mid",
-            "liquidityUsd": 5155
+            "liquidityUsd": 4047
           },
           "tier": "major",
           "finance": {
@@ -274,7 +274,7 @@
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
             "asOf": "2026-05-24",
-            "liquidityUsd": 7350,
+            "liquidityUsd": 6162,
             "basis": "mid"
           },
           "tier": "major",
@@ -376,7 +376,7 @@
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
             "asOf": "2026-05-24",
-            "liquidityUsd": 5603,
+            "liquidityUsd": 4896,
             "basis": "mid"
           },
           "finance": {
@@ -452,7 +452,7 @@
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
             "asOf": "2026-05-24",
-            "liquidityUsd": 5347,
+            "liquidityUsd": 4522,
             "basis": "mid"
           },
           "finance": {
@@ -576,7 +576,7 @@
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
             "asOf": "2026-05-24",
-            "liquidityUsd": 5099,
+            "liquidityUsd": 3772,
             "basis": "mid"
           },
           "finance": {
@@ -604,7 +604,7 @@
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
             "asOf": "2026-05-24",
-            "liquidityUsd": 6228,
+            "liquidityUsd": 5250,
             "basis": "mid"
           },
           "finance": {
@@ -927,7 +927,7 @@
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
             "asOf": "2026-05-24",
-            "liquidityUsd": 4741,
+            "liquidityUsd": 3650,
             "basis": "mid"
           },
           "finance": {
@@ -1003,7 +1003,7 @@
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
             "asOf": "2026-05-24",
-            "liquidityUsd": 5995,
+            "liquidityUsd": 4498,
             "basis": "mid"
           },
           "finance": {
@@ -1079,7 +1079,7 @@
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
             "asOf": "2026-05-24",
-            "liquidityUsd": 5792,
+            "liquidityUsd": 4989,
             "basis": "mid"
           },
           "finance": {
@@ -1395,7 +1395,7 @@
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
             "asOf": "2026-05-24",
-            "liquidityUsd": 5561,
+            "liquidityUsd": 4330,
             "basis": "mid"
           },
           "finance": {
