@@ -13,7 +13,7 @@
     "Supervisor": "BOS District 1 (not on 2026 ballot)",
     "Board of Equalization": "BOE District 2"
   },
-  "lastUpdated": "2026-05-27",
+  "lastUpdated": "2026-05-28",
   "notes": "Sample jurisdiction. City of Sonoma council elections are on the November ballot. BOS District 1 was last elected in 2024.",
   "races": [
     {
@@ -319,7 +319,7 @@
             "confidence": "high",
             "totalRaised": "3.5M",
             "totalRaisedRaw": 3482590.67,
-            "asOf": "2026-05-27",
+            "asOf": "2026-05-28",
             "totalRaisedSource": "FEC"
           },
           "culturalLean": {
