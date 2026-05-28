@@ -3,7 +3,7 @@
   "name": "California Primary — June 2, 2026 (statewide)",
   "date": "2026-06-02",
   "state": "California",
-  "lastUpdated": "2026-05-27",
+  "lastUpdated": "2026-05-28",
   "notes": "Top-two primary — top two finishers regardless of party advance to Nov 3 general (except for nonpartisan county/judicial offices, which are decided in June if a candidate gets >50%). No statewide ballot measures on the June primary; the qualified statewide measures are on the Nov general.",
   "races": [
     {
@@ -32,13 +32,13 @@
             "searchQuery": "Tom Steyer Farallon coal private prisons fossil fuels"
           },
           "winChance": {
-            "value": 0.08,
+            "value": 0.065,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-27",
+            "asOf": "2026-05-28",
             "note": "$132M self-funded; primary frontrunner.",
             "basis": "mid",
-            "liquidityUsd": 13716
+            "liquidityUsd": 23474
           },
           "tier": "major",
           "finance": {
@@ -63,13 +63,13 @@
             "searchQuery": "Xavier Becerra HHS bird flu criticism"
           },
           "winChance": {
-            "value": 0.575,
+            "value": 0.515,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-27",
+            "asOf": "2026-05-28",
             "note": "Surged after Swalwell withdrew and Speaker Rivas endorsed.",
             "basis": "mid",
-            "liquidityUsd": 29145
+            "liquidityUsd": 30661
           },
           "tier": "major",
           "finance": {
@@ -94,11 +94,11 @@
             "searchQuery": "Steve Hilton California governor controversy"
           },
           "winChance": {
-            "value": 0.35,
+            "value": 0.38,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-27",
-            "liquidityUsd": 10828,
+            "asOf": "2026-05-28",
+            "liquidityUsd": 44940,
             "basis": "mid"
           },
           "tier": "major",
@@ -123,12 +123,13 @@
             "searchQuery": "Chad Bianco Oath Keepers Riverside Sheriff"
           },
           "winChance": {
-            "value": 0.004,
+            "value": null,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-27",
-            "basis": "mid",
-            "liquidityUsd": 11520
+            "asOf": "2026-05-28",
+            "liquidityUsd": 17404,
+            "label": "no quote",
+            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $17404)."
           },
           "tier": "major",
           "finance": {
@@ -152,12 +153,13 @@
             "searchQuery": "Katie Porter staff allegations Politico"
           },
           "winChance": {
-            "value": 0.003,
+            "value": null,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-27",
-            "basis": "mid",
-            "liquidityUsd": 9897
+            "asOf": "2026-05-28",
+            "liquidityUsd": 17394,
+            "label": "no quote",
+            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $17394)."
           },
           "tier": "major",
           "finance": {
@@ -182,12 +184,13 @@
             "searchQuery": "Tony Thurmond CDE workplace complaints hire friend"
           },
           "winChance": {
-            "value": 0.0135,
+            "value": null,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-27",
-            "liquidityUsd": 7608,
-            "basis": "mid"
+            "asOf": "2026-05-28",
+            "liquidityUsd": 12508,
+            "label": "no quote",
+            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $12508)."
           },
           "tier": "major",
           "finance": {
@@ -211,12 +214,13 @@
             "searchQuery": "Antonio Villaraigosa Mirthala Salinas affair"
           },
           "winChance": {
-            "value": 0.0015,
+            "value": null,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-27",
-            "liquidityUsd": 10419,
-            "basis": "mid"
+            "asOf": "2026-05-28",
+            "liquidityUsd": 13426,
+            "label": "no quote",
+            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $13426)."
           },
           "tier": "major",
           "finance": {
@@ -241,12 +245,13 @@
             "searchQuery": "Betty Yee Controller controversy"
           },
           "winChance": {
-            "value": 0.005,
+            "value": null,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-27",
-            "basis": "mid",
-            "liquidityUsd": 8245
+            "asOf": "2026-05-28",
+            "liquidityUsd": 12290,
+            "label": "no quote",
+            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $12290)."
           },
           "tier": "major",
           "finance": {
@@ -270,12 +275,13 @@
             "searchQuery": "Matt Mahan San Jose mayor controversy"
           },
           "winChance": {
-            "value": 0.0015,
+            "value": null,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-27",
-            "liquidityUsd": 8897,
-            "basis": "mid"
+            "asOf": "2026-05-28",
+            "liquidityUsd": 17611,
+            "label": "no quote",
+            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $17611)."
           },
           "tier": "major",
           "finance": {
@@ -372,12 +378,13 @@
             "searchQuery": "Carolina Buhler controversy"
           },
           "winChance": {
-            "value": 0.0015,
+            "value": null,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-27",
-            "liquidityUsd": 10042,
-            "basis": "mid"
+            "asOf": "2026-05-28",
+            "liquidityUsd": 12258,
+            "label": "no quote",
+            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $12258)."
           },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
@@ -448,12 +455,13 @@
             "searchQuery": "Derek Grasty controversy"
           },
           "winChance": {
-            "value": 0.0015,
+            "value": null,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-27",
-            "liquidityUsd": 9864,
-            "basis": "mid"
+            "asOf": "2026-05-28",
+            "liquidityUsd": 12310,
+            "label": "no quote",
+            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $12310)."
           },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
@@ -572,12 +580,13 @@
             "searchQuery": "Thunder Parley controversy"
           },
           "winChance": {
-            "value": 0.0015,
+            "value": null,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-27",
-            "liquidityUsd": 8201,
-            "basis": "mid"
+            "asOf": "2026-05-28",
+            "liquidityUsd": 12109,
+            "label": "no quote",
+            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $12109)."
           },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
@@ -600,12 +609,13 @@
             "searchQuery": "Raji Rab controversy"
           },
           "winChance": {
-            "value": 0.0015,
+            "value": null,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-27",
-            "liquidityUsd": 11133,
-            "basis": "mid"
+            "asOf": "2026-05-28",
+            "liquidityUsd": 12812,
+            "label": "no quote",
+            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $12812)."
           },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
@@ -923,12 +933,13 @@
             "searchQuery": "Leo Zacky controversy"
           },
           "winChance": {
-            "value": 0.0015,
+            "value": null,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-27",
-            "liquidityUsd": 11327,
-            "basis": "mid"
+            "asOf": "2026-05-28",
+            "liquidityUsd": 13826,
+            "label": "no quote",
+            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $13826)."
           },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
@@ -999,12 +1010,13 @@
             "searchQuery": "Ramsey Robinson controversy"
           },
           "winChance": {
-            "value": 0.0015,
+            "value": null,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-27",
-            "liquidityUsd": 9837,
-            "basis": "mid"
+            "asOf": "2026-05-28",
+            "liquidityUsd": 13208,
+            "label": "no quote",
+            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $13208)."
           },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
@@ -1075,12 +1087,13 @@
             "searchQuery": "Elaine Culotti controversy"
           },
           "winChance": {
-            "value": 0.0015,
+            "value": null,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-27",
-            "liquidityUsd": 9079,
-            "basis": "mid"
+            "asOf": "2026-05-28",
+            "liquidityUsd": 12688,
+            "label": "no quote",
+            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $12688)."
           },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
@@ -1391,12 +1404,13 @@
             "searchQuery": "Daniel Mercuri controversy"
           },
           "winChance": {
-            "value": 0.0015,
+            "value": null,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-05-27",
-            "liquidityUsd": 10017,
-            "basis": "mid"
+            "asOf": "2026-05-28",
+            "liquidityUsd": 12787,
+            "label": "no quote",
+            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $12787)."
           },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
