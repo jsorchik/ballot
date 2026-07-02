@@ -3,7 +3,7 @@
   "name": "California Primary — June 2, 2026 (statewide)",
   "date": "2026-06-02",
   "state": "California",
-  "lastUpdated": "2026-07-01",
+  "lastUpdated": "2026-07-02",
   "notes": "Top-two primary — top two finishers regardless of party advance to Nov 3 general (except for nonpartisan county/judicial offices, which are decided in June if a candidate gets >50%). No statewide ballot measures on the June primary; the qualified statewide measures are on the Nov general.",
   "races": [
     {
@@ -35,10 +35,10 @@
             "value": null,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-07-01",
-            "liquidityUsd": 28914,
+            "asOf": "2026-07-02",
+            "liquidityUsd": 30268,
             "label": "no quote",
-            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $28914)."
+            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $30268)."
           },
           "tier": "major",
           "finance": {
@@ -66,10 +66,10 @@
             "value": 0.994,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-07-01",
+            "asOf": "2026-07-02",
             "note": "Surged after Swalwell withdrew and Speaker Rivas endorsed.",
             "basis": "mid",
-            "liquidityUsd": 56213
+            "liquidityUsd": 60895
           },
           "tier": "major",
           "finance": {
@@ -94,11 +94,11 @@
             "searchQuery": "Steve Hilton California governor controversy"
           },
           "winChance": {
-            "value": 0.005,
+            "value": 0.0045,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-07-01",
-            "liquidityUsd": 44434,
+            "asOf": "2026-07-02",
+            "liquidityUsd": 54301,
             "basis": "mid"
           },
           "tier": "major",
@@ -126,10 +126,10 @@
             "value": null,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-07-01",
-            "liquidityUsd": 40509,
+            "asOf": "2026-07-02",
+            "liquidityUsd": 40503,
             "label": "no quote",
-            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $40509)."
+            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $40503)."
           },
           "tier": "major",
           "finance": {
@@ -156,10 +156,10 @@
             "value": null,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-07-01",
-            "liquidityUsd": 44640,
+            "asOf": "2026-07-02",
+            "liquidityUsd": 44646,
             "label": "no quote",
-            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $44640)."
+            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $44646)."
           },
           "tier": "major",
           "finance": {
@@ -187,10 +187,10 @@
             "value": null,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-07-01",
-            "liquidityUsd": 42658,
+            "asOf": "2026-07-02",
+            "liquidityUsd": 42566,
             "label": "no quote",
-            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $42658)."
+            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $42566)."
           },
           "tier": "major",
           "finance": {
@@ -217,10 +217,10 @@
             "value": null,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-07-01",
-            "liquidityUsd": 40648,
+            "asOf": "2026-07-02",
+            "liquidityUsd": 41462,
             "label": "no quote",
-            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $40648)."
+            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $41462)."
           },
           "tier": "major",
           "finance": {
@@ -248,10 +248,10 @@
             "value": null,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-07-01",
-            "liquidityUsd": 42481,
+            "asOf": "2026-07-02",
+            "liquidityUsd": 42570,
             "label": "no quote",
-            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $42481)."
+            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $42570)."
           },
           "tier": "major",
           "finance": {
@@ -278,10 +278,10 @@
             "value": null,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-07-01",
-            "liquidityUsd": 44698,
+            "asOf": "2026-07-02",
+            "liquidityUsd": 42754,
             "label": "no quote",
-            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $44698)."
+            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $42754)."
           },
           "tier": "major",
           "finance": {
@@ -381,10 +381,10 @@
             "value": null,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-07-01",
-            "liquidityUsd": 41001,
+            "asOf": "2026-07-02",
+            "liquidityUsd": 40994,
             "label": "no quote",
-            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $41001)."
+            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $40994)."
           },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
@@ -458,10 +458,10 @@
             "value": null,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-07-01",
-            "liquidityUsd": 39236,
+            "asOf": "2026-07-02",
+            "liquidityUsd": 40145,
             "label": "no quote",
-            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $39236)."
+            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $40145)."
           },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
@@ -583,10 +583,10 @@
             "value": null,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-07-01",
-            "liquidityUsd": 43645,
+            "asOf": "2026-07-02",
+            "liquidityUsd": 43595,
             "label": "no quote",
-            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $43645)."
+            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $43595)."
           },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
@@ -612,10 +612,10 @@
             "value": null,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-07-01",
-            "liquidityUsd": 41708,
+            "asOf": "2026-07-02",
+            "liquidityUsd": 41717,
             "label": "no quote",
-            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $41708)."
+            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $41717)."
           },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
@@ -936,10 +936,10 @@
             "value": null,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-07-01",
-            "liquidityUsd": 44226,
+            "asOf": "2026-07-02",
+            "liquidityUsd": 44310,
             "label": "no quote",
-            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $44226)."
+            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $44310)."
           },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
@@ -1013,10 +1013,10 @@
             "value": null,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-07-01",
-            "liquidityUsd": 43462,
+            "asOf": "2026-07-02",
+            "liquidityUsd": 42507,
             "label": "no quote",
-            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $43462)."
+            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $42507)."
           },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
@@ -1090,10 +1090,10 @@
             "value": null,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-07-01",
-            "liquidityUsd": 42832,
+            "asOf": "2026-07-02",
+            "liquidityUsd": 43307,
             "label": "no quote",
-            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $42832)."
+            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $43307)."
           },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
@@ -1407,10 +1407,10 @@
             "value": null,
             "source": "Polymarket",
             "url": "https://polymarket.com/event/california-governor-primary-election-first-place",
-            "asOf": "2026-07-01",
-            "liquidityUsd": 41304,
+            "asOf": "2026-07-02",
+            "liquidityUsd": 41218,
             "label": "no quote",
-            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $41304)."
+            "note": "No liquid two-sided market (bid=—, ask=0.001, liq $41218)."
           },
           "finance": {
             "summary": "No significant campaign reported (minor candidate; typically <$10K raised, often self-funded)",
