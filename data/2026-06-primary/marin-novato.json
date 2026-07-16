@@ -13,7 +13,7 @@
     "Supervisor": "Marin BOS District 5",
     "Board of Equalization": "BOE District 2"
   },
-  "lastUpdated": "2026-07-15",
+  "lastUpdated": "2026-07-16",
   "notes": "Sample jurisdiction. Marin Superior Court and Marin county-wide offices are not populated here — verify against your Marin County sample ballot.",
   "races": [
     {
@@ -48,9 +48,9 @@
             "netWorth": "~$300K–1M",
             "netWorthSource": "House financial disclosure",
             "confidence": "high",
-            "totalRaised": "869K",
-            "totalRaisedRaw": 868510.28,
-            "asOf": "2026-07-15",
+            "totalRaised": "978K",
+            "totalRaisedRaw": 978276.98,
+            "asOf": "2026-07-16",
             "totalRaisedSource": "FEC"
           },
           "culturalLean": {

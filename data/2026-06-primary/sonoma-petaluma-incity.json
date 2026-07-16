@@ -13,7 +13,7 @@
     "Supervisor": "BOS District 2",
     "Board of Equalization": "BOE District 2"
   },
-  "lastUpdated": "2026-07-15",
+  "lastUpdated": "2026-07-16",
   "notes": "Petaluma city elections (mayor + 3 council seats) are on the November 3, 2026 ballot — not the June primary. Your June ballot is identical to unincorporated Petaluma-area voters.",
   "races": [
     {
@@ -48,9 +48,9 @@
             "netWorth": "~$300K–1M",
             "netWorthSource": "House financial disclosure",
             "confidence": "high",
-            "totalRaised": "869K",
-            "totalRaisedRaw": 868510.28,
-            "asOf": "2026-07-15",
+            "totalRaised": "978K",
+            "totalRaisedRaw": 978276.98,
+            "asOf": "2026-07-16",
             "totalRaisedSource": "FEC"
           },
           "culturalLean": {
