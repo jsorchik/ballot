@@ -3,7 +3,7 @@
   "name": "California Primary — June 2, 2026 (statewide)",
   "date": "2026-06-02",
   "state": "California",
-  "lastUpdated": "2026-07-22",
+  "lastUpdated": "2026-07-23",
   "notes": "Top-two primary — top two finishers regardless of party advance to Nov 3 general (except for nonpartisan county/judicial offices, which are decided in June if a candidate gets >50%). No statewide ballot measures on the June primary; the qualified statewide measures are on the Nov general.",
   "races": [
     {
@@ -722,7 +722,7 @@
             "totalRaised": "1.7M",
             "totalRaisedRaw": 1730927.22,
             "summaryUrl": "https://www.fec.gov/data/candidate/H2CA15094/?cycle=2026",
-            "asOf": "2026-07-22",
+            "asOf": "2026-07-23",
             "totalRaisedSource": "FEC"
           },
           "culturalLean": {
