@@ -13,7 +13,7 @@
     "Supervisor": "BOS District 2",
     "Board of Equalization": "BOE District 2"
   },
-  "lastUpdated": "2026-10-22",
+  "lastUpdated": "2026-10-23",
   "notes": "No statewide ballot measures on the June primary; the qualified statewide measures are on the Nov general.",
   "races": [
     {
@@ -49,8 +49,8 @@
             "netWorthSource": "House financial disclosure",
             "confidence": "high",
             "totalRaised": "1.2M",
-            "totalRaisedRaw": 1181718.07,
-            "asOf": "2026-10-22",
+            "totalRaisedRaw": 1205633.57,
+            "asOf": "2026-10-23",
             "totalRaisedSource": "FEC"
           },
           "culturalLean": {
